@@ -24,14 +24,14 @@ DB.create_table :tips do
   Float :tip
   String :sex
   Integer :smoker
+  Integer :size
   String :day
   Integer :time
 end
 
 DB.create_table :goodreads do
   primary_key :id
-  String :brand
-  String :votes
+  Integer :votes
   String :title
   String :category
   Integer :year
@@ -81,6 +81,6 @@ end
 tips = DB[:tips]
 id = 1
 CSV.foreach("tips.csv", headers: true, header_converters: :symbol) do |row|
-  tips.insert(id: id, total_bill: row[:total_bill], tip: row[:tip], sex: row[:sex], smoker: row[:smoker], day: row[:day], time: row[:time])
+  tips.insert(id: id, total_bill: row[:total_bill], tip: row[:tip], sex: row[:sex], smoker: row[:smoker], day: row[:day], time: row[:time], size: row[:size])
   id += 1
 end

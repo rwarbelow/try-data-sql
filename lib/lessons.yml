@@ -76,7 +76,7 @@
     - question: Show the variety, country, and stars for the ramen table and order it by highest star rating. 
       answer: SELECT variety, country, stars FROM ramen ORDER BY 3 DESC;
     - question: Show the year, rank, and query from the trends table ordered by the rank;
-      answer: SELECT year, rank, query from trends ORDER BY rank;
+      answer: SELECT year, rank, query FROM trends ORDER BY rank;
     - question: Show the tip and total bill amount ordered by highest total bill;
       answer: SELECT tip, total_bill FROM tips ORDER BY total_bill DESC;
 7:
@@ -89,9 +89,8 @@
   tasks:
     - question: Show the variety, country, and stars for the ramen table and order it by highest star rating, then variety. 
       answer: SELECT variety, country, stars FROM ramen ORDER BY 3 DESC, 1;
-    - question: Show the year, rank, and query from the trends table ordered by the rank, then year;
-      answer: SELECT year, rank, query from trends ORDER BY rank, year;
-
+    - question: Show the year, rank, and query FROM the trends table ordered by the rank, then year;
+      answer: SELECT year, rank, query FROM trends ORDER BY rank, year;
 8:
   title: Aliasing Column Names
   text: >
@@ -100,6 +99,131 @@
     - "SELECT location, query AS search_term, year FROM trends;"
   tasks:
     - question: Print out the brand, variety, and stars for the ramen data, but change the name of "brand" to "company"
-      answer: SELECT brand AS company, variety, stars from ramen;
+      answer: SELECT brand AS company, variety, stars FROM ramen;
     - question: Print out the category, title, authors, and vote count for the goodreads data, but change the name of "votes" to "total_vote_count"
-      answer: SELECT category, title, authors, votes AS total_vote_count from goodreads;
+      answer: SELECT category, title, authors, votes AS total_vote_count FROM goodreads;
+9:
+  title: Showing Distinct Records
+  text: >
+    If we try to print out just author names using the Goodreads table, we get duplicates (try it!). SQL has a `distinct` keyword you can use to say "only show me unique records, not duplicates". The syntax looks like this: <span class="vocab">SELECT DISTINCT column_name FROM table_name;</span>.<br><br>It might be a little tricky to see that it is actually removing duplicates right now, but don't worry! We'll learn how to count the number of results in the next lesson. 
+  examples:
+    - "SELECT DISTINCT authors FROM goodreads;"
+  task_instructions: Write SQL statements for each of the following situations and test them out in the console. Too easy? Try combining previously learned skills (like aliasing or ordering) with the questions below!
+  tasks:
+    - question: List all of the ramen brands once.
+      answer: SELECT DISTINCT brand FROM ramen;
+    - question: On what days of the week were tips recorded? 
+      answer: SELECT DISTINCT day FROM tips;
+    - question: What are the categories Google uses for their search queries? 
+      answer: SELECT DISTINCT category FROM trends;
+10:
+  title: Counting Records
+  text: >
+    In the last lesson, it may have been difficult to tell if DISTINCT was actually removing duplicated records because there were so many to count! We can ask SQL to do the counting for us using the count function.<br><br>For today, there are two ways you'll see the count function used. In the first way, we count everything. This is what we'd use to count every row in a table: <span class="vocab">SELECT COUNT(*) FROM table_name;</span>. The <span class="vocab">*</span> means "everything".<br><br>Another way you'll see COUNT used is to put exactly what you want to count inside of the parentheses: <span class="vocab">SELECT COUNT(column_name) FROM table_name;</span> or <span class="vocab">SELECT COUNT(DISTINCT column_name) FROM table_name;</span>.
+  examples:
+    - "SELECT COUNT(*) FROM goodreads;"
+    - "SELECT COUNT(authors) FROM goodreads;"
+    - "SELECT COUNT(DISTINCT authors) FROM goodreads;"
+  tasks:
+    - question: What is the total number of records in the ramen table?
+      answer: SELECT COUNT(*) FROM ramen;
+    - question: How many unique ramen brands are there?
+      answer: SELECT COUNT(DISTINCT brand) FROM ramen;
+    - question: How many unique categories of trends exist?
+      answer: SELECT COUNT(DISTINCT category) FROM trends;
+    - question: How many publishers had books on the Goodreads awards list?
+      answer: SELECT COUNT(DISTINCT publisher) FROM goodreads;
+11:
+  title: Finding the Average
+  text: >
+    In large datasets, it's often useful to find the average of numeric data. Instead of using a calculator to add up every data point, then divide by the total number, there's a SQL function that can do that for us: <span class="vocab">SELECT AVG(column_name) FROM table_name;</span>. 
+  examples:
+    - "SELECT AVG(avg_rating) FROM goodreads;"
+    - "SELECT AVG(votes) FROM goodreads;"
+  task_instructions: Write SQL statements for each of the following situations and test them out in the console. Too easy? Can you alias the result name to be something other than the not-very-descriptive "avg"?
+  tasks:
+    - question: What is the average number of pages for the books in the goodreads table?
+      answer: SELECT AVG(pages) FROM goodreads;
+    - question: What was the average tip that the waiter received in the tips data?
+      answer: SELECT AVG(tip) FROM tips;
+    - question: What was the average bill amount from the tips data?
+      answer: SELECT AVG(total_bill) FROM tips;
+    - question: What is the average star rating for the ramen?
+      answer: SELECT AVG(stars) FROM ramen;
+12:
+  title: Categorizing Data
+  text: >
+    Sometimes you'll want to put data into buckets. For example, our tips table contains a timestamp (represented as an hour from 0 - 24), but how do we classify each of those timestamps as either "breakfast", "lunch", or "dinner"? We can do that using a CASE statement.<br><br><pre class="vocab"> CASE<br>
+    WHEN condition1 THEN bucket1<br>
+    WHEN condition2 THEN bucket2<br>
+    WHEN condition3 THEN bucket3<br>
+    ELSE result<br>
+    END</pre>The keyword CASE kicks off the bucketing. Each of the WHEN keywords specify a condition you want to meet, and if the condition is met, which bucket to put the data in. ELSE represents what to do if none of the previous WHEN conditions were met. You can think of ELSE as "otherwise, do this".<br><br>
+  examples:
+    - >
+      <pre> SELECT *,<br>
+      CASE<br>
+      WHEN time < 11 THEN "breakfast"<br>
+      WHEN time < 15 THEN "lunch"<br>
+      ELSE "dinner"<br>
+      END AS meal<br>
+      FROM tips;</pre>
+  task_instructions: Write SQL statements for each of the following situations and test them out in the console. 
+  tasks:
+    - question: Categorize the goodreads data by number of pages. If the book has less than 150 pages, it is "short". If if has between 151 and 350 pages, it is "medium". Anything over 350 pages is "long".
+      answer: >
+        <pre> SELECT *,<br>
+        CASE<br>
+        WHEN pages <= 150 THEN "short"<br>
+        WHEN pages <= 350 THEN "medium"<br>
+        ELSE "long"<br>
+        END AS length<br>
+        FROM goodreads;<br><br>
+        <span class="vocab">Spicy challenge</span>: Display only the title, author, and length categorization.
+    - question: Categorize the trends data by the year. Anything from 2016 - 2020 should be "recent" while anything 2015 or older should be "historic".
+      answer: >
+        <pre> SELECT *,<br>
+        CASE<br>
+        WHEN year >= 2016 THEN "recent"<br>
+        ELSE "historic"<br>
+        END AS timeframe<br>
+        FROM trends;<br><br>
+        <span class="vocab">Spicy challenge</span>: Sort your results so that the highest ranking queries appear first.
+    - question: Categorize the ramen by star rating. Anything under 2 should be "gross", anything between 2 and 4 should be "meh", and anything above 4 should be "great". 
+      answer: >
+        <pre> SELECT *,<br>
+        CASE<br>
+        WHEN stars <= 2 THEN "gross"<br>
+        WHEN stars <= 4 THEN "meh"<br>
+        ELSE "great"<br>
+        END AS is_it_yummy<br>
+        FROM ramen;<br><br>
+        <span class="vocab">Spicy challenge</span>: Sort your results so that the yummy ramens appear at the top.
+    - question: Categorize the tips data by size of party. 1 is considered "single", 2 is considered "couple", 3-4 is considered "group", and anything 5 or above is considered "party".
+      answer: >
+        <pre> SELECT *,<br>
+        CASE<br>
+        WHEN size = 1 THEN "single"<br>
+        WHEN size = 2 THEN "couple"<br>
+        WHEN size <= 4 THEN "group"<br>
+        ELSE "party"<br>
+        END AS party_type<br>
+        FROM tips;<br><br>
+        <span class="vocab">Spicy challenge</span>: Display your results so that the party_type and the size columns are next to each other.
+13:
+  title: Grouping Data
+  text: >
+    GROUP BY in SQL allows you to create a summary for data groups. For example, using the Goodreads data, we could group the data by authors, then summarize how many books that author has, the average number of pages for that author's books, etc. An example of the syntax using GROUP BY is <span class="vocab">SELECT grouped_column, count(*) FROM table_name GROUP BY grouped_column;</span>
+  examples:
+    - "SELECT authors, AVG(avg_rating), count(*) FROM goodreads GROUP BY authors;"
+    - "select query, COUNT(*) FROM trends GROUP BY query"
+  tasks:
+    - question: Show the number of bills for each day from the tips table.
+      answer: SELECT day, COUNT(*) FROM tips GROUP BY day;
+    - question: Show the average total bill and average tip group by sex.
+      answer: SELECT sex, AVG(total_bill) AS total_bill_avg, AVG(tip) AS tip_avg FROM tips GROUP BY sex;
+    - question: Show the average ramen rating by brand.
+      answer: SELECT brand, AVG(stars) from ramen GROUP BY brand;
+    - question: Show the number of times a particular query appears in the trends table.
+      answer: > 
+        SELECT query, count(*) FROM trends GROUP BY query;<br><br><span class="vocab">Spicy challenge</span>: Order your results from the query that appears the most to the query that appears the least.

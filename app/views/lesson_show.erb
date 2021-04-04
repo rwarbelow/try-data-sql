@@ -43,7 +43,7 @@
     <ul class="collapsible" data-collapsible="accordion">
     <% @lesson.tasks.each_with_index do |task, i| %>
     <li>
-      <div class="collapsible-header"><b><%= i+1 %></b>. <%= task["question"] %></div>
+      <div class="collapsible-header" style="line-height: 1.5;padding: 15px;"><b><%= i+1 %></b>. <%= task["question"] %></div>
       <div class="collapsible-body white code" style="padding: 10px">
         <b><%= task["answer"] %></b>
       </div>
