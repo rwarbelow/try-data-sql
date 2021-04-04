@@ -119,7 +119,7 @@
 10:
   title: Counting Records
   text: >
-    In the last lesson, it may have been difficult to tell if DISTINCT was actually removing duplicated records because there were so many to count! We can ask SQL to do the counting for us using the count function.<br><br>For today, there are two ways you'll see the count function used. In the first way, we count everything. This is what we'd use to count every row in a table: <span class="vocab">SELECT COUNT(*) FROM table_name;</span>. The <span class="vocab">*</span> means "everything".<br><br>Another way you'll see COUNT used is to put exactly what you want to count inside of the parentheses: <span class="vocab">SELECT COUNT(column_name) FROM table_name;</span> or <span class="vocab">SELECT COUNT(DISTINCT column_name) FROM table_name;</span>.
+    In the last lesson, it may have been difficult to tell if DISTINCT was actually removing duplicated records because there were so many to count! We can ask SQL to do the counting for us using the count function.<br><br>For today, there are two ways you'll see the count function used. In the first way, we count everything. This is what we'd use to count every row in a table: <span class="vocab">SELECT COUNT(*) FROM table_name;</span>. The <span class="vocab">*</span> means "every row".<br><br>Another way you'll see COUNT used is to put exactly what you want to count inside of the parentheses: <span class="vocab">SELECT COUNT(column_name) FROM table_name;</span> or <span class="vocab">SELECT COUNT(DISTINCT column_name) FROM table_name;</span>.
   examples:
     - "SELECT COUNT(*) FROM goodreads;"
     - "SELECT COUNT(authors) FROM goodreads;"
@@ -223,7 +223,35 @@
     - question: Show the average total bill and average tip group by sex.
       answer: SELECT sex, AVG(total_bill) AS total_bill_avg, AVG(tip) AS tip_avg FROM tips GROUP BY sex;
     - question: Show the average ramen rating by brand.
-      answer: SELECT brand, AVG(stars) FROM ramen GROUP BY brand;
+      answer: SELECT brand, AVG(stars) AS avg_stars FROM ramen GROUP BY brand;
     - question: Show the number of times a particular query appears in the trends table.
       answer: > 
         SELECT query, count(*) FROM trends GROUP BY query;<br><br><span class="vocab">Spicy challenge</span>: Order your results from the query that appears the most to the query that appears the least.
+14:
+  title: Dissecting SQL Statements
+  text: >
+    Now that we've learned how to write basic SQL statements, let's look at some pre-written statements that combine multiple SQL functions and see if we can figure out what they're doing.<br><br>Read through the examples below and guess what each one will return. Then copy/paste the query into the box and run it. Were you correct? 
+  examples:
+    - SELECT authors, SUM(votes) AS total_votes FROM goodreads GROUP BY authors ORDER BY total_votes DESC;
+    - SELECT authors, AVG(avg_rating) AS rating_avg FROM goodreads GROUP BY authors ORDER BY rating_avg DESC;
+    - >
+      <pre> SELECT CASE<br>
+      WHEN time < 11 THEN "breakfast"<br>
+      WHEN time < 15 THEN "lunch"<br>
+      ELSE "dinner"<br>
+      END AS meal,<br>
+      AVG(tip) AS avg_tip<br>
+      FROM tips<br>
+      GROUP BY meal;</pre>
+    - >
+      <pre> SELECT COUNT(*), AVG(tip) AS avg_tip, AVG(total_bill) AS avg_bill, <br>
+      CASE<br>
+      WHEN time < 17 THEN "day"<br>
+      ELSE "night"<br>
+      END AS time_category<br>
+      FROM tips<br>
+      GROUP BY time_category
+      ORDER BY avg_tip DESC;</pre>
+  tasks:
+    - question: Paste each example query in the box and run it. 
+      answer: 
