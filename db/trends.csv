@@ -1,0 +1,3206 @@
+location,year,category,rank,query
+Global,2001,Consumer Brands,1,Nokia
+Global,2001,Consumer Brands,2,Sony
+Global,2001,Consumer Brands,3,BMW
+Global,2001,Consumer Brands,4,Palm
+Global,2001,Consumer Brands,5,Adobe
+Global,2001,Men,1,Nostradamus
+Global,2001,Men,2,Osama bin Laden
+Global,2001,Men,3,Eminem
+Global,2001,Men,4,Michael Jackson
+Global,2001,Men,5,Howard Stern
+Global,2001,Movies,1,Harry Potter
+Global,2001,Movies,2,Lord of the Rings
+Global,2001,Movies,3,Final Fantasy
+Global,2001,Movies,4,Tomb Raider
+Global,2001,Movies,5,Shrek
+Global,2001,MP3 Music Services,1,Morpheus
+Global,2001,MP3 Music Services,2,Napster
+Global,2001,MP3 Music Services,3,Gnutella
+Global,2001,MP3 Music Services,4,Kazaa
+Global,2001,MP3 Music Services,5,Audiogalaxy
+Global,2001,Music Groups,1,Beatles
+Global,2001,Music Groups,2,U2
+Global,2001,Music Groups,3,N Sync
+Global,2001,Music Groups,4,Backstreet Boys
+Global,2001,Music Groups,5,Linkin Park
+Global,2001,New Products,1,Windows XP
+Global,2001,New Products,2,Xbox
+Global,2001,New Products,3,PlayStation 2
+Global,2001,New Products,4,GameCube
+Global,2001,New Products,5,Nokia 5510
+Global,2001,News Resources,1,CNN
+Global,2001,News Resources,2,BBC
+Global,2001,News Resources,3,New York Times
+Global,2001,News Resources,4,MSNBC
+Global,2001,News Resources,5,Washington Post
+Global,2001,Retailers,1,Amazon
+Global,2001,Retailers,2,IKEA
+Global,2001,Retailers,3,"Toys ""R"" Us"
+Global,2001,Retailers,4,Walmart
+Global,2001,Retailers,5,Circuit City
+Global,2001,Sports,1,Anna Kournikova
+Global,2001,Sports,2,Tour de France
+Global,2001,Sports,3,Dale Earnhardt
+Global,2001,Sports,4,Wimbledon
+Global,2001,Sports,5,US Open
+Global,2001,TV Shows,1,Loft Story
+Global,2001,TV Shows,2,Big Brother
+Global,2001,TV Shows,3,The Simpsons
+Global,2001,TV Shows,4,Survivor
+Global,2001,TV Shows,5,Gran Hermano
+Global,2001,Video Games,1,Counterstrike
+Global,2001,Video Games,2,The Sims
+Global,2001,Video Games,3,Operation Flashpoint
+Global,2001,Video Games,4,Moorhuhn 3
+Global,2001,Video Games,5,Wolfenstein
+Global,2001,Women,1,Britney Spears
+Global,2001,Women,2,Pamela Anderson
+Global,2001,Women,3,Jennifer Lopez
+Global,2001,Women,4,Madonna
+Global,2001,Women,5,Aaliyah
+Global,2002,Athletes,1,David Beckham
+Global,2002,Athletes,2,Anna Kournikova
+Global,2002,Athletes,3,Ronaldo
+Global,2002,Athletes,4,Kobe Bryant
+Global,2002,Athletes,5,Zinedine Zidane
+Global,2002,Consumer Brands,1,Ferrari
+Global,2002,Consumer Brands,2,Sony
+Global,2002,Consumer Brands,3,Nokia
+Global,2002,Consumer Brands,4,Disney
+Global,2002,Consumer Brands,5,IKEA
+Global,2002,Kids' Images,1,The Simpsons
+Global,2002,Kids' Images,2,Pokémon
+Global,2002,Kids' Images,3,Snoopy
+Global,2002,Kids' Images,4,Superman
+Global,2002,Kids' Images,5,Batman
+Global,2002,Men,1,Eminem
+Global,2002,Men,2,Brad Pitt
+Global,2002,Men,3,David Beckham
+Global,2002,Men,4,Josh Hartnett
+Global,2002,Men,5,2Pac
+Global,2002,Movies,1,Spiderman
+Global,2002,Movies,2,Harry Potter
+Global,2002,Movies,3,Star Wars
+Global,2002,Movies,4,Jackass
+Global,2002,Movies,5,Scooby Doo
+Global,2002,Musicians and Bands,1,Eminem
+Global,2002,Musicians and Bands,2,Shakira
+Global,2002,Musicians and Bands,3,Madonna
+Global,2002,Musicians and Bands,4,Nelly
+Global,2002,Musicians and Bands,5,2Pac
+Global,2002,News Stories,1,World Cup
+Global,2002,News Stories,2,Iraq
+Global,2002,News Stories,3,Sniper
+Global,2002,News Stories,4,Hurricane Lili
+Global,2002,News Stories,5,Hochwasser
+Global,2002,Retailers,1,IKEA
+Global,2002,Retailers,2,Home Depot
+Global,2002,Retailers,3,Walmart
+Global,2002,Retailers,4,Best Buy
+Global,2002,Retailers,5,Sears
+Global,2002,Technology,1,MP3
+Global,2002,Technology,2,SMS
+Global,2002,Technology,3,WinZip
+Global,2002,Technology,4,Linux
+Global,2002,Technology,5,FTP
+Global,2002,Travel Destinations,1,Paris
+Global,2002,Travel Destinations,2,Canada
+Global,2002,Travel Destinations,3,New York
+Global,2002,Travel Destinations,4,India
+Global,2002,Travel Destinations,5,Las Vegas
+Global,2002,TV Shows,1,The Simpsons
+Global,2002,TV Shows,2,Big Brother
+Global,2002,TV Shows,3,The Osbournes
+Global,2002,TV Shows,4,South Park
+Global,2002,TV Shows,5,SpongeBob SquarePants
+Global,2002,Video Games,1,The Sims
+Global,2002,Video Games,2,Counter Strike
+Global,2002,Video Games,3,GTA 3
+Global,2002,Video Games,4,Warcraft 3
+Global,2002,Video Games,5,Jedi Knight 2
+Global,2002,Women,1,Britney Spears
+Global,2002,Women,2,Pamela Anderson
+Global,2002,Women,3,Jennifer Lopez
+Global,2002,Women,4,Shakira
+Global,2002,Women,5,Anna Kournikova
+Global,2003,Anime Images,1,Manga
+Global,2003,Anime Images,2,Final Fantasy
+Global,2003,Anime Images,3,Sailor Moon
+Global,2003,Anime Images,4,Yu-Gi-Oh!
+Global,2003,Anime Images,5,Dragon Ball Z
+Global,2003,Consumer Brands,1,Ferrari
+Global,2003,Consumer Brands,2,Sony
+Global,2003,Consumer Brands,3,BMW
+Global,2003,Consumer Brands,4,Disney
+Global,2003,Consumer Brands,5,Ryanair
+Global,2003,Earthquake Searches,1,Earthquake
+Global,2003,Earthquake Searches,2,California Earthquake
+Global,2003,Earthquake Searches,3,Earthquakes
+Global,2003,Earthquake Searches,4,Earthquake California
+Global,2003,Earthquake Searches,5,California Earthquakes
+Global,2003,Fictional Character Images,1,The Simpsons
+Global,2003,Fictional Character Images,2,Harry Potter
+Global,2003,Fictional Character Images,3,Pokémon
+Global,2003,Fictional Character Images,4,Spiderman
+Global,2003,Fictional Character Images,5,Winnie the Pooh
+Global,2003,Male Celebrity Images,1,Eminem
+Global,2003,Male Celebrity Images,2,David Beckham
+Global,2003,Male Celebrity Images,3,Orlando Bloom
+Global,2003,Male Celebrity Images,4,Justin Timberlake
+Global,2003,Male Celebrity Images,5,50 Cent
+Global,2003,News Searches,1,Iraq
+Global,2003,News Searches,2,Laci Peterson
+Global,2003,News Searches,3,Kobe Bryant
+Global,2003,News Searches,4,Bertrand Cantat
+Global,2003,News Searches,5,RIAA
+Global,2003,Searches,1,Britney Spears
+Global,2003,Searches,2,Harry Potter
+Global,2003,Searches,3,Matrix
+Global,2003,Searches,4,Shakira
+Global,2003,Searches,5,David Beckham
+Global,2004,Car Images,1,Ferrari
+Global,2004,Car Images,2,BMW
+Global,2004,Car Images,3,Lamborghini
+Global,2004,Car Images,4,Nissan Skyline
+Global,2004,Car Images,5,Porsche
+Global,2004,Cartoons Images,1,The Simpsons
+Global,2004,Cartoons Images,2,Pokémon
+Global,2004,Cartoons Images,3,South Park
+Global,2004,Cartoons Images,4,Garfield
+Global,2004,Cartoons Images,5,Hello Kitty
+Global,2004,Companies,1,SCO
+Global,2004,Companies,2,Johnson & Johnson
+Global,2004,Companies,3,ING
+Global,2004,Companies,4,GE Aviation
+Global,2004,Companies,5,Fleet
+Global,2004,Consumer Brands,1,eBay
+Global,2004,Consumer Brands,2,Walmart
+Global,2004,Consumer Brands,3,MapQuest
+Global,2004,Consumer Brands,4,Amazon
+Global,2004,Consumer Brands,5,Home Depot
+Global,2004,Countries,1,France
+Global,2004,Countries,2,China
+Global,2004,Countries,3,India
+Global,2004,Countries,4,Iraq
+Global,2004,Countries,5,Iran
+Global,2004,Deaths of 2004,1,Nicholas Berg
+Global,2004,Deaths of 2004,2,Christopher Reeve
+Global,2004,Deaths of 2004,3,Spalding Gray
+Global,2004,Deaths of 2004,4,Marlon Brando
+Global,2004,Deaths of 2004,5,Kenneth Bigley
+Global,2004,Entertainment,1,Spa
+Global,2004,Entertainment,2,Movies
+Global,2004,Entertainment,3,Nightclub
+Global,2004,Entertainment,4,Pub
+Global,2004,Entertainment,5,Zoo
+Global,2004,Female Celebrity Images,1,Britney Spears
+Global,2004,Female Celebrity Images,2,Christina Aguilera
+Global,2004,Female Celebrity Images,3,Pamela Anderson
+Global,2004,Female Celebrity Images,4,Paris Hilton
+Global,2004,Female Celebrity Images,5,Carmen Electra
+Global,2004,Foods,1,Pizza
+Global,2004,Foods,2,Sushi
+Global,2004,Foods,3,Bakery
+Global,2004,Foods,4,Chinese
+Global,2004,Foods,5,Italian
+Global,2004,Froogle Brand Searches,1,Louis Vuitton
+Global,2004,Froogle Brand Searches,2,Nikon
+Global,2004,Froogle Brand Searches,3,Canon
+Global,2004,Froogle Brand Searches,4,Treo
+Global,2004,Froogle Brand Searches,5,Tiffany
+Global,2004,Froogle Clothing Searches,1,Bikini
+Global,2004,Froogle Clothing Searches,2,Mini Skirt
+Global,2004,Froogle Clothing Searches,3,Prom Dresses
+Global,2004,Froogle Clothing Searches,4,Lingerie
+Global,2004,Froogle Clothing Searches,5,Little Black Dress
+Global,2004,Froogle Computer Goods Searches,1,Tablet PC
+Global,2004,Froogle Computer Goods Searches,2,Computer
+Global,2004,Froogle Computer Goods Searches,3,Laptop
+Global,2004,Froogle Computer Goods Searches,4,Headphones
+Global,2004,Froogle Computer Goods Searches,5,Computer Speakers
+Global,2004,Froogle Electronics Searches,1,iPod
+Global,2004,Froogle Electronics Searches,2,Digital Camera
+Global,2004,Froogle Electronics Searches,3,MP3
+Global,2004,Froogle Electronics Searches,4,Xbox
+Global,2004,Froogle Electronics Searches,5,PlayStation 2
+Global,2004,Froogle Hobby Searches,1,Poker Chips
+Global,2004,Froogle Hobby Searches,2,Airsoft Guns
+Global,2004,Froogle Hobby Searches,3,Mountain Bike
+Global,2004,Froogle Hobby Searches,4,Pocket Bike
+Global,2004,Froogle Hobby Searches,5,Night Vision Goggles
+Global,2004,Froogle Shoe Searches,1,UGG Boots
+Global,2004,Froogle Shoe Searches,2,Puma
+Global,2004,Froogle Shoe Searches,3,Adidas
+Global,2004,Froogle Shoe Searches,4,Nike
+Global,2004,Froogle Shoe Searches,5,Aerosole
+Global,2004,Health Services,1,Doctor
+Global,2004,Health Services,2,Hospital
+Global,2004,Health Services,3,Massage
+Global,2004,Health Services,4,Dentist
+Global,2004,Health Services,5,Yoga
+Global,2004,Hotel Chains,1,Holiday Inn
+Global,2004,Hotel Chains,2,Hampton Inn
+Global,2004,Hotel Chains,3,Marriott
+Global,2004,Hotel Chains,4,Hilton
+Global,2004,Hotel Chains,5,Days Inn
+Global,2004,Male Celebrity Images,1,Orlando Bloom
+Global,2004,Male Celebrity Images,2,Eminem
+Global,2004,Male Celebrity Images,3,Usher
+Global,2004,Male Celebrity Images,4,Johnny Depp
+Global,2004,Male Celebrity Images,5,Brad Pitt
+Global,2004,Men,1,Orlando Bloom
+Global,2004,Men,2,Eminem
+Global,2004,Men,3,Usher
+Global,2004,Men,4,Johnny Depp
+Global,2004,Men,5,Brad Pitt
+Global,2004,News Outlets,1,CNN
+Global,2004,News Outlets,2,Washington Post
+Global,2004,News Outlets,3,BBC
+Global,2004,News Outlets,4,Fox News
+Global,2004,News Outlets,5,New York Times
+Global,2004,Professional Services,1,Real Estate
+Global,2004,Professional Services,2,Attorney
+Global,2004,Professional Services,3,Insurance Broker
+Global,2004,Professional Services,4,Car Dealer
+Global,2004,Professional Services,5,Hair Salon
+Global,2004,Public Figures,1,George W. Bush
+Global,2004,Public Figures,2,Janet Jackson
+Global,2004,Public Figures,3,John Kerry
+Global,2004,Public Figures,4,Britney Spears
+Global,2004,Public Figures,5,Saddam Hussein
+Global,2004,Retail Chains,1,Walmart
+Global,2004,Retail Chains,2,Home Depot
+Global,2004,Retail Chains,3,Best Buy
+Global,2004,Retail Chains,4,Costco
+Global,2004,Retail Chains,5,Walgreens
+Global,2004,Searches,1,Britney Spears
+Global,2004,Searches,2,Paris Hilton
+Global,2004,Searches,3,Christina Aguilera
+Global,2004,Searches,4,Pamela Anderson
+Global,2004,Searches,5,Chat
+Global,2004,Sports,1,David Beckham
+Global,2004,Sports,2,Tour de France
+Global,2004,Sports,3,Euro 2004
+Global,2004,Sports,4,NBA
+Global,2004,Sports,5,Lance Armstrong
+Global,2004,Sports Services,1,YMCA
+Global,2004,Sports Services,2,Golf
+Global,2004,Sports Services,3,Campground
+Global,2004,Sports Services,4,Bowling
+Global,2004,Sports Services,5,Marathon
+Global,2004,Technology,1,Wallpaper
+Global,2004,Technology,2,Kazaa
+Global,2004,Technology,3,MP3
+Global,2004,Technology,4,Spybot
+Global,2004,Technology,5,Linux
+Global,2004,TV Shows,1,The Simpsons
+Global,2004,TV Shows,2,Pokémon
+Global,2004,TV Shows,3,South Park
+Global,2004,TV Shows,4,Charmed
+Global,2004,TV Shows,5,SpongeBob SquarePants
+Global,2004,Women,1,Britney Spears
+Global,2004,Women,2,Paris Hilton
+Global,2004,Women,3,Christina Aguilera
+Global,2004,Women,4,Pamela Anderson
+Global,2004,Women,5,Carmen Electra
+Global,2005,Froogle Searches,1,iPod
+Global,2005,Froogle Searches,2,Digital Camera
+Global,2005,Froogle Searches,3,MP3 Player
+Global,2005,Froogle Searches,4,iPod Mini
+Global,2005,Froogle Searches,5,PlayStation Portable
+Global,2005,Most Searched,1,Janet Jackson
+Global,2005,Most Searched,2,Hurricane Katrina
+Global,2005,Most Searched,3,Tsunami
+Global,2005,Most Searched,4,Xbox 360
+Global,2005,Most Searched,5,Brad Pitt
+Global,2006,Deaths of 2006,1,Aaron Spelling
+Global,2006,Deaths of 2006,2,Kirby Puckett
+Global,2006,Deaths of 2006,3,Jack Wild
+Global,2006,Deaths of 2006,4,Clifford Geertz
+Global,2006,Deaths of 2006,5,Muriel Spark
+Global,2006,Define...,1,Define Promiscuous
+Global,2006,Define...,2,Define Web 2.0
+Global,2006,Define...,3,Define FTW
+Global,2006,Define...,4,Define Calidad
+Global,2006,Define...,5,Define Ajax
+Global,2006,Divorces,1,Paul McCartney and Heather Mills
+Global,2006,Divorces,2,Travis Barker and Shanna Moakler
+Global,2006,Divorces,3,Britney Spears and Kevin Federline
+Global,2006,Divorces,4,Whitney Houston and Bobby Brown
+Global,2006,Divorces,5,Eminem and Kim Mathers
+Global,2006,How to...,1,How to Refinance
+Global,2006,How to...,2,Wiki How To
+Global,2006,How to...,3,How to Drift
+Global,2006,How to...,4,How to Podcast
+Global,2006,How to...,5,How to Scream
+Global,2006,Jerseys,1,World Cup Jerseys
+Global,2006,Jerseys,2,Zidane Jersey
+Global,2006,Jerseys,3,Buffalo Sabres Jersey
+Global,2006,Jerseys,4,Ronaldinho Jersey
+Global,2006,Jerseys,5,Italy Jersey
+Global,2006,Most Searched,1,Bebo
+Global,2006,Most Searched,2,Myspace
+Global,2006,Most Searched,3,World Cup
+Global,2006,Most Searched,4,Metacafe
+Global,2006,Most Searched,5,Radioblog
+Global,2006,News Searches,1,Paris Hilton
+Global,2006,News Searches,2,Orlando Bloom
+Global,2006,News Searches,3,Cancer
+Global,2006,News Searches,4,Podcasting
+Global,2006,News Searches,5,Hurricane Katrina
+Global,2006,Retirements,1,Bob Barker
+Global,2006,Retirements,2,Bobby Bowden
+Global,2006,Retirements,3,Sammy Sosa
+Global,2006,Retirements,4,Tiki Barber
+Global,2006,Retirements,5,Bill Gates
+Global,2006,Weddings,1,Nicole Kidman and Keith Urban
+Global,2006,Weddings,2,Tom Cruise and Katie Holmes
+Global,2006,Weddings,3,Avril Lavigne and Deryck Whibley
+Global,2006,Weddings,4,Campbell Brown and Dan Senor
+Global,2006,Weddings,5,TomKat Wedding Photos
+Global,2006,What is...,1,What is Hezbollah
+Global,2006,What is...,2,What is Carisoprodol
+Global,2006,What is...,3,What is Acyclovir
+Global,2006,What is...,4,What is Alprazolam
+Global,2006,What is...,5,What is Tramadol
+Global,2006,Where is...,1,Where is Togo
+Global,2006,Where is...,2,Where is Matt
+Global,2006,Where is...,3,Where is Torino
+Global,2006,Where is...,4,Where is Darfur
+Global,2006,Where is...,5,Where is Villanova
+Global,2006,Who is...,1,Who is Borat
+Global,2006,Who is...,2,Who is Hezbollah
+Global,2006,Who is...,3,Who is EU
+Global,2006,Who is...,4,Who is Hot
+Global,2006,Who is...,5,Who is Capote
+Global,2007,News Searches,1,American Idol
+Global,2007,News Searches,2,YouTube
+Global,2007,News Searches,3,Britney Spears
+Global,2007,News Searches,4,2007 Cricket World Cup
+Global,2007,News Searches,5,Chris Benoit
+Global,2008,Campaign Buzzwords,1,Joe The Plumber
+Global,2008,Campaign Buzzwords,2,Jeremiah Wright
+Global,2008,Campaign Buzzwords,3,Maverick
+Global,2008,Campaign Buzzwords,4,William Ayers
+Global,2008,Campaign Buzzwords,5,Bridge To Nowhere
+Global,2008,Cocktails,1,Martini
+Global,2008,Cocktails,2,Mojito
+Global,2008,Cocktails,3,Margarita
+Global,2008,Cocktails,4,Manhattan
+Global,2008,Cocktails,5,Cosmopolitan
+Global,2008,Comfort Foods,1,Ice Cream
+Global,2008,Comfort Foods,2,Chili
+Global,2008,Comfort Foods,3,Spaghetti
+Global,2008,Comfort Foods,4,Meatloaf
+Global,2008,Comfort Foods,5,Fried Chicken
+Global,2008,Concerts,1,Jonas Brothers
+Global,2008,Concerts,2,Coldplay
+Global,2008,Concerts,3,Hannah Montana
+Global,2008,Concerts,4,Kenny Chesney
+Global,2008,Concerts,5,Carrie Underwood
+Global,2008,Deaths of 2008,1,Heath Ledger
+Global,2008,Deaths of 2008,2,Bernie Mac
+Global,2008,Deaths of 2008,3,Tim Russert
+Global,2008,Deaths of 2008,4,Isaac Hayes
+Global,2008,Deaths of 2008,5,George Carlin
+Global,2008,DIY,1,DIY Wedding
+Global,2008,DIY,2,DIY TV
+Global,2008,DIY,3,DIY Solar
+Global,2008,DIY,4,DIY Tile
+Global,2008,DIY,5,DIY Audio
+Global,2008,How To...,1,How To Draw
+Global,2008,How To...,2,How To Kiss
+Global,2008,How To...,3,How To Write
+Global,2008,How To...,4,How To Cook
+Global,2008,How To...,5,How To Tie
+Global,2008,It's All Over Now,1,Hugh Hefner & Holly Madison
+Global,2008,It's All Over Now,2,Danity Kane
+Global,2008,It's All Over Now,3,Jennifer Aniston & John Mayer
+Global,2008,It's All Over Now,4,Taylor Swift & Joe Jonas
+Global,2008,It's All Over Now,5,Jessica Simpson & Tony Romo
+Global,2008,Lyrics,1,With You
+Global,2008,Lyrics,2,My Life
+Global,2008,Lyrics,3,Love Song
+Global,2008,Lyrics,4,Lollipop
+Global,2008,Lyrics,5,Low
+Global,2008,Mascots,1,Olympic Mascot
+Global,2008,Mascots,2,Georgia Mascot
+Global,2008,Mascots,3,Tennessee Mascot
+Global,2008,Mascots,4,Ohio State Mascot
+Global,2008,Mascots,5,Phillies Mascot
+Global,2008,MLB,1,Boston Red Sox
+Global,2008,MLB,2,New York Yankees
+Global,2008,MLB,3,Chicago Cubs
+Global,2008,MLB,4,Philadelphia Phillies
+Global,2008,MLB,5,New York Mets
+Global,2008,Movie Trailers,1,Dark Knight
+Global,2008,Movie Trailers,2,Iron Man
+Global,2008,Movie Trailers,3,Hulk
+Global,2008,Movie Trailers,4,Star Wars
+Global,2008,Movie Trailers,5,Indiana Jones
+Global,2008,NBA Teams,1,Los Angeles Lakers
+Global,2008,NBA Teams,2,Boston Celtics
+Global,2008,NBA Teams,3,Phoenix Suns
+Global,2008,NBA Teams,4,New York Knicks
+Global,2008,NBA Teams,5,Detroit Pistons
+Global,2008,NFL Teams,1,New York Giants
+Global,2008,NFL Teams,2,Dallas Cowboys
+Global,2008,NFL Teams,3,New England Patriots
+Global,2008,NFL Teams,4,Pittsburgh Steelers
+Global,2008,NFL Teams,5,Green Bay Packers
+Global,2008,NHL Teams,1,Detroit Red Wings
+Global,2008,NHL Teams,2,Pittsburgh Penguins
+Global,2008,NHL Teams,3,Buffalo Sabres
+Global,2008,NHL Teams,4,Philadelphia Flyers
+Global,2008,NHL Teams,5,Boston Bruins
+Global,2008,Olympic Sports,1,Gymnastics
+Global,2008,Olympic Sports,2,Swimming
+Global,2008,Olympic Sports,3,Soccer
+Global,2008,Olympic Sports,4,Tennis
+Global,2008,Olympic Sports,5,Basketball
+Global,2008,Political News Sources,1,Fox
+Global,2008,Political News Sources,2,CNN
+Global,2008,Political News Sources,3,ABC
+Global,2008,Political News Sources,4,CBS
+Global,2008,Political News Sources,5,MSNBC
+Global,2008,Reality Shows,1,American Idol
+Global,2008,Reality Shows,2,Big Brother
+Global,2008,Reality Shows,3,Dancing with the Stars
+Global,2008,Reality Shows,4,So You Think You Can Dance
+Global,2008,Reality Shows,5,The Hills
+Global,2008,Rivalries,1,Red River Rivalry
+Global,2008,Rivalries,2,Michigan Ohio State Rivalry
+Global,2008,Rivalries,3,Red Sox Yankees Rivalry
+Global,2008,Rivalries,4,Lakers Celtics Rivalry
+Global,2008,Rivalries,5,Georgia Auburn Rivalry
+Global,2008,Soccer Teams,1,Manchester United F.C.
+Global,2008,Soccer Teams,2,Chelsea F.C.
+Global,2008,Soccer Teams,3,Chivas
+Global,2008,Soccer Teams,4,FC Barcelona
+Global,2008,Soccer Teams,5,Arsenal F.C.
+Global,2008,Social Networks,1,Facebook
+Global,2008,Social Networks,2,Myspace
+Global,2008,Social Networks,3,Hi5
+Global,2008,Social Networks,4,Orkut
+Global,2008,Social Networks,5,LinkedIn
+Global,2008,TV Shows,1,American Idol
+Global,2008,TV Shows,2,Lost
+Global,2008,TV Shows,3,SNL
+Global,2008,TV Shows,4,The Office
+Global,2008,TV Shows,5,Family Guy
+Global,2008,What Is...,1,What is Love
+Global,2008,What Is...,2,What is Life
+Global,2008,What Is...,3,What is Java
+Global,2008,What Is...,4,What is SAP
+Global,2008,What Is...,5,What is RSS
+Global,2008,Who is...,1,Who is Obama
+Global,2008,Who is...,2,Who is McCain
+Global,2008,Who is...,3,Who is Palin
+Global,2008,Who is...,4,Who is Lil Wayne
+Global,2008,Who is...,5,Who is Miley Cyrus
+Global,2009,Entertainment,1,Michael Jackson
+Global,2009,Entertainment,2,Transformers
+Global,2009,Entertainment,3,Eminem
+Global,2009,Entertainment,4,Naruto Shippuden
+Global,2009,Entertainment,5,Beyoncé
+Global,2009,Events: Fastest Rising Searches,1,VMAs
+Global,2009,Events: Fastest Rising Searches,2,International Society Of Transport Aircraft Trading
+Global,2009,Events: Fastest Rising Searches,3,Delhi Sustainable Development Summit
+Global,2009,Events: Fastest Rising Searches,4,BBC Proms
+Global,2009,Events: Fastest Rising Searches,5,EuroChocolate
+Global,2009,Fastest Falling,1,Beijing 2008
+Global,2009,Fastest Falling,2,Euro 2008
+Global,2009,Fastest Falling,3,Heath Ledger
+Global,2009,Fastest Falling,4,Barack Obama
+Global,2009,Fastest Falling,5,Amy Winehouse
+Global,2009,Fastest Rising,1,Michael Jackson
+Global,2009,Fastest Rising,2,Facebook
+Global,2009,Fastest Rising,3,Tuenti
+Global,2009,Fastest Rising,4,Twitter
+Global,2009,Fastest Rising,5,Sanalika
+Global,2009,Fastest Rising Searches: First Half of 2009,1,Eurovision 2009
+Global,2009,Fastest Rising Searches: First Half of 2009,2,Susan Boyle
+Global,2009,Fastest Rising Searches: First Half of 2009,3,Jade Goody
+Global,2009,Fastest Rising Searches: First Half of 2009,4,Lady Gaga
+Global,2009,Fastest Rising Searches: First Half of 2009,5,Robert Pattinson
+Global,2009,Fastest Rising Searches: Second Half of 2009,1,Win For Life
+Global,2009,Fastest Rising Searches: Second Half of 2009,2,FIFA 10
+Global,2009,Fastest Rising Searches: Second Half of 2009,3,Secret Story 3
+Global,2009,Fastest Rising Searches: Second Half of 2009,4,Facebook
+Global,2009,Fastest Rising Searches: Second Half of 2009,5,Schweinegrippe
+Global,2009,Festivals: Fastest Rising Searches,1,Sonnenrot Festival
+Global,2009,Festivals: Fastest Rising Searches,2,Festival Sudoeste
+Global,2009,Festivals: Fastest Rising Searches,3,Festival Di Venezia
+Global,2009,Festivals: Fastest Rising Searches,4,Coca Cola Zero Fest
+Global,2009,Festivals: Fastest Rising Searches,5,Lesbian Film Festival
+Global,2009,Food and Drink,1,Acai Berry
+Global,2009,Food and Drink,2,Picnic
+Global,2009,Food and Drink,3,COOKPAD
+Global,2009,Food and Drink,4,Tesco Direct
+Global,2009,Food and Drink,5,Senseo
+Global,2009,Looking to Buy Online: Fastest Rising Searches,1,Windows 7
+Global,2009,Looking to Buy Online: Fastest Rising Searches,2,Tamiflu
+Global,2009,Looking to Buy Online: Fastest Rising Searches,3,Alli
+Global,2009,Looking to Buy Online: Fastest Rising Searches,4,Nokia N97
+Global,2009,Looking to Buy Online: Fastest Rising Searches,5,LightScribe
+Global,2009,Mobile Application Searches: Fastest Rising,1,YouTube App
+Global,2009,Mobile Application Searches: Fastest Rising,2,Facebook App
+Global,2009,Mobile Application Searches: Fastest Rising,3,IPlayer App
+Global,2009,Mobile Application Searches: Fastest Rising,4,Google Maps App
+Global,2009,Mobile Application Searches: Fastest Rising,5,Twitter App
+Global,2009,News Searches: Fastest Rising,1,Ted Kennedy
+Global,2009,News Searches: Fastest Rising,2,Twitter Tips
+Global,2009,News Searches: Fastest Rising,3,Jade Goody
+Global,2009,News Searches: Fastest Rising,4,Gad Elmaleh
+Global,2009,News Searches: Fastest Rising,5,Chris Brown
+Global,2009,People: Fastest Rising,1,Jade Goody
+Global,2009,People: Fastest Rising,2,Lady Gaga
+Global,2009,People: Fastest Rising,3,Michael Jackson
+Global,2009,People: Fastest Rising,4,Robert Pattinson
+Global,2009,People: Fastest Rising,5,Megan Fox
+Global,2009,Searches Related to Economy: Fastest Rising,1,Irish Economy 2009
+Global,2009,Searches Related to Economy: Fastest Rising,2,Indian Economy 2009
+Global,2009,Searches Related to Economy: Fastest Rising,3,Nobel Prize Economia 2009
+Global,2009,Searches Related to Economy: Fastest Rising,4,UK Economy 2009
+Global,2009,Searches Related to Economy: Fastest Rising,5,Energy Economy
+Global,2009,Sports,1,Real Madrid
+Global,2009,Sports,2,US Open
+Global,2009,Sports,3,UFC
+Global,2009,Sports,4,Sahadan
+Global,2009,Sports,5,LiveScore
+Global,2010,Consumer Electronics,1,iPad
+Global,2010,Consumer Electronics,2,iPhone 4
+Global,2010,Consumer Electronics,3,Nokia 5530
+Global,2010,Consumer Electronics,4,HTC EVO 4g
+Global,2010,Consumer Electronics,5,Nokia N900
+Global,2010,Entertainment,1,Justin Bieber
+Global,2010,Entertainment,2,Shakira
+Global,2010,Entertainment,3,Eminem
+Global,2010,Entertainment,4,Netflix
+Global,2010,Entertainment,5,YouTube
+Global,2010,Falling Searches,1,Swine Flu
+Global,2010,Falling Searches,2,WaMu
+Global,2010,Falling Searches,3,New Moon
+Global,2010,Falling Searches,4,Mininova
+Global,2010,Falling Searches,5,Susan Boyle
+Global,2010,Food & Drink,1,MasterChef
+Global,2010,Food & Drink,2,食べログ
+Global,2010,Food & Drink,3,Cupcakes
+Global,2010,Food & Drink,4,Jimmy Johns
+Global,2010,Food & Drink,5,Kак жрать суши
+Global,2010,Health,1,HCG diet
+Global,2010,Health,2,Dr. Oz
+Global,2010,Health,3,Aspergers
+Global,2010,Health,4,McDonald's nutrition
+Global,2010,Health,5,Vitamin D Deficiency
+Global,2010,Humanitarian Aid,1,Donate to Haiti
+Global,2010,Humanitarian Aid,2,Donate to Pakistan
+Global,2010,Humanitarian Aid,3,Text to donate
+Global,2010,Humanitarian Aid,4,Doctors Without Borders
+Global,2010,Humanitarian Aid,5,Download to Donate
+Global,2010,Maps Searches,1,Anhembi Parque
+Global,2010,Maps Searches,2,WM Gucken
+Global,2010,Maps Searches,3,World Cup
+Global,2010,Maps Searches,4,Bundeskanzleramt
+Global,2010,Maps Searches,5,Rio Branco
+Global,2010,People,1,Justin Bieber
+Global,2010,People,2,Katy Perry
+Global,2010,People,3,Selena Gomez
+Global,2010,People,4,Kim Kardashian
+Global,2010,People,5,Eminem
+Global,2010,Sports,1,Mundial 2010
+Global,2010,Sports,2,Olympics
+Global,2010,Sports,3,ESPN3
+Global,2010,Sports,4,FIFA 11
+Global,2010,Sports,5,Randy Moss
+Global,2010,Top Trending,1,Chatroulette
+Global,2010,Top Trending,2,iPad
+Global,2010,Top Trending,3,Justin Bieber
+Global,2010,Top Trending,4,Nicki Minaj
+Global,2010,Top Trending,5,Friv
+Global,2011,Consumer Electronics,1,Amazon Kindle Fire
+Global,2011,Consumer Electronics,2,iPhone 4s
+Global,2011,Consumer Electronics,3,Sidekick 4g
+Global,2011,Consumer Electronics,4,Hp Touchpad
+Global,2011,Consumer Electronics,5,Spb Shell 3d
+Global,2011,Entertainment,1,Rebecca Black
+Global,2011,Entertainment,2,Ryan Dunn Dead
+Global,2011,Entertainment,3,Price Tag Lyrics
+Global,2011,Entertainment,4,Amy Winehouse Death
+Global,2011,Entertainment,5,Super Bass Lyrics
+Global,2011,Falling Searches,1,Myspace
+Global,2011,Falling Searches,2,Hi5
+Global,2011,Falling Searches,3,Mebo
+Global,2011,Falling Searches,4,Nasza Klasa
+Global,2011,Falling Searches,5,Netlog
+Global,2011,Fastest Rising,1,Rebecca Black
+Global,2011,Fastest Rising,2,Google Plus
+Global,2011,Fastest Rising,3,Ryan Dunn
+Global,2011,Fastest Rising,4,Casey Anthony
+Global,2011,Fastest Rising,5,Battlefield 3
+Global,2011,Food & Drink,1,Wendy's
+Global,2011,Food & Drink,2,Just Eat
+Global,2011,Food & Drink,3,Little Caesars
+Global,2011,Food & Drink,4,Chick-Fil-A
+Global,2011,Food & Drink,5,Allrecipes
+Global,2011,Google Maps,1,UTM
+Global,2011,Google Maps,2,Siegessaule Berlin
+Global,2011,Google Maps,3,Dpt Conforama
+Global,2011,Google Maps,4,Wells Fargo
+Global,2011,Google Maps,5,Friseur
+Global,2011,Google News,1,Fukushima
+Global,2011,Google News,2,iPhone 4s
+Global,2011,Google News,3,Melania Rea
+Global,2011,Google News,4,Salvatore Parolisi
+Global,2011,Google News,5,Lamberto Sposini
+Global,2011,People,1,Big Meech
+Global,2011,People,2,Steve Jobs
+Global,2011,People,3,John Dahlback
+Global,2011,People,4,Nicki Minaj
+Global,2011,People,5,Rihanna
+Global,2011,Sports,1,Mayweather vs. Ortiz
+Global,2011,Sports,2,SoccerStar
+Global,2011,Sports,3,Dan Wheldon
+Global,2011,Sports,4,UFC Rio
+Global,2011,Sports,5,Marco Simoncelli
+Global,2012,Airlines,1,Southwest Airlines
+Global,2012,Airlines,2,United Airlines
+Global,2012,Airlines,3,American Airlines
+Global,2012,Airlines,4,Delta Airlines
+Global,2012,Airlines,5,Air France
+Global,2012,Athletes,1,Jeremy Lin
+Global,2012,Athletes,2,Michael Phelps
+Global,2012,Athletes,3,Peyton Manning
+Global,2012,Athletes,4,McKayla Maroney
+Global,2012,Athletes,5,Junior Seau
+Global,2012,Consumer Electronics,1,iPad 3
+Global,2012,Consumer Electronics,2,Samsung Galaxy S3
+Global,2012,Consumer Electronics,3,iPad Mini
+Global,2012,Consumer Electronics,4,Nexus 7
+Global,2012,Consumer Electronics,5,Galaxy Note 2
+Global,2012,Events,1,Hurricane Sandy
+Global,2012,Events,2,Kate Middleton Pictures Released
+Global,2012,Events,3,Olympics 2012
+Global,2012,Events,4,SOPA Debate
+Global,2012,Events,5,Costa Concordia crash
+Global,2012,Feature Films,1,The Hunger Games
+Global,2012,Feature Films,2,Skyfall
+Global,2012,Feature Films,3,Prometheus
+Global,2012,Feature Films,4,The Avengers
+Global,2012,Feature Films,5,Magic Mike
+Global,2012,Google+ Hashtags,1,#SOPA
+Global,2012,Google+ Hashtags,2,#Awesome
+Global,2012,Google+ Hashtags,3,#Sandy
+Global,2012,Google+ Hashtags,4,#IO12
+Global,2012,Google+ Hashtags,5,#Curiosity
+Global,2012,Images,1,One Direction
+Global,2012,Images,2,Selena Gomez
+Global,2012,Images,3,iPhone 5
+Global,2012,Images,4,Megan Fox
+Global,2012,Images,5,Rihanna
+Global,2012,People,1,Whitney Houston
+Global,2012,People,2,Kate Middleton
+Global,2012,People,3,Amanda Todd
+Global,2012,People,4,Michael Clarke Duncan
+Global,2012,People,5,One Direction
+Global,2012,Performing Artists,1,Whitney Houston
+Global,2012,Performing Artists,2,Michael Clarke Duncan
+Global,2012,Performing Artists,3,One Direction
+Global,2012,Performing Artists,4,Donna Summer
+Global,2012,Performing Artists,5,Lana Del Rey
+Global,2012,Searches,1,Whitney Houston
+Global,2012,Searches,2,Gangnam Style
+Global,2012,Searches,3,Hurricane Sandy
+Global,2012,Searches,4,iPad 3
+Global,2012,Searches,5,Diablo 3
+Global,2012,TV Shows,1,BBB12
+Global,2012,TV Shows,2,Avenida Brasil
+Global,2012,TV Shows,3,Here Comes Honey Boo Boo
+Global,2012,TV Shows,4,The Voice
+Global,2012,TV Shows,5,American Idol
+Global,2012,Videos,1,Gangnam Style
+Global,2012,Videos,2,Somebody That I Used to Know by Walk off the Earth
+Global,2012,Videos,3,KONY 2012
+Global,2012,Videos,4,Call Me Maybe featuring Justin Bieber
+Global,2012,Videos,5,Obama vs. Romney Epic Rap Battles of History
+Global,2013,Athletes,1,Oscar Pistorius
+Global,2013,Athletes,2,Aaron Hernandez
+Global,2013,Athletes,3,Adrian Peterson
+Global,2013,Athletes,4,Kevin Ware
+Global,2013,Athletes,5,Lance Armstrong
+Global,2013,Consumer Electronics,1,iPhone 5s
+Global,2013,Consumer Electronics,2,Samsung Galaxy S4
+Global,2013,Consumer Electronics,3,PlayStation 4
+Global,2013,Consumer Electronics,4,Xbox One
+Global,2013,Consumer Electronics,5,Nexus 5
+Global,2013,Events,1,Boston Marathon
+Global,2013,Events,2,Typhoon Haiyan
+Global,2013,Events,3,Government Shutdown
+Global,2013,Events,4,2014 FIFA World Cup
+Global,2013,Events,5,Chinese New Year
+Global,2013,Google+ Hashtags,1,#Boston
+Global,2013,Google+ Hashtags,2,#BreakingBad
+Global,2013,Google+ Hashtags,3,#TyphoonHaiyan
+Global,2013,Google+ Hashtags,4,#MileyCryus
+Global,2013,Google+ Hashtags,5,#Pope
+Global,2013,Movies,1,Man of Steel
+Global,2013,Movies,2,Iron Man 3
+Global,2013,Movies,3,World War Z
+Global,2013,Movies,4,Django Unchained
+Global,2013,Movies,5,Despicable Me 2
+Global,2013,People,1,Nelson Mandela
+Global,2013,People,2,Paul Walker
+Global,2013,People,3,Malala Yousafzai
+Global,2013,People,4,James Gandolfini
+Global,2013,People,5,Miley Cyrus
+Global,2013,Performing Artists,1,Cory Monteith
+Global,2013,Performing Artists,2,Amanda Bynes
+Global,2013,Performing Artists,3,James Gandolfini
+Global,2013,Performing Artists,4,Charlie Hunnam
+Global,2013,Performing Artists,5,Robin Thicke
+Global,2013,Top Trending,1,Nelson Mandela
+Global,2013,Top Trending,2,Paul Walker
+Global,2013,Top Trending,3,iPhone 5s
+Global,2013,Top Trending,4,Cory Monteith
+Global,2013,Top Trending,5,Harlem Shake
+Global,2013,TV Shows,1,Under The Dome
+Global,2013,TV Shows,2,Defiance
+Global,2013,TV Shows,3,Big Brother 15
+Global,2013,TV Shows,4,Agents of S.H.I.E.L.D.
+Global,2013,TV Shows,5,Here Comes Honey Boo Boo
+Global,2013,YouTube Videos,1,Ylvis - The Fox (What Does the Fox Say?)
+Global,2013,YouTube Videos,2,Harlem Shake (Original Army Edition)
+Global,2013,YouTube Videos,3,How Animals Eat Their Food | MisterEpicMann
+Global,2013,YouTube Videos,4,Baby&Me / The New Evian Film
+Global,2013,YouTube Videos,5,Miley Cyrus - Wrecking Ball (Chatroulette Version)
+Global,2014,Searches,1,Robin Williams
+Global,2014,Searches,2,World Cup
+Global,2014,Searches,3,Ebola
+Global,2014,Searches,4,Malaysia Airlines
+Global,2014,Searches,5,ALS Ice Bucket Challenge
+Global,2014,People,1,Jennifer Lawrence
+Global,2014,People,2,Kim Kardashian
+Global,2014,People,3,Julie Gayet
+Global,2014,People,4,Tracy Morgan
+Global,2014,People,5,Renee Zellweger
+Global,2014,Athletes,1,James Rodriguez
+Global,2014,Athletes,2,Michael Schumacher
+Global,2014,Athletes,3,Ray Rice
+Global,2014,Athletes,4,Luis Suarez
+Global,2014,Athletes,5,Neymar da Silva Santos
+Global,2014,Consumer Electronics,1,iPhone 6
+Global,2014,Consumer Electronics,2,Samsung Galaxy S5
+Global,2014,Consumer Electronics,3,Nexus 6
+Global,2014,Consumer Electronics,4,Moto G
+Global,2014,Consumer Electronics,5,Samsung Note 4
+Global,2014,Global News,1,Ebola
+Global,2014,Global News,2,ISIS
+Global,2014,Global News,3,Malaysia Airlines
+Global,2014,Global News,4,Crimea / Ukraine
+Global,2014,Global News,5,Ferguson
+Global,2014,Google Doodles of 2014,1,World Cup 2014 - Watching the game while the boss is away
+Global,2014,Google Doodles of 2014,2,2014 Winter Olympics
+Global,2014,Google Doodles of 2014,3,Rubik's Cube
+Global,2014,Google Doodles of 2014,4,Philae Robotic Lander
+Global,2014,Google Doodles of 2014,5,Nelson Mandela
+Global,2014,Loss,1,Robin Williams
+Global,2014,Loss,2,Philip Seymour Hoffman
+Global,2014,Loss,3,Peaches Geldof
+Global,2014,Loss,4,Shirley Temple
+Global,2014,Loss,5,Maya Angelou
+Global,2014,World Cup Matches,1,Brazil vs Germany
+Global,2014,World Cup Matches,2,Germany vs Argentina
+Global,2014,World Cup Matches,3,Brazil vs Chile
+Global,2014,World Cup Matches,4,Argentina vs Belgium
+Global,2014,World Cup Matches,5,Brazil vs Croatia
+Global,2014,YouTube Videos,1,Mutant Giant Spider Dog (SA Wardega)
+Global,2014,YouTube Videos,2,"Nike Football: Winner Stays. ft. Ronaldo, Neymar Jr., Rooney, Ibrahimović, Iniesta & more"
+Global,2014,YouTube Videos,3,FIRST KISS
+Global,2014,YouTube Videos,4,The Voice IT | Serie 2 | Blind 2 | Suor Cristina Scuccia - #TEAMJ-AX
+Global,2014,YouTube Videos,5,iPhone 6 Plus Bend Test
+Global,2015,Searches,1,Lamar Odom
+Global,2015,Searches,2,Charlie Hebdo
+Global,2015,Searches,3,Agar.io
+Global,2015,Searches,4,Jurassic World
+Global,2015,Searches,5,Paris
+Global,2015,Global News,1,Charlie Hebdo
+Global,2015,Global News,2,Paris
+Global,2015,Global News,3,Hurricane Patricia
+Global,2015,Global News,4,Isis
+Global,2015,Global News,5,Nepal
+Global,2015,People,1,Lamar Odom
+Global,2015,People,2,Ronda Rousey
+Global,2015,People,3,Caitlyn Jenner
+Global,2015,People,4,Adele
+Global,2015,People,5,Charlie Sheen
+Global,2015,Global Sporting Events,1,Copa America
+Global,2015,Global Sporting Events,2,Wimbledon
+Global,2015,Global Sporting Events,3,Tour de France
+Global,2015,Global Sporting Events,4,Rugby World Cup
+Global,2015,Global Sporting Events,5,Super Bowl
+Global,2015,Movies,1,Jurassic World
+Global,2015,Movies,2,Furious 7
+Global,2015,Movies,3,American Sniper
+Global,2015,Movies,4,Fifty Shade of Grey
+Global,2015,Movies,5,Minions
+Global,2015,TV Shows,1,Big Brother Brazil
+Global,2015,TV Shows,2,Jessica Jones
+Global,2015,TV Shows,3,Bigg Boss
+Global,2015,TV Shows,4,Fear the Walking Dead
+Global,2015,TV Shows,5,Better Call Saul
+Global,2015,Loss,1,Bobbi Kristina
+Global,2015,Loss,2,Cristiano Araujo
+Global,2015,Loss,3,Christopher Lee
+Global,2015,Loss,4,Sandra Bland
+Global,2015,Loss,5,Stuart Scott
+Global,2015,Music Artists,1,Adele
+Global,2015,Music Artists,2,Sia
+Global,2015,Music Artists,3,Eagles of Death Metal
+Global,2015,Music Artists,4,Sam Smith
+Global,2015,Music Artists,5,Meghan Trainor
+Global,2015,Consumer Tech,1,iPhone 6S
+Global,2015,Consumer Tech,2,Samsung Galaxy S6
+Global,2015,Consumer Tech,3,Apple Watch
+Global,2015,Consumer Tech,4,iPad Pro
+Global,2015,Consumer Tech,5,LG G4
+Global,2016,Searches,1,Pokémon Go
+Global,2016,Searches,2,iPhone 7
+Global,2016,Searches,3,Donald Trump
+Global,2016,Searches,4,Prince
+Global,2016,Searches,5,Powerball
+Global,2016,Global News,1,US Election
+Global,2016,Global News,2,Olympics
+Global,2016,Global News,3,Brexit
+Global,2016,Global News,4,Orlando Shooting
+Global,2016,Global News,5,Zika Virus
+Global,2016,People,1,Donald Trump
+Global,2016,People,2,Hillary Clinton
+Global,2016,People,3,Michael Phelps
+Global,2016,People,4,Melania Trump
+Global,2016,People,5,Simone Biles
+Global,2016,Consumer Tech,1,iPhone 7
+Global,2016,Consumer Tech,2,Freedom 251
+Global,2016,Consumer Tech,3,iPhone SE
+Global,2016,Consumer Tech,4,iPhone 6S
+Global,2016,Consumer Tech,5,Google Pixel
+Global,2016,Global Sporting Events,1,Rio Olympics
+Global,2016,Global Sporting Events,2,World Series
+Global,2016,Global Sporting Events,3,Tour de France
+Global,2016,Global Sporting Events,4,Wimbledon
+Global,2016,Global Sporting Events,5,Australian Open
+Global,2016,Losses,1,Prince
+Global,2016,Losses,2,David Bowie
+Global,2016,Losses,3,Christina Grimmie
+Global,2016,Losses,4,Alan Rickman
+Global,2016,Losses,5,Muhammad Ali
+Global,2016,Movies,1,Deadpool
+Global,2016,Movies,2,Suicide Squad
+Global,2016,Movies,3,The Revenant
+Global,2016,Movies,4,Captain America Civil War
+Global,2016,Movies,5,Batman v Superman
+Global,2016,Musicians,1,Céline Dion
+Global,2016,Musicians,2,Kesha
+Global,2016,Musicians,3,Michael Bublé
+Global,2016,Musicians,4,Creed
+Global,2016,Musicians,5,'ディーン フジオカ (Dean Fujioka)
+Global,2016,TV Shows,1,Stranger Things
+Global,2016,TV Shows,2,Westworld
+Global,2016,TV Shows,3,Luke Cage
+Global,2016,TV Shows,4,Game of Thrones
+Global,2016,TV Shows,5,Black Mirror
+Global,2017,Searches,1,Hurricane Irma
+Global,2017,Searches,2,iPhone 8
+Global,2017,Searches,3,iPhone X
+Global,2017,Searches,4,Matt Lauer
+Global,2017,Searches,5,Meghan Markle
+Global,2017,People,1,Matt Lauer
+Global,2017,People,2,Meghan Markle
+Global,2017,People,3,Nadia Toffa
+Global,2017,People,4,Harvey Weinstein
+Global,2017,People,5,Kevin Spacey
+Global,2017,Global News,1,Hurricane Irma
+Global,2017,Global News,2,Bitcoin
+Global,2017,Global News,3,Las Vegas Shooting
+Global,2017,Global News,4,North Korea
+Global,2017,Global News,5,Solar Eclipse
+Global,2017,Actors,1,Meghan Markle
+Global,2017,Actors,2,Kevin Spacey
+Global,2017,Actors,3,Gal Gadot
+Global,2017,Actors,4,Louis C.K.
+Global,2017,Actors,5,Bill Skarsgård
+Global,2017,Consumer Tech,1,iPhone 8
+Global,2017,Consumer Tech,2,iPhone X
+Global,2017,Consumer Tech,3,Nintendo Switch
+Global,2017,Consumer Tech,4,Samsung Galaxy S8
+Global,2017,Consumer Tech,5,Xbox One X
+Global,2017,Elections,1,French election
+Global,2017,Elections,2,German federal election
+Global,2017,Elections,3,UK election
+Global,2017,Elections,4,Uttar Pradesh election
+Global,2017,Elections,5,Georgia special election
+Global,2017,Global Sporting Events,1,Wimbledon
+Global,2017,Global Sporting Events,2,Super Bowl
+Global,2017,Global Sporting Events,3,Mayweather vs McGregor Fight
+Global,2017,Global Sporting Events,4,Tour de France
+Global,2017,Global Sporting Events,5,World Series
+Global,2017,How To...,1,How to make slime
+Global,2017,How To...,2,How to make solar eclipse glasses
+Global,2017,How To...,3,How to buy Bitcoin
+Global,2017,How To...,4,How to watch Mayweather vs McGregor
+Global,2017,How To...,5,How to make a fidget spinner
+Global,2017,Losses,1,Tom Petty
+Global,2017,Losses,2,Chester Bennington
+Global,2017,Losses,3,Chris Cornell
+Global,2017,Losses,4,Bill Paxton
+Global,2017,Losses,5,Hugh Hefner
+Global,2017,Memes,1,Cash Me Outside Meme
+Global,2017,Memes,2,United Airlines Meme
+Global,2017,Memes,3,Elf on the Shelf Meme
+Global,2017,Memes,4,What in Tarnation Meme
+Global,2017,Memes,5,Spongebob Mocking Meme
+Global,2017,Movies,1,IT
+Global,2017,Movies,2,Wonder Woman
+Global,2017,Movies,3,Beauty and the Beast
+Global,2017,Movies,4,Logan
+Global,2017,Movies,5,Justice League
+Global,2017,Musicians and Bands,1,Ariana Grande
+Global,2017,Musicians and Bands,2,Linkin Park
+Global,2017,Musicians and Bands,3,Lady Gaga
+Global,2017,Musicians and Bands,4,Mariah Carey
+Global,2017,Musicians and Bands,5,Ed Sheeran
+Global,2017,Recipe,1,Chicken breast recipe
+Global,2017,Recipe,2,Ground beef recipe
+Global,2017,Recipe,3,Poğaça tarifi (Turkish bread recipe)
+Global,2017,Recipe,4,French toast recipe
+Global,2017,Recipe,5,Kek tarifi (cake recipe)
+Global,2017,Songs/Lyrics,1,Despacito
+Global,2017,Songs/Lyrics,2,Shape of You
+Global,2017,Songs/Lyrics,3,Perfect
+Global,2017,Songs/Lyrics,4,Havana
+Global,2017,Songs/Lyrics,5,Look What You Made Me Do
+Global,2017,TV Shows,1,Stranger Things
+Global,2017,TV Shows,2,13 Reasons Why
+Global,2017,TV Shows,3,Big Brother Brasil
+Global,2017,TV Shows,4,Game of Thrones
+Global,2017,TV Shows,5,Iron Fist
+Global,2018,Searches,1,World Cup
+Global,2018,Searches,2,Avicii
+Global,2018,Searches,3,Mac Miller
+Global,2018,Searches,4,Stan Lee
+Global,2018,Searches,5,Black Panther
+Global,2018,News,1,World Cup
+Global,2018,News,2,Hurricane Florence
+Global,2018,News,3,Mega Millions Result
+Global,2018,News,4,Royal Wedding
+Global,2018,News,5,Election Results
+Global,2018,People,1,Meghan Markle
+Global,2018,People,2,Demi Lovato
+Global,2018,People,3,Sylvester Stallone
+Global,2018,People,4,Logan Paul
+Global,2018,People,5,Khloé Kardashian
+Global,2018,Actors,1,Sylvester Stallone
+Global,2018,Actors,2,Logan Paul
+Global,2018,Actors,3,Pete Davidson
+Global,2018,Actors,4,Bill Cosby
+Global,2018,Actors,5,Noah Centineo
+Global,2018,Athletes,1,Tristan Thompson
+Global,2018,Athletes,2,Alexis Sánchez
+Global,2018,Athletes,3,Lindsey Vonn
+Global,2018,Athletes,4,Shaun White
+Global,2018,Athletes,5,Khabib Nurmagomedov
+Global,2018,Loss,1,Avicii
+Global,2018,Loss,2,Mac Miller
+Global,2018,Loss,3,Stan Lee
+Global,2018,Loss,4,Anthony Bourdain
+Global,2018,Loss,5,XXXTentacion
+Global,2018,Movies,1,Black Panther
+Global,2018,Movies,2,Deadpool 2
+Global,2018,Movies,3,Venom
+Global,2018,Movies,4,Avengers: Infinity War
+Global,2018,Movies,5,Bohemian Rhapsody
+Global,2018,Musicians and Bands,1,Demi Lovato
+Global,2018,Musicians and Bands,2,Cardi B
+Global,2018,Musicians and Bands,3,Daniel Küblböck
+Global,2018,Musicians and Bands,4,Travis Scott
+Global,2018,Musicians and Bands,5,Rick Ross
+Global,2018,TV Shows,1,延禧攻略
+Global,2018,TV Shows,2,Altered Carbon
+Global,2018,TV Shows,3,บุพเพสันนิวาส
+Global,2018,TV Shows,4,मोटू पतलू
+Global,2018,TV Shows,5,Roseanne
+Global,2019,Searches,1,India vs South Africa
+Global,2019,Searches,2,Cameron Boyce
+Global,2019,Searches,3,Copa America
+Global,2019,Searches,4,Bangladesh vs India
+Global,2019,Searches,5,iPhone 11
+Global,2019,News,1,Copa America
+Global,2019,News,2,Notre Dame
+Global,2019,News,3,ICC Cricket World Cup
+Global,2019,News,4,Hurricane Dorian
+Global,2019,News,5,Rugby World Cup
+Global,2019,People,1,Antonio Brown
+Global,2019,People,2,Neymar
+Global,2019,People,3,James Charles
+Global,2019,People,4,Jussie Smollett
+Global,2019,People,5,Kevin Hart
+Global,2019,Actors,1,Jussie Smollett
+Global,2019,Actors,2,Kevin Hart
+Global,2019,Actors,3,Joaquin Phoenix
+Global,2019,Actors,4,Keanu Reeves
+Global,2019,Actors,5,Lori Loughlin
+Global,2019,Athletes,1,Antonio Brown
+Global,2019,Athletes,2,Neymar
+Global,2019,Athletes,3,Bryce Harper
+Global,2019,Athletes,4,David Ortiz
+Global,2019,Athletes,5,Alex Morgan
+Global,2019,Movies,1,Avengers: Endgame
+Global,2019,Movies,2,Joker
+Global,2019,Movies,3,Captain Marvel
+Global,2019,Movies,4,Toy Story 4
+Global,2019,Movies,5,Aquaman
+Global,2019,Passings,1,Cameron Boyce
+Global,2019,Passings,2,Nipsey Hussle
+Global,2019,Passings,3,Julen
+Global,2019,Passings,4,Karl Lagerfeld
+Global,2019,Passings,5,Emiliano Sala
+Global,2019,Songs,1,Old Town Road
+Global,2019,Songs,2,7 Rings
+Global,2019,Songs,3,Shallow
+Global,2019,Songs,4,Señorita
+Global,2019,Songs,5,Memories
+Global,2019,TV Shows,1,Game of Thrones
+Global,2019,TV Shows,2,Stranger Things
+Global,2019,TV Shows,3,Chernobyl
+Global,2019,TV Shows,4,When They See Us
+Global,2019,TV Shows,5,The Umbrella Academy
+Global,2020,Searches,1,Coronavirus
+Global,2020,Searches,2,Election results
+Global,2020,Searches,3,Kobe Bryant
+Global,2020,Searches,4,Zoom
+Global,2020,Searches,5,IPL
+Global,2020,News,1,Coronavirus
+Global,2020,News,2,Election results
+Global,2020,News,3,Iran
+Global,2020,News,4,Beirut
+Global,2020,News,5,Hantavirus
+Global,2020,Actors,1,Tom Hanks
+Global,2020,Actors,2,Joaquin Phoenix
+Global,2020,Actors,3,Amitabh Bachchan
+Global,2020,Actors,4,Ricky Gervais
+Global,2020,Actors,5,Jada Pinkett Smith
+Global,2020,Athletes,1,Ryan Newman
+Global,2020,Athletes,2,Michael Jordan
+Global,2020,Athletes,3,Tyson Fury
+Global,2020,Athletes,4,Tom Brady
+Global,2020,Athletes,5,Mike Tyson
+Global,2020,Concerts,1,Together At Home concert
+Global,2020,Concerts,2,Fire Fight Australia concert
+Global,2020,Concerts,3,Garth Brooks drive in concert
+Global,2020,Concerts,4,Travis Scott Fortnite concert
+Global,2020,Concerts,5,BTS online concert
+Global,2020,Games,1,Among Us
+Global,2020,Games,2,Fall Guys: Ultimate Knockout
+Global,2020,Games,3,Valorant
+Global,2020,Games,4,Genshin Impact
+Global,2020,Games,5,The Last of Us 2
+Global,2020,Loss,1,Kobe Bryant
+Global,2020,Loss,2,Naya Rivera
+Global,2020,Loss,3,Chadwick Boseman
+Global,2020,Loss,4,Sushant Singh Rajput
+Global,2020,Loss,5,George Floyd
+Global,2020,Lyrics,1,WAP
+Global,2020,Lyrics,2,Savage Love
+Global,2020,Lyrics,3,GOOBA
+Global,2020,Lyrics,4,Skechers
+Global,2020,Lyrics,5,Dynamite
+Global,2020,Movies,1,Parasite
+Global,2020,Movies,2,1917
+Global,2020,Movies,3,Black Panther
+Global,2020,Movies,4,365 Dni
+Global,2020,Movies,5,Contagion
+Global,2020,People,1,Joe Biden
+Global,2020,People,2,Kim Jong Un
+Global,2020,People,3,Boris Johnson
+Global,2020,People,4,Kamala Harris
+Global,2020,People,5,Tom Hanks
+Global,2020,Recipes,1,Dalgona coffee
+Global,2020,Recipes,2,Ekmek
+Global,2020,Recipes,3,Sourdough bread
+Global,2020,Recipes,4,Pizza
+Global,2020,Recipes,5,Lahmacun
+Global,2020,TV Shows,1,Tiger King
+Global,2020,TV Shows,2,Big Brother Brasil
+Global,2020,TV Shows,3,Money Heist
+Global,2020,TV Shows,4,Cobra Kai
+Global,2020,TV Shows,5,The Umbrella Academy
+United States,2006,Movie Showtimes,1,Idiocracy Showtimes
+United States,2006,Movie Showtimes,2,Cars Showtimes
+United States,2006,Movie Showtimes,3,Borat Showtimes
+United States,2006,Movie Showtimes,4,Superman Showtimes
+United States,2006,Movie Showtimes,5,Jesus Camp Showtimes
+United States,2006,Scandals,1,Duke Lacrosse Scandal
+United States,2006,Scandals,2,Project Runway Scandal
+United States,2006,Scandals,3,Duke Scandal
+United States,2006,Scandals,4,Duke Rape Scandal
+United States,2006,Scandals,5,Reggie Bush Scandal
+United States,2006,Tickets,1,Cheetah Girls Tickets
+United States,2006,Tickets,2,Mets Playoff Tickets
+United States,2006,Tickets,3,The Fray Tickets
+United States,2006,Tickets,4,Bob Seger Tickets
+United States,2006,Tickets,5,Chris Brown Tickets
+United States,2007,Deaths of 2007,1,Anna Nicole Smith
+United States,2007,Deaths of 2007,2,Travis Barker (Rumored)
+United States,2007,Deaths of 2007,3,Vince McMahon (Rumored)
+United States,2007,Deaths of 2007,4,Chris Benoit
+United States,2007,Deaths of 2007,5,Fidel Castro (Rumored)
+United States,2007,Diets,1,Weight Watchers
+United States,2007,Diets,2,Jenny Craig
+United States,2007,Diets,3,Volumetrics
+United States,2007,Diets,4,Slim Fast
+United States,2007,Diets,5,Atkins Diet
+United States,2007,Fitness,1,Pilates
+United States,2007,Fitness,2,Bikram Yoga
+United States,2007,Fitness,3,Spinning
+United States,2007,Fitness,4,Cross Fit
+United States,2007,Fitness,5,Zumba
+United States,2007,How To,1,How to Kiss
+United States,2007,How To,2,How to Draw
+United States,2007,How To,3,How to Knit
+United States,2007,How To,4,How to Hack
+United States,2007,How To,5,How to Dance
+United States,2007,Lawsuits,1,Borat Lawsuit
+United States,2007,Lawsuits,2,Vonage Lawsuit
+United States,2007,Lawsuits,3,iPhone Lawsuit
+United States,2007,Lawsuits,4,Facebook Lawsuit
+United States,2007,Lawsuits,5,Jamie Gold Lawsuit
+United States,2007,Lyrics,1,Umbrella Lyrics (Rihanna)
+United States,2007,Lyrics,2,Soulja Boy Lyrics
+United States,2007,Lyrics,3,Bubbly Lyrics (Colbie Caillat)
+United States,2007,Lyrics,4,Paramore Lyrics
+United States,2007,Lyrics,5,Lil Wayne Lyrics
+United States,2007,Presidential Campaign,1,Ron Paul
+United States,2007,Presidential Campaign,2,Fred Thompson
+United States,2007,Presidential Campaign,3,Hilary Clinton
+United States,2007,Presidential Campaign,4,Barack Obama
+United States,2007,Presidential Campaign,5,John Edwards
+United States,2007,Recipes,1,Master Cleanse Recipe
+United States,2007,Recipes,2,Ratatouille Recipe
+United States,2007,Recipes,3,Lemonade Diet Recipe
+United States,2007,Recipes,4,Mojito Recipe
+United States,2007,Recipes,5,Zucchini Bread Recipe
+United States,2007,Ringtones,1,Mosquito Ringtone
+United States,2007,Ringtones,2,24 Ringtone
+United States,2007,Ringtones,3,The Office Ringtone
+United States,2007,Ringtones,4,Silent Ringtone
+United States,2007,Ringtones,5,Crazy Frog Ringtone
+United States,2007,What is,1,What Is Love
+United States,2007,What is,2,What Is Autism
+United States,2007,What is,3,What Is RSS
+United States,2007,What is,4,What Is Lupus
+United States,2007,What is,5,What Is SAP
+United States,2007,Who is,1,Who Is God
+United States,2007,Who is,2,Who Is Who
+United States,2007,Who is,3,Who Is Lookup
+United States,2007,Who is,4,Who Is Jesus
+United States,2007,Who is,5,Who Is It
+United States,2008,It's the Economy,1,Financial Crisis
+United States,2008,It's the Economy,2,Depression
+United States,2008,It's the Economy,3,Bailout
+United States,2008,It's the Economy,4,Mortgage Crisis
+United States,2008,It's the Economy,5,Wall Street
+United States,2009,Books,1,Twilight
+United States,2009,Books,2,New Moon
+United States,2009,Books,3,Eclipse
+United States,2009,Books,4,Untamed
+United States,2009,Books,5,Democracy in America
+United States,2009,Google.com Fastest Falling,1,John McCain
+United States,2009,Google.com Fastest Falling,2,Olympics
+United States,2009,Google.com Fastest Falling,3,Heath Ledger
+United States,2009,Google.com Fastest Falling,4,Barack Obama
+United States,2009,Google.com Fastest Falling,5,Sarah Palin
+United States,2009,Google.com Fastest Rising,1,Twitter
+United States,2009,Google.com Fastest Rising,2,Michael Jackson
+United States,2009,Google.com Fastest Rising,3,Facebook
+United States,2009,Google.com Fastest Rising,4,Hulu
+United States,2009,Google.com Fastest Rising,5,Hi5
+United States,2009,Images,1,Lady Gaga
+United States,2009,Images,2,New Moon
+United States,2009,Images,3,Michael Jackson
+United States,2009,Images,4,Megan Fox
+United States,2009,Images,5,Selena Gomez
+United States,2009,Maps Searches,1,Mount Everest
+United States,2009,Maps Searches,2,Laguna Seca
+United States,2009,Maps Searches,3,In-n-Out
+United States,2009,Maps Searches,4,Grand Canyon
+United States,2009,Maps Searches,5,Eiffel Tower
+United States,2009,Mobile Searches,1,Twitter
+United States,2009,Mobile Searches,2,Michael Jackson
+United States,2009,Mobile Searches,3,Facebook
+United States,2009,Mobile Searches,4,IMDb
+United States,2009,Mobile Searches,5,CTA Bus Tracker
+United States,2009,News Searches,1,Swine Flu
+United States,2009,News Searches,2,Susan Boyle
+United States,2009,News Searches,3,Jon and Kate
+United States,2009,News Searches,4,Adam Lambert
+United States,2009,News Searches,5,Rihanna (Chris Brown)
+United States,2009,Recipes,1,Chili
+United States,2009,Recipes,2,Meatloaf
+United States,2009,Recipes,3,Cheesecake
+United States,2009,Recipes,4,Banana Bread
+United States,2009,Recipes,5,Pancake
+United States,2011,Baseball,1,Miami Marlins Logo
+United States,2011,Baseball,2,MLB Fan Cave
+United States,2011,Baseball,3,Manny Ramirez Retires
+United States,2011,Baseball,4,Barry Bonds Verdict
+United States,2011,Baseball,5,Kimberly Bell
+United States,2011,Basketball,1,Kris Humphries Race
+United States,2011,Basketball,2,Dallas Mavericks Parade
+United States,2011,Basketball,3,Basketball Wives LA
+United States,2011,Basketball,4,Heat Vs Mavericks
+United States,2011,Basketball,5,Derrick Rose MVP
+United States,2011,Cars,1,Hyundai Veloster
+United States,2011,Cars,2,Camaro ZL1
+United States,2011,Cars,3,Chrysler 200
+United States,2011,Cars,4,2012 Honda Civic
+United States,2011,Cars,5,Range Rover Evoque
+United States,2011,Costumes,1,Angry Birds Costume
+United States,2011,Costumes,2,LMFAO Costume
+United States,2011,Costumes,3,Flynn Rider Costume
+United States,2011,Costumes,4,Charlie Sheen Costume
+United States,2011,Costumes,5,Lalaloopsy Costume
+United States,2011,Dance Moves,1,The Wobble Dance
+United States,2011,Dance Moves,2,Bernie Dance
+United States,2011,Dance Moves,3,Cat Daddy Dance
+United States,2011,Dance Moves,4,Shuffling Dance
+United States,2011,Dance Moves,5,Dubstep Dance
+United States,2011,Diets,1,Dukan Diet
+United States,2011,Diets,2,Four Hour Diet
+United States,2011,Diets,3,17 Day Diet
+United States,2011,Diets,4,Slow Carb Diet
+United States,2011,Diets,5,Perfect Health Diet
+United States,2011,DIY,1,DIY Glitter Shoes
+United States,2011,DIY,2,DIY Ombre Hair
+United States,2011,DIY,3,DIY Brooch Bouquet
+United States,2011,DIY,4,DIY Feather Earrings
+United States,2011,DIY,5,DIY Friendship Bracelets
+United States,2011,Donate To,1,Donate to Japan
+United States,2011,Donate To,2,Red Cross Japan
+United States,2011,Donate To,3,Japan Relief
+United States,2011,Donate To,4,South Sudan
+United States,2011,Donate To,5,Second Mile Foundation
+United States,2011,Economy,1,Debt Ceiling
+United States,2011,Economy,2,US GDP 2011
+United States,2011,Economy,3,Recession 2011
+United States,2011,Economy,4,Inflation 2011
+United States,2011,Economy,5,US Economy 2011
+United States,2011,Falling Searches,1,2010 Calendar
+United States,2011,Falling Searches,2,Myspace
+United States,2011,Falling Searches,3,Meebo
+United States,2011,Falling Searches,4,MapQuest Driving Directions
+United States,2011,Falling Searches,5,FIFA
+United States,2011,Football,1,Madden 12
+United States,2011,Football,2,Angela Rypien
+United States,2011,Football,3,Dave Duerson
+United States,2011,Football,4,Peyton Manning Twins
+United States,2011,Football,5,Alexa Flutie
+United States,2011,Gadgets,1,Kindle Fire
+United States,2011,Gadgets,2,iPhone 4S
+United States,2011,Gadgets,3,Sidekick 4G
+United States,2011,Gadgets,4,HP TouchPad
+United States,2011,Gadgets,5,HTC ThunderBolt
+United States,2011,Google Image Searches,1,Planking
+United States,2011,Google Image Searches,2,Kate Upton
+United States,2011,Google Image Searches,3,Justin Bieber 2011
+United States,2011,Google Image Searches,4,Pippa Middleton
+United States,2011,Google Image Searches,5,Hope Solo
+United States,2011,Google Maps Searches,1,International Airport
+United States,2011,Google Maps Searches,2,IKEA
+United States,2011,Google Maps Searches,3,Wells Fargo
+United States,2011,Google Maps Searches,4,Airport
+United States,2011,Google Maps Searches,5,Casinos
+United States,2011,Google News Searches,1,Hurricane Irene
+United States,2011,Google News Searches,2,Occupy
+United States,2011,Google News Searches,3,Japan Earthquake
+United States,2011,Google News Searches,4,iPhone 5
+United States,2011,Google News Searches,5,iPad 2
+United States,2011,Home Appliances,1,Dyson Slim
+United States,2011,Home Appliances,2,FoodSaver Vacuum Sealer
+United States,2011,Home Appliances,3,Kirby Vacuum
+United States,2011,Home Appliances,4,Frigidaire Refrigerator
+United States,2011,Home Appliances,5,Gevalia Coffee Maker
+United States,2011,Literature,1,Game of Thrones
+United States,2011,Literature,2,Mona Simpson
+United States,2011,Literature,3,Water for Elephants
+United States,2011,Literature,4,Matthew Lewis
+United States,2011,Literature,5,Jules Verne
+United States,2011,News Sources,1,YNN Austin
+United States,2011,News Sources,2,Before It's News
+United States,2011,News Sources,3,The Advocate
+United States,2011,News Sources,4,Bartaman
+United States,2011,News Sources,5,Newswatch 16
+United States,2011,Political Scandals,1,Murdoch Scandal
+United States,2011,Political Scandals,2,Weiner Scandal
+United States,2011,Political Scandals,3,Rick Santorum Scandal
+United States,2011,Political Scandals,4,Berlusconi Scandal
+United States,2011,Political Scandals,5,Vitter Scandal
+United States,2011,Politics,1,Herman Cain
+United States,2011,Politics,2,Rep. Giffords
+United States,2011,Politics,3,Obama Jobs Plan
+United States,2011,Politics,4,Dominique Strauss-Kahn
+United States,2011,Politics,5,Cheri Daniels
+United States,2011,Pop Culture / People,1,Rebecca Black
+United States,2011,Pop Culture / People,2,Scotty McCreery
+United States,2011,Pop Culture / People,3,Courtney Stodden
+United States,2011,Pop Culture / People,4,Kate Upton
+United States,2011,Pop Culture / People,5,Kreayshawn
+United States,2011,Pop Culture / Songs,1,Born This Way
+United States,2011,Pop Culture / Songs,2,Watch The Throne
+United States,2011,Pop Culture / Songs,3,Honey Bee
+United States,2011,Pop Culture / Songs,4,The Lazy Song
+United States,2011,Pop Culture / Songs,5,Sure Thing
+United States,2011,Pop Culture / Toys,1,LEGO Alien Conquest
+United States,2011,Pop Culture / Toys,2,Unova Pokédex
+United States,2011,Pop Culture / Toys,3,Fluttershy
+United States,2011,Pop Culture / Toys,4,LEGO Ninjago
+United States,2011,Pop Culture / Toys,5,Rainbow Dash
+United States,2011,Pop Culture / TV Shows,1,Big Brother 13
+United States,2011,Pop Culture / TV Shows,2,American Idol 2011
+United States,2011,Pop Culture / TV Shows,3,Dexter
+United States,2011,Pop Culture / TV Shows,4,The X Factor USA
+United States,2011,Pop Culture / TV Shows,5,Beavis and Butt-head
+United States,2011,Product Searches,1,HP TouchPad
+United States,2011,Product Searches,2,iPad 2
+United States,2011,Product Searches,3,Samsung Galaxy
+United States,2011,Product Searches,4,Android Tablet
+United States,2011,Product Searches,5,Nook
+United States,2011,Quirky Environmental ,1,Wild Kratts
+United States,2011,Quirky Environmental ,2,Backyard Chickens
+United States,2011,Quirky Environmental ,3,Staycation
+United States,2011,Quirky Environmental ,4,Bioluminescent Bay
+United States,2011,Quirky Environmental ,5,Dirty Dozen Foods
+United States,2011,Recalls,1,Turkey Recall
+United States,2011,Recalls,2,BOB Stroller Recall
+United States,2011,Recalls,3,STIHL Recall
+United States,2011,Recalls,4,Topamax Recall
+United States,2011,Recalls,5,Baby Monitor Recall
+United States,2011,Science,1,Comet Elenin
+United States,2011,Science,2,Robert Bunsen
+United States,2011,Science,3,Moon Phases 2011
+United States,2011,Science,4,Honey Badger
+United States,2011,Science,5,Pierre de Fermat
+United States,2011,Soccer,1,FIFA 12
+United States,2011,Soccer,2,Louisa Nécib
+United States,2011,Soccer,3,Alex Morgan
+United States,2011,Soccer,4,Gold Cup Final
+United States,2011,Soccer,5,Hope Solo
+United States,2011,Sports,1,Mayweather vs Ortiz
+United States,2011,Sports,2,NCAA Bracket 2011
+United States,2011,Sports,3,Dan Wheldon
+United States,2011,Sports,4,Madden 12
+United States,2011,Sports,5,Kris Humphries
+United States,2011,Technology,1,iCloud
+United States,2011,Technology,2,OS X Lion
+United States,2011,Technology,3,iPad 2
+United States,2011,Technology,4,iPod Touch 5G
+United States,2011,Technology,5,iPhone 5
+United States,2011,Top Trending,1,Rebecca Black
+United States,2011,Top Trending,2,Google Plus
+United States,2011,Top Trending,3,Hurricane Irene
+United States,2011,Top Trending,4,Pinterest
+United States,2011,Top Trending,5,Ryan Dunn
+United States,2011,Workouts,1,Thor Workout
+United States,2011,Workouts,2,Ryan Gosling Workout
+United States,2011,Workouts,3,Chris Hemsworth Workout
+United States,2011,Workouts,4,Captain America Workout
+United States,2011,Workouts,5,Cam Newton Workout
+United States,2012,Annual Events of 2012,1,Super Bowl 2012
+United States,2012,Annual Events of 2012,2,Euro 2012
+United States,2012,Annual Events of 2012,3,Fathers Day 2012
+United States,2012,Annual Events of 2012,4,Mothers Day 2012
+United States,2012,Annual Events of 2012,5,Thanksgiving 2012
+United States,2012,Apparel Brands,1,Tory Burch
+United States,2012,Apparel Brands,2,J Crew
+United States,2012,Apparel Brands,3,Fubu
+United States,2012,Apparel Brands,4,Uniqlo
+United States,2012,Apparel Brands,5,Adidas
+United States,2012,Athletes,1,Jeremy Lin
+United States,2012,Athletes,2,Peyton Manning
+United States,2012,Athletes,3,Michael Phelps
+United States,2012,Athletes,4,Ryan Lochte
+United States,2012,Athletes,5,Tim Tebow
+United States,2012,Authors,1,Charles Duhigg
+United States,2012,Authors,2,William Landay
+United States,2012,Authors,3,Brian Souza
+United States,2012,Authors,4,ML Stedman
+United States,2012,Authors,5,EL James
+United States,2012,Books,1,Fifty Shades Darker
+United States,2012,Books,2,Bared to You
+United States,2012,Books,3,Fifty Shades Freed
+United States,2012,Books,4,The Casual Vacancy
+United States,2012,Books,5,Defending Jacob
+United States,2012,Calorie Searches,1,Zumba Calories Burned
+United States,2012,Calorie Searches,2,Paczki Calories
+United States,2012,Calorie Searches,3,Cantina Bowl Calories
+United States,2012,Calorie Searches,4,Starbucks Refreshers Calories
+United States,2012,Calorie Searches,5,Naked Calories
+United States,2012,Colleges & Universities,1,Lehigh University
+United States,2012,Colleges & Universities,2,University of Illinois at Urbana-Champaign
+United States,2012,Colleges & Universities,3,Otterbein University
+United States,2012,Colleges & Universities,4,Creighton University
+United States,2012,Colleges & Universities,5,Hillsdale College
+United States,2012,Diets,1,Michael Phelps diet
+United States,2012,Diets,2,Beyond diet
+United States,2012,Diets,3,Raspberry Ketone diet
+United States,2012,Diets,4,Pink Method diet
+United States,2012,Diets,5,Adriana Lima diet
+United States,2012,Donations,1,Donate to Obama
+United States,2012,Donations,2,Donate to Sandy
+United States,2012,Donations,3,Donate to Romney
+United States,2012,Donations,4,Donate to KONY
+United States,2012,Donations,5,Donate to Karen Klein
+United States,2012,Election Issues,1,Abortion
+United States,2012,Election Issues,2,Gay Marriage
+United States,2012,Election Issues,3,Immigration
+United States,2012,Election Issues,4,Gas Prices
+United States,2012,Election Issues,5,Social Security
+United States,2012,Endangered Species,1,Braken Bat Cave Meshweaver
+United States,2012,Endangered Species,2,Hooded Crane
+United States,2012,Endangered Species,3,Falcated Duck
+United States,2012,Endangered Species,4,Costa Rican Variable Harlequin Toad
+United States,2012,Endangered Species,5,Gooty Tarantula
+United States,2012,Events of 2012,1,Hurricane Sandy
+United States,2012,Events of 2012,2,Presidential Election
+United States,2012,Events of 2012,3,Super Bowl
+United States,2012,Events of 2012,4,Olympics
+United States,2012,Events of 2012,5,UEFA Euro 2012
+United States,2012,Food Delivery,1,Burger King Delivery
+United States,2012,Food Delivery,2,Pizza Delivery
+United States,2012,Food Delivery,3,Nola Food Delivery
+United States,2012,Food Delivery,4,Healthy Delivery Options
+United States,2012,Food Delivery,5,Tomato Soup Delivery
+United States,2012,Google Doodles of 2012,1,Soccer Doodle
+United States,2012,Google Doodles of 2012,2,Moog Doodle
+United States,2012,Google Doodles of 2012,3,Turing Doodle
+United States,2012,Google Doodles of 2012,4,Halloween Doodle
+United States,2012,Google Doodles of 2012,5,Nemo Doodle
+United States,2012,Halloween Costumes,1,Katniss Everdeen costume
+United States,2012,Halloween Costumes,2,Slender Man costume
+United States,2012,Halloween Costumes,3,Bane costume
+United States,2012,Halloween Costumes,4,Gangnam Style costume
+United States,2012,Halloween Costumes,5,Hawkeye costume
+United States,2012,Health Issues,1,Hemorrhoid
+United States,2012,Health Issues,2,Gastroesophageal Reflux Disease
+United States,2012,Health Issues,3,Sexually Transmitted Disease
+United States,2012,Health Issues,4,Diaper Rash
+United States,2012,Health Issues,5,Diarrhea
+United States,2012,How to...,1,How to love
+United States,2012,How to...,2,How to rock
+United States,2012,How to...,3,How to vote
+United States,2012,How to...,4,How to install
+United States,2012,How to...,5,How to hate
+United States,2012,Hybrid Card,1,Fisker Karma Hybrid
+United States,2012,Hybrid Card,2,Camry Hybrid
+United States,2012,Hybrid Card,3,Jetta Hybrid
+United States,2012,Hybrid Card,4,BMW Hybrid
+United States,2012,Hybrid Card,5,Ford Fusion Hybrid
+United States,2012,Jewelry Brands,1,Michael Kors jewelry
+United States,2012,Jewelry Brands,2,Lana Jewelry
+United States,2012,Jewelry Brands,3,Scott Kay Bridal
+United States,2012,Jewelry Brands,4,Henri Daussi
+United States,2012,Jewelry Brands,5,Bergio
+United States,2012,Mobile\\Tablet Apps,1,Temple Run
+United States,2012,Mobile\\Tablet Apps,2,Instagram
+United States,2012,Mobile\\Tablet Apps,3,Logo Quiz
+United States,2012,Mobile\\Tablet Apps,4,Draw Something
+United States,2012,Mobile\\Tablet Apps,5,Socialcam
+United States,2012,Museums,1,Metropolitan Museum of Art
+United States,2012,Museums,2,Philadelphia Museum of Art
+United States,2012,Museums,3,National Gallery of Art
+United States,2012,Museums,4,De Young Museum
+United States,2012,Museums,5,Museum of Science Boston
+United States,2012,News Sources,1,NBC News
+United States,2012,News Sources,2,FiveThirtyEight Blog
+United States,2012,News Sources,3,Chi Magazine
+United States,2012,News Sources,4,ESPN
+United States,2012,News Sources,5,TMZ
+United States,2012,NFL Teams,1,Dallas Cowboys
+United States,2012,NFL Teams,2,Chicago Bears
+United States,2012,NFL Teams,3,Denver Broncos
+United States,2012,NFL Teams,4,Green Bay Packers
+United States,2012,NFL Teams,5,Miami Dolphins
+United States,2012,People,1,Whitney Houston
+United States,2012,People,2,Jeremy Lin
+United States,2012,People,3,Amanda Todd
+United States,2012,People,4,Michael Clark Duncan
+United States,2012,People,5,Kate Middleton
+United States,2012,Phones,1,iPhone 5
+United States,2012,Phones,2,iPhone 4s
+United States,2012,Phones,3,Samsung Galaxy S3
+United States,2012,Phones,4,Galaxy Note
+United States,2012,Phones,5,Galaxy Note 2
+United States,2012,Political Gaffes,1,Big Bird
+United States,2012,Political Gaffes,2,47 percent
+United States,2012,Political Gaffes,3,Binders full of women
+United States,2012,Political Gaffes,4,Airplane Windows
+United States,2012,Political Gaffes,5,Legitimate Rape
+United States,2012,Reality TV Stars,1,"Alana ""Honey Boo Boo"""
+United States,2012,Reality TV Stars,2,Snooki
+United States,2012,Reality TV Stars,3,Farrah Abraham
+United States,2012,Reality TV Stars,4,Kim Kardashian
+United States,2012,Reality TV Stars,5,Brittany Kerr
+United States,2012,Recipes,1,Progresso Recipe Starters
+United States,2012,Recipes,2,Tzatziki Sauce Recipe
+United States,2012,Recipes,3,Chicken Cacciatore Recipe
+United States,2012,Recipes,4,Coleslaw Dressing Recipe
+United States,2012,Recipes,5,Slutty Brownies Recipe
+United States,2012,Searches,1,Whitney Houston
+United States,2012,Searches,2,Hurricane Sandy
+United States,2012,Searches,3,Election 2012
+United States,2012,Searches,4,Hunger Games
+United States,2012,Searches,5,Jeremy Lin
+United States,2012,Shoe Brands,1,Nike
+United States,2012,Shoe Brands,2,Toms
+United States,2012,Shoe Brands,3,Sperry
+United States,2012,Shoe Brands,4,Chanel shoes
+United States,2012,Shoe Brands,5,Vans
+United States,2012,Song Lyric Searches,1,Gangnam Style Lyrics
+United States,2012,Song Lyric Searches,2,Mercy Lyrics
+United States,2012,Song Lyric Searches,3,Payphone Lyrics
+United States,2012,Song Lyric Searches,4,Some Nights Lyrics
+United States,2012,Song Lyric Searches,5,Super Bass Lyrics
+United States,2012,Stocks,1,Facebook Stock
+United States,2012,Stocks,2,Zynga Stock
+United States,2012,Stocks,3,Yelp Stock
+United States,2012,Stocks,4,Samsung Stock
+United States,2012,Stocks,5,Arna Stock
+United States,2012,Symptoms,1,Pregnancy Symptoms
+United States,2012,Symptoms,2,Diabetes Symptoms
+United States,2012,Symptoms,3,Flu Symptoms
+United States,2012,Symptoms,4,UTI Symptoms
+United States,2012,Symptoms,5,Mono Symptoms
+United States,2012,Tech Gadgets,1,iPad 3
+United States,2012,Tech Gadgets,2,iPad Mini
+United States,2012,Tech Gadgets,3,Samsung Galaxy S3
+United States,2012,Tech Gadgets,4,Kindle Fire
+United States,2012,Tech Gadgets,5,Nexus 7
+United States,2012,Toys,1,Webcam Toy
+United States,2012,Toys,2,Elmo Toy
+United States,2012,Toys,3,Codee Toy
+United States,2012,Toys,4,Derpy Hooves Toy
+United States,2012,Toys,5,Bouncing Tigger Toy
+United States,2012,TV Shows,1,Here Comes Honey Boo Boo
+United States,2012,TV Shows,2,The Voice
+United States,2012,TV Shows,3,American Idol
+United States,2012,TV Shows,4,Big Brother 14
+United States,2012,TV Shows,5,X Factor
+United States,2012,US Politicians,1,Paul Ryan
+United States,2012,US Politicians,2,Ron Paul
+United States,2012,US Politicians,3,Barack Obama
+United States,2012,US Politicians,4,Rick Santorum
+United States,2012,US Politicians,5,Mitt Romney
+United States,2012,Video Games,1,Diablo 3
+United States,2012,Video Games,2,Borderlands 2
+United States,2012,Video Games,3,Mass Effect 3
+United States,2012,Video Games,4,Halo 4
+United States,2012,Video Games,5,Skyrim
+United States,2012,What is...?,1,What is SOPA
+United States,2012,What is...?,2,What is Scientology
+United States,2012,What is...?,3,What is KONY
+United States,2012,What is...?,4,What is Yolo
+United States,2012,What is...?,5,What is Instagram
+United States,2013,Annual Events,1,Black Friday
+United States,2013,Annual Events,2,Cyber Monday
+United States,2013,Annual Events,3,Daytona 500
+United States,2013,Annual Events,4,Chinese New Year
+United States,2013,Annual Events,5,Tour de France
+United States,2013,Appetizers,1,Tomato Mozzarella Appetizer
+United States,2013,Appetizers,2,Shrimp Appetizer
+United States,2013,Appetizers,3,Butternut Squash Appetizer
+United States,2013,Appetizers,4,Stuffed Mushroom Appetizer
+United States,2013,Appetizers,5,Mini Crabcake Appetizer
+United States,2013,Athletes,1,Aaron Hernandez
+United States,2013,Athletes,2,Adrian Peterson
+United States,2013,Athletes,3,Kevin Ware
+United States,2013,Athletes,4,Jason Collins
+United States,2013,Athletes,5,Oscar Pistorius
+United States,2013,"Atlanta, GA",1,Paul Walker
+United States,2013,"Atlanta, GA",2,Government Shutdown
+United States,2013,"Atlanta, GA",3,Mindy McCready
+United States,2013,"Atlanta, GA",4,iPhone 5s
+United States,2013,"Atlanta, GA",5,Adrian Peterson
+United States,2013,"Austin, TX",1,Paul Walker
+United States,2013,"Austin, TX",2,iPhone 5s
+United States,2013,"Austin, TX",3,Cory Monteith
+United States,2013,"Austin, TX",4,Kidd Kraddick
+United States,2013,"Austin, TX",5,Boston Marathon
+United States,2013,Authors,1,Tom Clancy
+United States,2013,Authors,2,John Green
+United States,2013,Authors,3,Ree Drummond
+United States,2013,Authors,4,Vince Flynn
+United States,2013,Authors,5,Orson Scott Card
+United States,2013,Beer,1,Blue Moon
+United States,2013,Beer,2,Bud Light
+United States,2013,Beer,3,Bud Light Platinum
+United States,2013,Beer,4,Kingfisher
+United States,2013,Beer,5,Stella Artois
+United States,2013,Blogs,1,Engadget
+United States,2013,Blogs,2,Gizmodo
+United States,2013,Blogs,3,Perez Hilton
+United States,2013,Blogs,4,Reality Steve
+United States,2013,Blogs,5,Lifehacker
+United States,2013,Books,1,"Lean In: Women, Work, and the Will to Lead"
+United States,2013,Books,2,The Great Gatsby
+United States,2013,Books,3,Divergent
+United States,2013,Books,4,"Soul Healing Miracles: Ancient and New Sacred Wisdom, Knowledge, and the Practical Techniques for Healing the Spiritual, Mental, Emotional and Physical Bodies"
+United States,2013,Books,5,The Fault in Our Stars
+United States,2013,"Boston / Cambridge, MA",1,Red Sox
+United States,2013,"Boston / Cambridge, MA",2,Bruins
+United States,2013,"Boston / Cambridge, MA",3,Boston Marathon Explosion
+United States,2013,"Boston / Cambridge, MA",4,Aaron Hernandez
+United States,2013,"Boston / Cambridge, MA",5,Paul Walker
+United States,2013,Boy Names,1,Luke
+United States,2013,Boy Names,2,Austin
+United States,2013,Boy Names,3,Jackson
+United States,2013,Boy Names,4,Adrian
+United States,2013,Boy Names,5,Jordan
+United States,2013,Car Companies,1,Tesla
+United States,2013,Car Companies,2,Bugatti
+United States,2013,Car Companies,3,MINI
+United States,2013,Car Companies,4,Ford
+United States,2013,Car Companies,5,Jeep
+United States,2013,"Chicago, IL",1,Paul Walker
+United States,2013,"Chicago, IL",2,Blackhawks
+United States,2013,"Chicago, IL",3,Boston Marathon
+United States,2013,"Chicago, IL",4,Cory Monteith
+United States,2013,"Chicago, IL",5,iPhone 5s
+United States,2013,Cocktails,1,Aviation Cocktail
+United States,2013,Cocktails,2,Painkiller Cocktail
+United States,2013,Cocktails,3,Blue Hawaii Cocktail
+United States,2013,Cocktails,4,Ramos Gin Fizz Cocktail
+United States,2013,Cocktails,5,Gin Sour
+United States,2013,Colleges and Universities,1,University of Phoenix
+United States,2013,Colleges and Universities,2,Liberty University
+United States,2013,Colleges and Universities,3,Columbia University
+United States,2013,Colleges and Universities,4,Ashford University
+United States,2013,Colleges and Universities,5,Northwestern University
+United States,2013,"Dallas, TX",1,Paul Walker
+United States,2013,"Dallas, TX",2,Kidd Kraddick
+United States,2013,"Dallas, TX",3,Boston Marathon
+United States,2013,"Dallas, TX",4,Instagram
+United States,2013,"Dallas, TX",5,iPhone 5s
+United States,2013,Dance Moves,1,Gangnam Style
+United States,2013,Dance Moves,2,The Cat Daddy
+United States,2013,Dance Moves,3,The Dougie
+United States,2013,Dance Moves,4,The Wobble
+United States,2013,Dance Moves,5,YMCA
+United States,2013,"Denver, CO",1,Boston Marathon
+United States,2013,"Denver, CO",2,Paul Walker
+United States,2013,"Denver, CO",3,Government Shutdown
+United States,2013,"Denver, CO",4,Cory Monteith
+United States,2013,"Denver, CO",5,CDOT
+United States,2013,"Des Moines, IA",1,Paul Walker
+United States,2013,"Des Moines, IA",2,Boston Marathon
+United States,2013,"Des Moines, IA",3,RAGBRAI 2013
+United States,2013,"Des Moines, IA",4,Cory Monteith
+United States,2013,"Des Moines, IA",5,iPhone 5s
+United States,2013,Destination Wedding Locations,1,Mexico
+United States,2013,Destination Wedding Locations,2,Bahamas
+United States,2013,Destination Wedding Locations,3,Kauai
+United States,2013,Destination Wedding Locations,4,Caribbean
+United States,2013,Destination Wedding Locations,5,Jamaica
+United States,2013,"Detroit, MI",1,Detroit Red Wings
+United States,2013,"Detroit, MI",2,Paul Walker
+United States,2013,"Detroit, MI",3,iPhone 5s
+United States,2013,"Detroit, MI",4,Cory Monteith
+United States,2013,"Detroit, MI",5,Trayvon Martin
+United States,2013,Diets,1,Paleo Diet
+United States,2013,Diets,2,Juice Cleanse Diet
+United States,2013,Diets,3,Mediterranean Diet
+United States,2013,Diets,4,Master Cleanse Diet
+United States,2013,Diets,5,Ketogenic Diet
+United States,2013,Donations,1,Donate to Philippines
+United States,2013,Donations,2,Donate to Oklahoma
+United States,2013,Donations,3,Donate to Boston
+United States,2013,Donations,4,Donate to Wikipedia
+United States,2013,Donations,5,Donate to Moore
+United States,2013,Endangered Species,1,Tiger
+United States,2013,Endangered Species,2,Killer Whale
+United States,2013,Endangered Species,3,Red Panda
+United States,2013,Endangered Species,4,Ocelot
+United States,2013,Endangered Species,5,Dugong
+United States,2013,Events,1,Boston Marathon
+United States,2013,Events,2,Government Shutdown
+United States,2013,Events,3,VMAs
+United States,2013,Events,4,"Moore, Oklahoma Tornado"
+United States,2013,Events,5,Royal Baby
+United States,2013,Famous Internet Animals,1,Grumpy Cat
+United States,2013,Famous Internet Animals,2,Lil Bub
+United States,2013,Famous Internet Animals,3,Tuna the Dog
+United States,2013,Famous Internet Animals,4,Colonel Meow
+United States,2013,Famous Internet Animals,5,Princess Monster Truck
+United States,2013,Female Politicians,1,Wendy Davis
+United States,2013,Female Politicians,2,Dianne Feinstein
+United States,2013,Female Politicians,3,Kathleen Sebelius
+United States,2013,Female Politicians,4,Janet Napolitano
+United States,2013,Female Politicians,5,Kay Hagan
+United States,2013,Girl Names,1,Fallon
+United States,2013,Girl Names,2,Chloe
+United States,2013,Girl Names,3,Jaden
+United States,2013,Girl Names,4,Harper
+United States,2013,Girl Names,5,Logan
+United States,2013,Health Issues,1,Flu
+United States,2013,Health Issues,2,Cold
+United States,2013,Health Issues,3,Labor
+United States,2013,Health Issues,4,Diarrhea
+United States,2013,Health Issues,5,Balance
+United States,2013,Honeymoon Locations,1,New Zealand
+United States,2013,Honeymoon Locations,2,Cancún
+United States,2013,Honeymoon Locations,3,Maldives
+United States,2013,Honeymoon Locations,4,Bali
+United States,2013,Honeymoon Locations,5,Thailand
+United States,2013,How To...,1,How to Tie a Tie
+United States,2013,How To...,2,How to File
+United States,2013,How To...,3,How to Get a Passport
+United States,2013,How To...,4,How to Blog
+United States,2013,How To...,5,How to Knit
+United States,2013,Hybrid and Electric Cars,1,Chevy Volt
+United States,2013,Hybrid and Electric Cars,2,Fisker Karma
+United States,2013,Hybrid and Electric Cars,3,Toyota Prius C
+United States,2013,Hybrid and Electric Cars,4,Toyota Prius V
+United States,2013,Hybrid and Electric Cars,5,Toyota Camry Hybrid
+United States,2013,Jewelry Brands,1,Gucci
+United States,2013,Jewelry Brands,2,Kendra Scott
+United States,2013,Jewelry Brands,3,Sucre
+United States,2013,Jewelry Brands,4,Jennifer Meyer
+United States,2013,Jewelry Brands,5,Jennifer Fisher
+United States,2013,"Kansas City, KS",1,Paul Walker
+United States,2013,"Kansas City, KS",2,Kevin Ware Injury
+United States,2013,"Kansas City, KS",3,NCAA Basketball Tournament
+United States,2013,"Kansas City, KS",4,Boston Marathon Explosion
+United States,2013,"Kansas City, KS",5,Government Shutdown
+United States,2013,"Los Angeles, CA",1,Paul Walker
+United States,2013,"Los Angeles, CA",2,Dodgers
+United States,2013,"Los Angeles, CA",3,Cory Monteith
+United States,2013,"Los Angeles, CA",4,Christopher Dorner
+United States,2013,"Los Angeles, CA",5,Boston Marathon
+United States,2013,Male Politicians,1,Nelson Mandela
+United States,2013,Male Politicians,2,Ted Cruz
+United States,2013,Male Politicians,3,Barack Obama
+United States,2013,Male Politicians,4,Hugo Chavez
+United States,2013,Male Politicians,5,Rand Paul
+United States,2013,Memes,1,Zerg Rush
+United States,2013,Memes,2,Cinnamon Challenge
+United States,2013,Memes,3,Slender Man
+United States,2013,Memes,4,QWOP
+United States,2013,Memes,5,Forever Alone
+United States,2013,"Miami, FL",1,Dade Schools
+United States,2013,"Miami, FL",2,Reading Plus
+United States,2013,"Miami, FL",3,Paul Walker
+United States,2013,"Miami, FL",4,Harlem Shake
+United States,2013,"Miami, FL",5,iPhone 5s
+United States,2013,MLB Teams,1,Boston Red Sox
+United States,2013,MLB Teams,2,Pittsburgh Pirates
+United States,2013,MLB Teams,3,Atlanta Braves
+United States,2013,MLB Teams,4,Cleveland Indians
+United States,2013,MLB Teams,5,Tampa Bay Rays
+United States,2013,Mobile/Tablet Apps,1,Bitstrips
+United States,2013,Mobile/Tablet Apps,2,Vine
+United States,2013,Mobile/Tablet Apps,3,Candy Crush
+United States,2013,Mobile/Tablet Apps,4,MeetMe
+United States,2013,Mobile/Tablet Apps,5,Snapchat
+United States,2013,NBA Teams,1,Miami Heat
+United States,2013,NBA Teams,2,New Orleans Pelicans
+United States,2013,NBA Teams,3,Golden State Warriors
+United States,2013,NBA Teams,4,San Antonio Spurs
+United States,2013,NBA Teams,5,Houston Rockets
+United States,2013,"New Cars, Trending",1,2014 Chevy Volt
+United States,2013,"New Cars, Trending",2,2013 Acura NSX
+United States,2013,"New Cars, Trending",3,2014 Fiat 500
+United States,2013,"New Cars, Trending",4,2014 Chevy Sonic
+United States,2013,"New Cars, Trending",5,2014 Ford Focus
+United States,2013,"New York City, NY",1,iPhone 5s
+United States,2013,"New York City, NY",2,Cory Monteith
+United States,2013,"New York City, NY",3,Boston Marathon
+United States,2013,"New York City, NY",4,James Gandolfini
+United States,2013,"New York City, NY",5,Aaron Hernandez
+United States,2013,News Sources,1,CNN
+United States,2013,News Sources,2,Fox News
+United States,2013,News Sources,3,TIME
+United States,2013,News Sources,4,Google News
+United States,2013,News Sources,5,BBC
+United States,2013,NFL Teams,1,Baltimore Ravens
+United States,2013,NFL Teams,2,Seattle Seahawks
+United States,2013,NFL Teams,3,Miami Dolphins
+United States,2013,NFL Teams,4,San Francisco 49ers
+United States,2013,NFL Teams,5,Atlanta Falcons
+United States,2013,"Oklahoma City, OK",1,Paul Walker
+United States,2013,"Oklahoma City, OK",2,Government Shutdown
+United States,2013,"Oklahoma City, OK",3,Adrian Peterson
+United States,2013,"Oklahoma City, OK",4,Kidd Kraddick
+United States,2013,"Oklahoma City, OK",5,Xbox One
+United States,2013,"People, Trending",1,Paul Walker
+United States,2013,"People, Trending",2,Cory Monteith
+United States,2013,"People, Trending",3,Aaron Hernandez
+United States,2013,"People, Trending",4,Adrian Peterson
+United States,2013,"People, Trending",5,Miley Cyrus
+United States,2013,"Philadelphia, PA",1,Boston Marathon
+United States,2013,"Philadelphia, PA",2,Paul Walker
+United States,2013,"Philadelphia, PA",3,Adrian Peterson
+United States,2013,"Philadelphia, PA",4,Government Shutdown
+United States,2013,"Philadelphia, PA",5,Nelson Mandela
+United States,2013,Phones,1,iPhone 5s
+United States,2013,Phones,2,Samsung Galaxy S4
+United States,2013,Phones,3,iPhone 5c
+United States,2013,Phones,4,HTC One
+United States,2013,Phones,5,Nexus 5
+United States,2013,"Portland, OR",1,Paul Walker
+United States,2013,"Portland, OR",2,Boston Marathon
+United States,2013,"Portland, OR",3,Nelson Mandela
+United States,2013,"Portland, OR",4,iPhone 5s
+United States,2013,"Portland, OR",5,Government Shutdown
+United States,2013,Reality TV Stars,1,Farrah Abraham
+United States,2013,Reality TV Stars,2,Shain Gandee
+United States,2013,Reality TV Stars,3,Katherine Webb
+United States,2013,Reality TV Stars,4,Gia Allemand
+United States,2013,Reality TV Stars,5,Lamar Odom
+United States,2013,"Sacramento, CA",1,Boston Marathon
+United States,2013,"Sacramento, CA",2,Paul Walker
+United States,2013,"Sacramento, CA",3,Covered California
+United States,2013,"Sacramento, CA",4,iPhone 5s
+United States,2013,"Sacramento, CA",5,Amber Alert
+United States,2013,"San Francisco, CA",1,Bart Strike
+United States,2013,"San Francisco, CA",2,Paul Walker
+United States,2013,"San Francisco, CA",3,iPhone 5s
+United States,2013,"San Francisco, CA",4,Boston Marathon
+United States,2013,"San Francisco, CA",5,Cory Monteith
+United States,2013,"Seattle, WA",1,Government Shutdown
+United States,2013,"Seattle, WA",2,Paul Walker
+United States,2013,"Seattle, WA",3,Boston Marathon
+United States,2013,"Seattle, WA",4,Seahawks
+United States,2013,"Seattle, WA",5,iPhone 5s
+United States,2013,Shoe Brands,1,TOMS
+United States,2013,Shoe Brands,2,Aldo
+United States,2013,Shoe Brands,3,Nike
+United States,2013,Shoe Brands,4,Jessica Simpson
+United States,2013,Shoe Brands,5,Steve Madden
+United States,2013,Social Media Sites,1,Tumblr
+United States,2013,Social Media Sites,2,Facebook
+United States,2013,Social Media Sites,3,LinkedIn
+United States,2013,Social Media Sites,4,SoundCloud
+United States,2013,Social Media Sites,5,Google+
+United States,2013,Song Lyrics,1,Thrift Shop
+United States,2013,Song Lyrics,2,Blurred Lines
+United States,2013,Song Lyrics,3,Wrecking Ball
+United States,2013,Song Lyrics,4,Royals
+United States,2013,Song Lyrics,5,Holy Grail
+United States,2013,Stocks,1,FB
+United States,2013,Stocks,2,TSLA
+United States,2013,Stocks,3,TWTR
+United States,2013,Stocks,4,GOOG
+United States,2013,Stocks,5,BBRY
+United States,2013,Tech Gadgets,1,Playstation 4
+United States,2013,Tech Gadgets,2,Samsung Galaxy S4
+United States,2013,Tech Gadgets,3,iPhone 5s
+United States,2013,Tech Gadgets,4,iPhone 5c
+United States,2013,Tech Gadgets,5,iPad Air
+United States,2013,Top Trending,1,Paul Walker
+United States,2013,Top Trending,2,Boston Marathon Bombing
+United States,2013,Top Trending,3,Nelson Mandela
+United States,2013,Top Trending,4,Cory Monteith
+United States,2013,Top Trending,5,iPhone 5s
+United States,2013,Toys,1,Pokemon Fusion
+United States,2013,Toys,2,Play-Doh
+United States,2013,Toys,3,Digimon Fusion
+United States,2013,Toys,4,Minecraft Toys
+United States,2013,Toys,5,Minions
+United States,2013,TV Series Finales,1,Breaking Bad
+United States,2013,TV Series Finales,2,Buckwild
+United States,2013,TV Series Finales,3,Ready for Love
+United States,2013,TV Series Finales,4,Zero Hour
+United States,2013,TV Series Finales,5,Deception
+United States,2013,"TV Shows, Trending",1,Breaking Bad
+United States,2013,"TV Shows, Trending",2,Game of Thrones
+United States,2013,"TV Shows, Trending",3,Orange Is the New Black
+United States,2013,"TV Shows, Trending",4,Scandal
+United States,2013,"TV Shows, Trending",5,House of Cards
+United States,2013,Video Games,1,Grand Theft Auto V
+United States,2013,Video Games,2,Cookie Clicker
+United States,2013,Video Games,3,Atari Breakout
+United States,2013,Video Games,4,Candy Crush
+United States,2013,Video Games,5,BioShock Infinite
+United States,2013,"Washington, D.C.",1,Boston Marathon
+United States,2013,"Washington, D.C.",2,Aaron Hernandez
+United States,2013,"Washington, D.C.",3,iPhone 5s
+United States,2013,"Washington, D.C.",4,Lil Wayne
+United States,2013,"Washington, D.C.",5,Cory Monteith
+United States,2013,Weddings,1,Kerry Washington and Nnamdi Asomugha
+United States,2013,Weddings,2,Michael Jordan and Yvette Prieto
+United States,2013,Weddings,3,Aaron Paul and Lauren Parsekian
+United States,2013,Weddings,4,NeNe Leakes and Gregg Leakes
+United States,2013,Weddings,5,Melissa Gilbert and Timothy Busfield
+United States,2014,Searches,1,Robin Williams
+United States,2014,Searches,2,World Cup
+United States,2014,Searches,3,Ebola
+United States,2014,Searches,4,Malaysia Airlines
+United States,2014,Searches,5,Flappy Bird
+United States,2014,People,1,Jennifer Lawrence
+United States,2014,People,2,Kim Kardashian
+United States,2014,People,3,Tracy Morgan
+United States,2014,People,4,Ray Rice
+United States,2014,People,5,Tony Stewart
+United States,2014,.gifs,1,Miguel Herrera gif
+United States,2014,.gifs,2,Frozen gif
+United States,2014,.gifs,3,Luis Suarez gif
+United States,2014,.gifs,4,Madden gif
+United States,2014,.gifs,5,Godzilla gif
+United States,2014,Actors,1,Jared Leto
+United States,2014,Actors,2,Matthew McConaughey
+United States,2014,Actors,3,Macaulay Culkin
+United States,2014,Actors,4,Chris Pratt
+United States,2014,Actors,5,Theo James
+United States,2014,Actresses,1,Jennifer Lawrence
+United States,2014,Actresses,2,Renee Zellweger
+United States,2014,Actresses,3,Betty White
+United States,2014,Actresses,4,Ellen Page
+United States,2014,Actresses,5,Kim Novak
+United States,2014,Athletes,1,Ray Rice
+United States,2014,Athletes,2,Adrian Peterson
+United States,2014,Athletes,3,Richard Sherman
+United States,2014,Athletes,4,Paul George
+United States,2014,Athletes,5,Carmelo Anthony
+United States,2014,Books,1,"Boy, Snow, Bird"
+United States,2014,Books,2,Blood Will Out
+United States,2014,Books,3,"Savage Harvest: A Tale of Cannibals, Colonialism, and Michael Rockefeller's Tragic Quest for Primitive Art"
+United States,2014,Books,4,City of Heavenly Fire
+United States,2014,Books,5,Flash Boys
+United States,2014,Calorie Searches,1,How many calories are in a banana?
+United States,2014,Calorie Searches,2,How many calories are in pumpkin pie?
+United States,2014,Calorie Searches,3,How many calories are in an apple?
+United States,2014,Calorie Searches,4,How many calories are in an egg?
+United States,2014,Calorie Searches,5,How many calories are in an avocado?
+United States,2014,Cars,1,Ford
+United States,2014,Cars,2,Jeep
+United States,2014,Cars,3,Dodge
+United States,2014,Cars,4,Toyota
+United States,2014,Cars,5,General Motors
+United States,2014,Celebrity Pregnancies,1,Mila Kunis
+United States,2014,Celebrity Pregnancies,2,Ciara
+United States,2014,Celebrity Pregnancies,3,Kourtney Kardashian
+United States,2014,Celebrity Pregnancies,4,Kate Middleton
+United States,2014,Celebrity Pregnancies,5,Kerry Washington
+United States,2014,Celebrity Weddings of 2014,1,Kim Kardashian and Kanye West wedding
+United States,2014,Celebrity Weddings of 2014,2,George Clooney and Amal Alamuddin wedding
+United States,2014,Celebrity Weddings of 2014,3,Angelina Jolie and Brad Pitt wedding
+United States,2014,Celebrity Weddings of 2014,4,Jill Duggar and Derick Dillard wedding
+United States,2014,Celebrity Weddings of 2014,5,Kandi Burruss Todd Tucker wedding
+United States,2014,Diets,1,Paleo Diet
+United States,2014,Diets,2,Atkins Diet
+United States,2014,Diets,3,Gluten Free Diet
+United States,2014,Diets,4,Mediterranean Diet
+United States,2014,Diets,5,Dash Diet
+United States,2014,Donations,1,Donate to ALS
+United States,2014,Donations,2,Donate to Ebola
+United States,2014,Donations,3,Donate to Breast Cancer
+United States,2014,Donations,4,Donate to Goodwill
+United States,2014,Donations,5,Donate for Veterans
+United States,2014,Fashion Designers,1,Bethany Mota
+United States,2014,Fashion Designers,2,Kate Spade
+United States,2014,Fashion Designers,3,Oscar de la Renta
+United States,2014,Fashion Designers,4,Rachel Roy
+United States,2014,Fashion Designers,5,L'Wren Scott
+United States,2014,Google Doodles of 2014,1,US Valentine's Day 2014
+United States,2014,Google Doodles of 2014,2,World Cup 2014 - Watching the game while the boss is away
+United States,2014,Google Doodles of 2014,3,2014 Winter Olympics
+United States,2014,Google Doodles of 2014,4,Rubik's Cube
+United States,2014,Google Doodles of 2014,5,Doodle 4 Google 2014 - US Winner
+United States,2014,How to...?,1,How to Airdrop
+United States,2014,How to...?,2,How to Contour
+United States,2014,How to...?,3,How to Vote
+United States,2014,How to...?,4,How to Kiss
+United States,2014,How to...?,5,How to Craft
+United States,2014,IPO's of 2014,1,Alibaba IPO
+United States,2014,IPO's of 2014,2,GoPro IPO
+United States,2014,IPO's of 2014,3,King Digital IPO
+United States,2014,IPO's of 2014,4,Virgin America IPO
+United States,2014,IPO's of 2014,5,Castlight Health IPO
+United States,2014,Losses of 2014,1,Robin Williams
+United States,2014,Losses of 2014,2,Joan Rivers
+United States,2014,Losses of 2014,3,Philip Seymour Hoffman
+United States,2014,Losses of 2014,4,Maya Angelou
+United States,2014,Losses of 2014,5,Jan Hooks
+United States,2014,Memes,1,Tim Howard memes
+United States,2014,Memes,2,Kermit memes
+United States,2014,Memes,3,Memo Ochoa memes
+United States,2014,Memes,4,Kim Kardashian memes
+United States,2014,Memes,5,Brazil (National Football Team) memes
+United States,2014,MLB Players,1,Derek Jeter
+United States,2014,MLB Players,2,Tony Gwynn
+United States,2014,MLB Players,3,Oscar Taveras
+United States,2014,MLB Players,4,Madison Bumgarner
+United States,2014,MLB Players,5,Hunter Pence
+United States,2014,MLB Teams,1,Kansas City Royals
+United States,2014,MLB Teams,2,San Francisco Giants
+United States,2014,MLB Teams,3,Milwaukee Brewers
+United States,2014,MLB Teams,4,Baltimore Orioles
+United States,2014,MLB Teams,5,Seattle Mariners
+United States,2014,Movies,1,Frozen
+United States,2014,Movies,2,Interstellar
+United States,2014,Movies,3,Divergent
+United States,2014,Movies,4,Gone Girl
+United States,2014,Movies,5,Lone Survivor
+United States,2014,Music Artists,1,Iggy Azalea
+United States,2014,Music Artists,2,Lorde
+United States,2014,Music Artists,3,Sam Smith
+United States,2014,Music Artists,4,Meghan Trainor
+United States,2014,Music Artists,5,Solange Knowles
+United States,2014,Natural Events,1,Hurricane Arthur
+United States,2014,Natural Events,2,Chile Earthquake
+United States,2014,Natural Events,3,Napa Earthquake
+United States,2014,Natural Events,4,Hurricane Iselle
+United States,2014,Natural Events,5,Oso Mudslide
+United States,2014,NBA Players,1,Paul George
+United States,2014,NBA Players,2,Carmelo Anthony
+United States,2014,NBA Players,3,Kevin Love
+United States,2014,NBA Players,4,Lebron James
+United States,2014,NBA Players,5,Shabazz Napier
+United States,2014,NBA Teams,1,Cleveland Cavaliers
+United States,2014,NBA Teams,2,San Antonio Spurs
+United States,2014,NBA Teams,3,Charlotte Hornets
+United States,2014,NBA Teams,4,Washington Wizards
+United States,2014,NBA Teams,5,Dallas Mavericks
+United States,2014,NFL Players,1,Ray Rice
+United States,2014,NFL Players,2,Adrian Peterson
+United States,2014,NFL Players,3,Richard Sherman
+United States,2014,NFL Players,4,Johnny Manziel
+United States,2014,NFL Players,5,Russell Wilson
+United States,2014,NFL Teams,1,Seattle Seahawks
+United States,2014,NFL Teams,2,Cleveland Browns
+United States,2014,NFL Teams,3,Denver Broncos
+United States,2014,NFL Teams,4,Buffalo Bills
+United States,2014,NFL Teams,5,Dallas Cowboys
+United States,2014,Podcasts,1,Serial Podcast
+United States,2014,Podcasts,2,Steve Austin Podcast
+United States,2014,Podcasts,3,Startup Podcast
+United States,2014,Podcasts,4,John Batchelor Podcast
+United States,2014,Podcasts,5,Shane and Friends Podcast
+United States,2014,Recipes,1,Chicken Recipes
+United States,2014,Recipes,2,Meatloaf Recipe
+United States,2014,Recipes,3,Banana Bread Recipe
+United States,2014,Recipes,4,Pancake Recipe
+United States,2014,Recipes,5,Chili Recipe
+United States,2014,Red Carpet Appearances,1,Rihanna Red Carpet
+United States,2014,Red Carpet Appearances,2,Lorde Red Carpet
+United States,2014,Red Carpet Appearances,3,Lupita Red Carpet
+United States,2014,Red Carpet Appearances,4,Madonna Red Carpet
+United States,2014,Red Carpet Appearances,5,Pharrell Red Carpet
+United States,2014,Selfies,1,Oscar Selfie
+United States,2014,Selfies,2,Monkey Selfie
+United States,2014,Selfies,3,Obama Selfie
+United States,2014,Selfies,4,Squirrel Selfie
+United States,2014,Selfies,5,David Ortiz Selfie
+United States,2014,Song Lyrics,1,Say Something lyrics
+United States,2014,Song Lyrics,2,Anaconda lyrics
+United States,2014,Song Lyrics,3,Fancy lyrics
+United States,2014,Song Lyrics,4,Happy lyrics
+United States,2014,Song Lyrics,5,Blank Space lyrics
+United States,2014,Sports Teams,1,Seattle Seahawks
+United States,2014,Sports Teams,2,Kansas City Royals
+United States,2014,Sports Teams,3,Cleveland Cavaliers
+United States,2014,Sports Teams,4,San Francisco Giants
+United States,2014,Sports Teams,5,Cleveland Browns
+United States,2014,Symptoms,1,Ebola Symptoms
+United States,2014,Symptoms,2,Flu symptoms
+United States,2014,Symptoms,3,Pregnancy Symptoms
+United States,2014,Symptoms,4,Aspergers Symptoms
+United States,2014,Symptoms,5,ALS Symptoms
+United States,2014,Tech Gadgets,1,iPhone 6
+United States,2014,Tech Gadgets,2,Samsung Galaxy s5
+United States,2014,Tech Gadgets,3,Nexus 6
+United States,2014,Tech Gadgets,4,Apple Watch
+United States,2014,Tech Gadgets,5,Chromecast
+United States,2014,TV Shows,1,Game of Thrones
+United States,2014,TV Shows,2,True Detective
+United States,2014,TV Shows,3,Orange is the New Black
+United States,2014,TV Shows,4,The Following
+United States,2014,TV Shows,5,American Horror Story
+United States,2014,Video Games,1,Destiny
+United States,2014,Video Games,2,Titanfall
+United States,2014,Video Games,3,Watch Dogs
+United States,2014,Video Games,4,ArcheAge
+United States,2014,Video Games,5,Call of Duty: Advanced Warfare
+United States,2014,Workouts and Exercises,1,Insanity
+United States,2014,Workouts and Exercises,2,T25 Workout
+United States,2014,Workouts and Exercises,3,Piyo Workout
+United States,2014,Workouts and Exercises,4,7 Minute Workout
+United States,2014,Workouts and Exercises,5,P90x
+United States,2014,World Cup Matches,1,Argentina vs Netherlands
+United States,2014,World Cup Matches,2,Germany vs Argentina
+United States,2014,World Cup Matches,3,USA vs Germany
+United States,2014,World Cup Matches,4,Argentina vs Switzerland
+United States,2014,World Cup Matches,5,Netherlands vs Mexico
+United States,2015,Searches,1,Lamar Odom
+United States,2015,Searches,2,Jurassic World
+United States,2015,Searches,3,American Sniper
+United States,2015,Searches,4,Caitlyn Jenner
+United States,2015,Searches,5,Ronda Rousey
+United States,2015,People,1,Lamar Odom
+United States,2015,People,2,Caitlyn Jenner
+United States,2015,People,3,Ronda Rousey
+United States,2015,People,4,Donald Trump
+United States,2015,People,5,Ruby Rose
+United States,2015,Movies,1,Jurassic World
+United States,2015,Movies,2,American Sniper
+United States,2015,Movies,3,Straight Outta Compton
+United States,2015,Movies,4,50 Shades of Grey
+United States,2015,Movies,5,Furious 7
+United States,2015,Actors,1,Charlie Sheen
+United States,2015,Actors,2,Bill Cosby
+United States,2015,Actors,3,Taylor Kinney
+United States,2015,Actors,4,Scott Eastwood
+United States,2015,Actors,5,James Earl Jones
+United States,2015,Actresses,1,Ruby Rose
+United States,2015,Actresses,2,Amy Schumer
+United States,2015,Actresses,3,Patricia Arquette
+United States,2015,Actresses,4,Rumer Willis
+United States,2015,Actresses,5,Bryce Dallas Howard
+United States,2015,Athletes,1,Ronda Rousey
+United States,2015,Athletes,2,Holly Holm
+United States,2015,Athletes,3,Stephen Curry
+United States,2015,Athletes,4,Manny Pacquiao
+United States,2015,Athletes,5,Alex Morgan
+United States,2015,Beauty Questions,1,How to do the Kylie Jenner lip challenge?
+United States,2015,Beauty Questions,2,What are lip fillers?
+United States,2015,Beauty Questions,3,How to remove gel nail polish?
+United States,2015,Beauty Questions,4,How to remove acrylic nails at home?
+United States,2015,Beauty Questions,5,How to use beard balm?
+United States,2015,Beer,1,Bud Light Mixxtail
+United States,2015,Beer,2,Gose beer
+United States,2015,Beer,3,Grapefruit beer
+United States,2015,Beer,4,805 beer
+United States,2015,Beer,5,SweetWater 420
+United States,2015,Calorie Searches,1,Toasted Graham Latte
+United States,2015,Calorie Searches,2,Palm Breeze
+United States,2015,Calorie Searches,3,Starbucks Flat White
+United States,2015,Calorie Searches,4,Grilled Stuft Nachos
+United States,2015,Calorie Searches,5,Little Caesars Bacon Wrapped Deep Dish
+United States,2015,Car Models,1,2016 Chevrolet Malibu
+United States,2015,Car Models,2,2016 Chevrolet Silverado
+United States,2015,Car Models,3,2016 Toyota Tacoma
+United States,2015,Car Models,4,2016 Chevrolet Camaro
+United States,2015,Car Models,5,Honda HR-V
+United States,2015,Celebrity Pregnancies,1,Kim Kardashian
+United States,2015,Celebrity Pregnancies,2,Nicole Curtis
+United States,2015,Celebrity Pregnancies,3,Bristol Palin
+United States,2015,Celebrity Pregnancies,4,Jessa Duggar
+United States,2015,Celebrity Pregnancies,5,Tiffani Thiessen
+United States,2015,Celebrity Weddings,1,Sofia Vergara and Joe Manganiello
+United States,2015,Celebrity Weddings,2,Nathan Kress London Elise Moore
+United States,2015,Celebrity Weddings,3,Jennifer Aniston and Justin Theroux
+United States,2015,Celebrity Weddings,4,Nicky Hilton and James Rothschild
+United States,2015,Celebrity Weddings,5,Tina Knowles and Richard Larson
+United States,2015,Cocktails,1,Sangria
+United States,2015,Cocktails,2,Moscow Mule
+United States,2015,Cocktails,3,Gimlet
+United States,2015,Cocktails,4,Cosmopolitan
+United States,2015,Cocktails,5,Long Island Iced Tea
+United States,2015,Diets,1,20/20 Diet
+United States,2015,Diets,2,Carb Cycle Diet
+United States,2015,Diets,3,Paleo Diet
+United States,2015,Diets,4,GM Diet Plan
+United States,2015,Diets,5,Military Diet Plan
+United States,2015,Dog Questions,1,Why do dogs wag their tail?
+United States,2015,Dog Questions,2,How to crate train your puppy?
+United States,2015,Dog Questions,3,How to register a dog as a service animal?
+United States,2015,Dog Questions,4,How to register a dog with the AKC?
+United States,2015,Dog Questions,5,How to keep puppy from eating poop?
+United States,2015,Fashion Designers,1,Raf Simons
+United States,2015,Fashion Designers,2,Shoshanna Lonstein Gruss
+United States,2015,Fashion Designers,3,Giambattista Valli
+United States,2015,Fashion Designers,4,Thakoon Panichgul
+United States,2015,Fashion Designers,5,Tadashi Shoji
+United States,2015,Fashion Questions,1,How to walk in heels?
+United States,2015,Fashion Questions,2,What to wear on the first day of school?
+United States,2015,Fashion Questions,3,How to fray jeans?
+United States,2015,Fashion Questions,4,How to tie a shirt?
+United States,2015,Fashion Questions,5,What should a bride wear to the rehearsal dinner?
+United States,2015,GIF,1,Just Do It
+United States,2015,GIF,2,John Cena
+United States,2015,GIF,3,Drake
+United States,2015,GIF,4,That's Racist
+United States,2015,GIF,5,Rihanna
+United States,2015,How to...?,1,How to use the new Snapchat update?
+United States,2015,How to...?,2,How to solve a rubix cube?
+United States,2015,How to...?,3,How to get legendary marks?
+United States,2015,How to...?,4,How to play Charlie Charlie?
+United States,2015,How to...?,5,How to upgrade to Windows 10?
+United States,2015,Losses,1,Bobbi Kristina Brown
+United States,2015,Losses,2,Stuart Scott
+United States,2015,Losses,3,Sandra Bland
+United States,2015,Losses,4,Freddie Gray
+United States,2015,Losses,5,Frank Gifford
+United States,2015,Memes,1,Pepe the Frog
+United States,2015,Memes,2,Rickrolling
+United States,2015,Memes,3,Who Knows
+United States,2015,Memes,4,Florida Man
+United States,2015,Memes,5,O Rly
+United States,2015,Men's Soccer Players,1,Cristiano Ronaldo
+United States,2015,Men's Soccer Players,2,Lionel Messi
+United States,2015,Men's Soccer Players,3,Neymar da Silva Santos Jr
+United States,2015,Men's Soccer Players,4,Zlatan Ibrahimović
+United States,2015,Men's Soccer Players,5,Luis Suárez
+United States,2015,MLB Players,1,Jake Arrieta
+United States,2015,MLB Players,2,Chase Utley
+United States,2015,MLB Players,3,Matt Harvey
+United States,2015,MLB Players,4,Ben Zobrist
+United States,2015,MLB Players,5,Bartolo Colon
+United States,2015,MLB Teams,1,New York Mets
+United States,2015,MLB Teams,2,Toronto Blue Jays
+United States,2015,MLB Teams,3,Chicago Cubs
+United States,2015,MLB Teams,4,Houston Astros
+United States,2015,MLB Teams,5,Kansas City Royals
+United States,2015,Music Artists,1,Adele
+United States,2015,Music Artists,2,Sia
+United States,2015,Music Artists,3,Fetty Wap
+United States,2015,Music Artists,4,Eazy-E
+United States,2015,Music Artists,5,Sam Smith
+United States,2015,Natural Events,1,Hurricane Patricia
+United States,2015,Natural Events,2,Hurricane Joaquin
+United States,2015,Natural Events,3,Tropical Storm Erika
+United States,2015,Natural Events,4,Tropical Storm Bill
+United States,2015,Natural Events,5,Nepal Earthquake
+United States,2015,NBA Players,1,Stephen Curry
+United States,2015,NBA Players,2,DeAndre Jordan
+United States,2015,NBA Players,3,LaMarcus Aldridge
+United States,2015,NBA Players,4,Zach Lavine
+United States,2015,NBA Players,5,Andre Iguodala
+United States,2015,NBA Teams,1,Golden State Warriors
+United States,2015,NBA Teams,2,Cleveland Cavaliers
+United States,2015,NBA Teams,3,Atlanta Hawks
+United States,2015,NBA Teams,4,Houston Rockets
+United States,2015,NBA Teams,5,Milwaukee Bucks
+United States,2015,NFL Players,1,DeMarco Murray
+United States,2015,NFL Players,2,Greg Hardy
+United States,2015,NFL Players,3,Julian Edelman
+United States,2015,NFL Players,4,Kam Chancellor
+United States,2015,NFL Players,5,Adrian Peterson
+United States,2015,NFL Teams,1,New England Patriots
+United States,2015,NFL Teams,2,Carolina Panthers
+United States,2015,NFL Teams,3,Green Bay Packers
+United States,2015,NFL Teams,4,Indianapolis Colts
+United States,2015,NFL Teams,5,Tennessee Titans
+United States,2015,Oscar Red Carpet Dresses,1,Lupita Nyong'o
+United States,2015,Oscar Red Carpet Dresses,2,Jennifer Lopez
+United States,2015,Oscar Red Carpet Dresses,3,Gwyneth Paltrow
+United States,2015,Oscar Red Carpet Dresses,4,Cate Blanchett
+United States,2015,Oscar Red Carpet Dresses,5,Dakota Johnson
+United States,2015,Politicians,1,Donald Trump
+United States,2015,Politicians,2,Bernie Sanders
+United States,2015,Politicians,3,Carly Fiorina
+United States,2015,Politicians,4,Ben Carson
+United States,2015,Politicians,5,Ted Cruz
+United States,2015,Recipes,1,Pumpkin Seed Recipes
+United States,2015,Recipes,2,Sweet Potato Fries Recipe
+United States,2015,Recipes,3,Philly Cheese Steak Recipe
+United States,2015,Recipes,4,Chicken Recipes
+United States,2015,Recipes,5,Apple Pie Recipe
+United States,2015,Selfies,1,Malia Obama
+United States,2015,Selfies,2,Miss Lebanon
+United States,2015,Selfies,3,Al Roker
+United States,2015,Selfies,4,Bald Eagle
+United States,2015,Selfies,5,Anna Kendrick
+United States,2015,Soccer Teams,1,FC Barcelona
+United States,2015,Soccer Teams,2,Orlando City Soccer
+United States,2015,Soccer Teams,3,Arsenal FC
+United States,2015,Soccer Teams,4,Manchester United FC
+United States,2015,Soccer Teams,5,Chelsea FC
+United States,2015,Song Lyrics,1,Hello
+United States,2015,Song Lyrics,2,Take Me to Church
+United States,2015,Song Lyrics,3,Blank Space
+United States,2015,Song Lyrics,4,Uptown Funk
+United States,2015,Song Lyrics,5,Thinking Out Loud
+United States,2015,Sports Teams,1,New York Mets
+United States,2015,Sports Teams,2,Toronto Blue Jays
+United States,2015,Sports Teams,3,Chicago Cubs
+United States,2015,Sports Teams,4,Golden State Warriors
+United States,2015,Sports Teams,5,Tampa Bay Lightning
+United States,2015,Symptoms,1,Flu
+United States,2015,Symptoms,2,Gallbladder Infection
+United States,2015,Symptoms,3,Measles
+United States,2015,Symptoms,4,Listeria
+United States,2015,Symptoms,5,Sinus Infection
+United States,2015,Travel Questions,1,What to pack for Cancun?
+United States,2015,Travel Questions,2,Where is Disneyland?
+United States,2015,Travel Questions,3,What airport is ORD?
+United States,2015,Travel Questions,4,When is whale watching season in San Diego?
+United States,2015,Travel Questions,5,What is a boutique hotel?
+United States,2015,TV Shows,1,Better Call Saul
+United States,2015,TV Shows,2,Jessica Jones
+United States,2015,TV Shows,3,Fear the Walking Dead
+United States,2015,TV Shows,4,Empire
+United States,2015,TV Shows,5,American Horror Story: Hotel
+United States,2015,Video Games,1,Agar.io
+United States,2015,Video Games,2,Fallout 4
+United States,2015,Video Games,3,Mortal Kombat X
+United States,2015,Video Games,4,Call of Duty: Black Ops III
+United States,2015,Video Games,5,Star Wars Battlefront
+United States,2015,What is...?,1,What is 0 divided by 0?
+United States,2015,What is...?,2,What is Ashley Madison?
+United States,2015,What is...?,3,What is a Buckeye?
+United States,2015,What is...?,4,What is the Charlie Charlie Challenge?
+United States,2015,What is...?,5,What is a Lunar Eclipse?
+United States,2015,WNBA Teams,1,Minnesota Lynx
+United States,2015,WNBA Teams,2,New York Liberty
+United States,2015,WNBA Teams,3,Chicago Sky
+United States,2015,WNBA Teams,4,Phoenix Mercury
+United States,2015,WNBA Teams,5,Indiana Fever
+United States,2015,Women's Soccer Players,1,Alex Morgan
+United States,2015,Women's Soccer Players,2,Hope Solo
+United States,2015,Women's Soccer Players,3,Carli Lloyd
+United States,2015,Women's Soccer Players,4,Abby Wambach
+United States,2015,Women's Soccer Players,5,Megan Rapinoe
+United States,2015,Workouts and Exercises,1,Yoga with Adriene
+United States,2015,Workouts and Exercises,2,Yoga Challenge
+United States,2015,Workouts and Exercises,3,21 Day Fix
+United States,2015,Workouts and Exercises,4,Crossfit
+United States,2015,Workouts and Exercises,5,Team Beachbody
+United States,2016,Searches,1,Powerball
+United States,2016,Searches,2,Prince
+United States,2016,Searches,3,Hurricane Matthew
+United States,2016,Searches,4,Pokémon Go
+United States,2016,Searches,5,Slither.io
+United States,2016,News,1,Olympics
+United States,2016,News,2,Election
+United States,2016,News,3,Orlando Shooting
+United States,2016,News,4,Brexit
+United States,2016,News,5,Zika Virus
+United States,2016,People,1,Donald Trump
+United States,2016,People,2,Hillary Clinton
+United States,2016,People,3,Michael Phelps
+United States,2016,People,4,Bernie Sanders
+United States,2016,People,5,Steven Avery
+United States,2016,Actors,1,Brad Pitt
+United States,2016,Actors,2,Tom Hiddleston
+United States,2016,Actors,3,Adam Driver
+United States,2016,Actors,4,Jesse Williams
+United States,2016,Actors,5,Tom Holland
+United States,2016,Actresses,1,Meghan Markle
+United States,2016,Actresses,2,Marion Cotillard
+United States,2016,Actresses,3,Jodie Sweetin
+United States,2016,Actresses,4,Daisy Ridley
+United States,2016,Actresses,5,Brie Larson
+United States,2016,Athletes,1,Michael Phelps
+United States,2016,Athletes,2,Ryan Lochte
+United States,2016,Athletes,3,Simone Biles
+United States,2016,Athletes,4,Cam Newton
+United States,2016,Athletes,5,Usain Bolt
+United States,2016,Beer,1,Budweiser America
+United States,2016,Beer,2,Coors
+United States,2016,Beer,3,Treehouse Brewing
+United States,2016,Beer,4,Delirium Tremens Beer
+United States,2016,Beer,5,Snake Venom Beer
+United States,2016,Calorie Searches,1,Big Mac
+United States,2016,Calorie Searches,2,Coors
+United States,2016,Calorie Searches,3,Quinoa
+United States,2016,Calorie Searches,4,Glass of Wine
+United States,2016,Calorie Searches,5,Eggplant
+United States,2016,Car Brands,1,Honda
+United States,2016,Car Brands,2,Mercedes-Benz
+United States,2016,Car Brands,3,Tesla
+United States,2016,Car Brands,4,Lamborghini
+United States,2016,Car Brands,5,Volvo
+United States,2016,Cocktails,1,Sangria
+United States,2016,Cocktails,2,Martini
+United States,2016,Cocktails,3,StrawberryDaiquiri
+United States,2016,Cocktails,4,Sex on the Beach
+United States,2016,Cocktails,5,Mojito
+United States,2016,Consumer Tech,1,iPhone SE
+United States,2016,Consumer Tech,2,iOS 10
+United States,2016,Consumer Tech,3,Google Pixel
+United States,2016,Consumer Tech,4,Iphone 7 Plus
+United States,2016,Consumer Tech,5,Nintendo Switch
+United States,2016,Diets,1,GOLO Diet
+United States,2016,Diets,2,Taco Diet
+United States,2016,Diets,3,Military Diet Substitutes
+United States,2016,Diets,4,Atkins 40
+United States,2016,Diets,5,Ketogenic Diet Foods
+United States,2016,Dog Questions,1,How long are dogs pregnant?
+United States,2016,Dog Questions,2,Was Goofy a dog?
+United States,2016,Dog Questions,3,Why does my dog lick me?
+United States,2016,Dog Questions,4,How can you tell how old a dog is?
+United States,2016,Dog Questions,5,What happens when a dog eats chocolate?
+United States,2016,Election Moments,1,Super Tuesday
+United States,2016,Election Moments,2,Primary Election Results
+United States,2016,Election Moments,3,Iowa Caucus
+United States,2016,Election Moments,4,Popular Vote
+United States,2016,Election Moments,5,New Hampshire Primary
+United States,2016,Election Questions,1,Where do I vote?
+United States,2016,Election Questions,2,Who won the election?
+United States,2016,Election Questions,3,Where do I vote early?
+United States,2016,Election Questions,4,How to register to vote?
+United States,2016,Election Questions,5,Who won the popular vote?
+United States,2016,Fashion Designers,1,Rachel Roy
+United States,2016,Fashion Designers,2,Mary Kate and Ashley Olsen
+United States,2016,Fashion Designers,3,Angela Simmons
+United States,2016,Fashion Designers,4,Zendaya
+United States,2016,Fashion Designers,5,Kendall and Kylie
+United States,2016,GIFs,1,Puppy Monkey Baby
+United States,2016,GIFs,2,Bautista Bat Flip
+United States,2016,GIFs,3,Dat Boi
+United States,2016,GIFs,4,Just Do It
+United States,2016,GIFs,5,Dancing Kid
+United States,2016,How to...,1,How to play Pokémon Go?
+United States,2016,How to...,2,How to register to vote?
+United States,2016,How to...,3,How to play Powerball?
+United States,2016,How to...,4,How to make slime?
+United States,2016,How to...,5,How to move to Canada?
+United States,2016,Losses,1,Prince
+United States,2016,Losses,2,David Bowie
+United States,2016,Losses,3,Christina Grimmie
+United States,2016,Losses,4,Muhammad Ali
+United States,2016,Losses,5,Alan Rickman
+United States,2016,Memes,1,Harambe
+United States,2016,Memes,2,Damn Daniel
+United States,2016,Memes,3,Pokémon Go
+United States,2016,Memes,4,Dat Boi
+United States,2016,Memes,5,SpongeBob Caveman
+United States,2016,Men's Soccer Players,1,Lionel Messi
+United States,2016,Men's Soccer Players,2,Neymar
+United States,2016,Men's Soccer Players,3,Zlatan Ibrahimović
+United States,2016,Men's Soccer Players,4,Raheem Sterling
+United States,2016,Men's Soccer Players,5,Paul Pogba
+United States,2016,MLB Players,1,Kris Bryant
+United States,2016,MLB Players,2,Anthony Rizzo
+United States,2016,MLB Players,3,David Ross
+United States,2016,MLB Players,4,Curt Schilling
+United States,2016,MLB Players,5,Aroldis Chapman
+United States,2016,MLB Teams,1,Chicago Cubs
+United States,2016,MLB Teams,2,Cleveland Indians
+United States,2016,MLB Teams,3,Boston Red Sox
+United States,2016,MLB Teams,4,Los Angeles Dodgers
+United States,2016,MLB Teams,5,San Francisco Giants
+United States,2016,MLS Soccer Teams,1,Seattle Sounders FC
+United States,2016,MLS Soccer Teams,2,Toronto FC
+United States,2016,MLS Soccer Teams,3,Portland Timbers
+United States,2016,MLS Soccer Teams,4,Sporting KC
+United States,2016,MLS Soccer Teams,5,D.C. United
+United States,2016,Movies,1,Suicide Squad
+United States,2016,Movies,2,Batman v Superman
+United States,2016,Movies,3,Finding Dory
+United States,2016,Movies,4,The Revenant
+United States,2016,Movies,5,Zootopia
+United States,2016,Musicians,1,Beyoncé
+United States,2016,Musicians,2,Céline Dion
+United States,2016,Musicians,3,Kesha
+United States,2016,Musicians,4,Kehlani
+United States,2016,Musicians,5,Coldplay
+United States,2016,Natural Events,1,Hurricane Matthew
+United States,2016,Natural Events,2,Hurricane Hermine
+United States,2016,Natural Events,3,Italy Earthquake
+United States,2016,Natural Events,4,Great Barrier Reef
+United States,2016,Natural Events,5,Japan Earthquake
+United States,2016,NBA Players,1,Kevin Durant
+United States,2016,NBA Players,2,Steven Adams
+United States,2016,NBA Players,3,Draymond Green
+United States,2016,NBA Players,4,Dwight Howard
+United States,2016,NBA Players,5,Dwyane Wade
+United States,2016,NBA Teams,1,Oklahoma City Thunder
+United States,2016,NBA Teams,2,Golden State Warriors
+United States,2016,NBA Teams,3,Cleveland Cavaliers
+United States,2016,NBA Teams,4,Los Angeles Lakers
+United States,2016,NBA Teams,5,Toronto Raptors
+United States,2016,NFL Players,1,Cam Newton
+United States,2016,NFL Players,2,Colin Kaepernick
+United States,2016,NFL Players,3,Dak Prescott
+United States,2016,NFL Players,4,Carson Wentz
+United States,2016,NFL Players,5,Laremy Tunsil
+United States,2016,NFL Teams,1,Carolina Panthers
+United States,2016,NFL Teams,2,Los Angeles Rams
+United States,2016,NFL Teams,3,Denver Broncos
+United States,2016,NFL Teams,4,Minnesota Vikings
+United States,2016,NFL Teams,5,Pittsburgh Steelers
+United States,2016,NHL Players,1,Sidney Crosby
+United States,2016,NHL Players,2,Jaromír Jágr
+United States,2016,NHL Players,3,Steven Stamkos
+United States,2016,NHL Players,4,Phil Kessel
+United States,2016,NHL Players,5,Zdeno Chára
+United States,2016,NHL Teams,1,Pittsburgh Penguins
+United States,2016,NHL Teams,2,San Jose Sharks
+United States,2016,NHL Teams,3,St. Louis Blues
+United States,2016,NHL Teams,4,Dallas Stars
+United States,2016,NHL Teams,5,Toronto Maple Leafs
+United States,2016,Olympic Athletes,1,Michael Phelps
+United States,2016,Olympic Athletes,2,Ryan Lochte
+United States,2016,Olympic Athletes,3,Simone Biles
+United States,2016,Olympic Athletes,4,Usain Bolt
+United States,2016,Olympic Athletes,5,Aly Raisman
+United States,2016,Olympic Events,1,Soccer
+United States,2016,Olympic Events,2,Basketball
+United States,2016,Olympic Events,3,Gymnastics
+United States,2016,Olympic Events,4,Tennis
+United States,2016,Olympic Events,5,Swimming
+United States,2016,Olympic Moments,1,Olympics Opening Ceremony
+United States,2016,Olympic Moments,2,Olympics Closing Ceremony
+United States,2016,Olympic Moments,3,Tonga Flag Bearer
+United States,2016,Olympic Moments,4,Olympic Bike Crash
+United States,2016,Olympic Moments,5,Olympic Refugee Team
+United States,2016,Oscar Red Carpet Dresses,1,Jennifer Garner
+United States,2016,Oscar Red Carpet Dresses,2,Jennifer Lawrence
+United States,2016,Oscar Red Carpet Dresses,3,Charlize Theron
+United States,2016,Oscar Red Carpet Dresses,4,Rachel McAdams
+United States,2016,Oscar Red Carpet Dresses,5,Brie Larson
+United States,2016,Politicians,1,Donald Trump
+United States,2016,Politicians,2,Hillary Clinton
+United States,2016,Politicians,3,Bernie Sanders
+United States,2016,Politicians,4,Ted Cruz
+United States,2016,Politicians,5,Mike Pence
+United States,2016,Recipes,1,Green Bean Casserole
+United States,2016,Recipes,2,Brussel Sprouts
+United States,2016,Recipes,3,Hashbrown Casserole
+United States,2016,Recipes,4,Guacamole
+United States,2016,Recipes,5,Chicken Marsala
+United States,2016,Selfies,1,Kim Kardashian
+United States,2016,Selfies,2,Sharon Osbourne
+United States,2016,Selfies,3,Usher
+United States,2016,Selfies,4,Sebastian Stan
+United States,2016,Selfies,5,Donald Trump
+United States,2016,Soccer Teams (all),1,Tottenham Hotspur F.C.
+United States,2016,Soccer Teams (all),2,Liverpool F.C.
+United States,2016,Soccer Teams (all),3,C.D. Guadalajara
+United States,2016,Soccer Teams (all),4,Leicester City F.C.
+United States,2016,Soccer Teams (all),5,Borussia Dortmund
+United States,2016,Songs,1,Formation
+United States,2016,Songs,2,Purple Rain
+United States,2016,Songs,3,Black Beatles
+United States,2016,Songs,4,Panda
+United States,2016,Songs,5,One Dance
+United States,2016,Sports Teams,1,Chicago Cubs
+United States,2016,Sports Teams,2,Cleveland Indians
+United States,2016,Sports Teams,3,Pittsburgh Penguins
+United States,2016,Sports Teams,4,Oklahoma City Thunder
+United States,2016,Sports Teams,5,Carolina Panthers
+United States,2016,Travel Questions,1,Where is Bali?
+United States,2016,Travel Questions,2,What to do in Vegas?
+United States,2016,Travel Questions,3,What to do in San Francisco?
+United States,2016,Travel Questions,4,Where is Corfu?
+United States,2016,Travel Questions,5,What to do in Orlando?
+United States,2016,TV Shows,1,Stranger Things
+United States,2016,TV Shows,2,Making a Murderer
+United States,2016,TV Shows,3,Fuller House
+United States,2016,TV Shows,4,Westworld
+United States,2016,TV Shows,5,The People v. O.J. Simpson: American Crime Story
+United States,2016,Video Games,1,Slither.io
+United States,2016,Video Games,2,Agar.io
+United States,2016,Video Games,3,Overwatch
+United States,2016,Video Games,4,Battlefield 1
+United States,2016,Video Games,5,Warcraft
+United States,2016,What is...,1,What is Pokémon Go?
+United States,2016,What is...,2,What is a Caucus?
+United States,2016,What is...,3,What is Brexit?
+United States,2016,What is...,4,What are electoral votes?
+United States,2016,What is...,5,What is the Electoral College?
+United States,2016,WNBA Players,1,Elena Delle Donne
+United States,2016,WNBA Players,2,Breanna Stewart
+United States,2016,WNBA Players,3,Candace Parker
+United States,2016,WNBA Players,4,Diana Taurasi
+United States,2016,WNBA Players,5,Maya Moore
+United States,2016,WNBA Teams,1,Minnesota Lynx
+United States,2016,WNBA Teams,2,Seattle Storm
+United States,2016,WNBA Teams,3,Los Angeles Sparks
+United States,2016,WNBA Teams,4,Chicago Sky
+United States,2016,WNBA Teams,5,New York Liberty
+United States,2016,Women's Soccer Players,1,Hope Solo
+United States,2016,Women's Soccer Players,2,Mallory Pugh
+United States,2016,Women's Soccer Players,3,Crystal Dunn
+United States,2016,Women's Soccer Players,4,Alexandra Long
+United States,2016,Women's Soccer Players,5,Stephanie Labbé
+United States,2016,Workouts and Exercises,1,Cize workout
+United States,2016,Workouts and Exercises,2,Rotator cuff exercises
+United States,2016,Workouts and Exercises,3,8 minute back workout
+United States,2016,Workouts and Exercises,4,Steve Reeves workout
+United States,2016,Workouts and Exercises,5,Triceps workout
+United States,2017,Searches,1,Hurricane Irma
+United States,2017,Searches,2,Matt Lauer
+United States,2017,Searches,3,Tom Petty
+United States,2017,Searches,4,Super Bowl
+United States,2017,Searches,5,Las Vegas shooting
+United States,2017,People,1,Matt Lauer
+United States,2017,People,2,Meghan Markle
+United States,2017,People,3,Harvey Weinstein
+United States,2017,People,4,Michael Flynn
+United States,2017,People,5,Kevin Spacey
+United States,2017,News,1,Hurricane Irma
+United States,2017,News,2,Las Vegas shooting
+United States,2017,News,3,Solar Eclipse
+United States,2017,News,4,Hurricane Harvey
+United States,2017,News,5,Bitcoin Price
+United States,2017,Activations (protests),1,NFL National Anthem protests
+United States,2017,Activations (protests),2,Charlottesville protests
+United States,2017,Activations (protests),3,Boston Free Speech rally
+United States,2017,Activations (protests),4,UC Berkeley protests
+United States,2017,Activations (protests),5,St. Louis protests
+United States,2017,Actors,1,Meghan Markle
+United States,2017,Actors,2,Kevin Spacey
+United States,2017,Actors,3,Gal Gadot
+United States,2017,Actors,4,Louis C.K
+United States,2017,Actors,5,Meryl Streep
+United States,2017,Athletes,1,Floyd Mayweather
+United States,2017,Athletes,2,Gordon Hayward
+United States,2017,Athletes,3,Aaron Boone
+United States,2017,Athletes,4,Paul George
+United States,2017,Athletes,5,Tony Romo
+United States,2017,Calories,1,Unicorn Frappuccino calories
+United States,2017,Calories,2,Grand Mac calories
+United States,2017,Calories,3,Naked Chicken Chalupa calories
+United States,2017,Calories,4,Mac Jr calories
+United States,2017,Calories,5,Cascara Latte calories
+United States,2017,Car Brands,1,Ford
+United States,2017,Car Brands,2,Lexus
+United States,2017,Car Brands,3,Kia
+United States,2017,Car Brands,4,Toyota
+United States,2017,Car Brands,5,Honda
+United States,2017,Consumer Tech,1,iPhone 8
+United States,2017,Consumer Tech,2,iPhone X
+United States,2017,Consumer Tech,3,Nintendo Switch
+United States,2017,Consumer Tech,4,Samsung Galaxy S8
+United States,2017,Consumer Tech,5,Razer Phone
+United States,2017,Dog Breeds,1,Golden Retriever
+United States,2017,Dog Breeds,2,Poodle
+United States,2017,Dog Breeds,3,Pembroke Welsh Corgi
+United States,2017,Dog Breeds,4,French Bulldog
+United States,2017,Dog Breeds,5,Australian Shepherd
+United States,2017,How to...,1,How to make slime
+United States,2017,How to...,2,How to make solar eclipse glasses
+United States,2017,How to...,3,How to watch the solar eclipse
+United States,2017,How to...,4,How to watch Mayweather vs McGregor
+United States,2017,How to...,5,How to buy Bitcoin
+United States,2017,Losses,1,Tom Petty
+United States,2017,Losses,2,Aaron Hernandez
+United States,2017,Losses,3,Chris Cornell
+United States,2017,Losses,4,Bill Paxton
+United States,2017,Losses,5,Hugh Hefner
+United States,2017,Movies,1,IT
+United States,2017,Movies,2,Beauty and the Beast
+United States,2017,Movies,3,Wonder Woman
+United States,2017,Movies,4,Get Out
+United States,2017,Movies,5,Justice League
+United States,2017,Musicians and Bands,1,Linkin Park
+United States,2017,Musicians and Bands,2,Cardi B
+United States,2017,Musicians and Bands,3,Lil Pump
+United States,2017,Musicians and Bands,4,Joyner Lucas
+United States,2017,Musicians and Bands,5,Jason Aldean
+United States,2017,Professional Sports Teams,1,New York Yankees
+United States,2017,Professional Sports Teams,2,Houston Astros
+United States,2017,Professional Sports Teams,3,Boston Celtics
+United States,2017,Professional Sports Teams,4,Los Angeles Dodgers
+United States,2017,Professional Sports Teams,5,Atlanta Falcons
+United States,2017,Recipes,1,Beef Stroganoff recipe
+United States,2017,Recipes,2,Apple Crisps recipe
+United States,2017,Recipes,3,Corn Casserole recipe
+United States,2017,Recipes,4,Brine Turkey recipe
+United States,2017,Recipes,5,Zucchini recipe
+United States,2017,Selfies,1,Monkey selfie
+United States,2017,Selfies,2,Al Sharpton selfie
+United States,2017,Selfies,3,Nia Jax selfie
+United States,2017,Selfies,4,Eclipse selfie
+United States,2017,Selfies,5,Kaia Gerber selfie
+United States,2017,Songs/Lyrics,1,Despacito
+United States,2017,Songs/Lyrics,2,Humble.
+United States,2017,Songs/Lyrics,3,Bad and Boujee
+United States,2017,Songs/Lyrics,4,Look What You Made Me Do
+United States,2017,Songs/Lyrics,5,Bodak Yellow
+United States,2017,TV Shows,1,13 Reasons Why
+United States,2017,TV Shows,2,Game of Thrones
+United States,2017,TV Shows,3,This Is Us
+United States,2017,TV Shows,4,Iron Fist
+United States,2017,TV Shows,5,Riverdale
+United States,2017,What is...,1,What is DACA?
+United States,2017,What is...,2,What is Bitcoin?
+United States,2017,What is...,3,What is a solar eclipse?
+United States,2017,What is...,4,What is ANTIFA?
+United States,2017,What is...,5,What is net neutrality?
+United States,2017,Workouts and Exercises,1,Murph crossfit workout
+United States,2017,Workouts and Exercises,2,Bungee workout
+United States,2017,Workouts and Exercises,3,Tabata workout
+United States,2017,Workouts and Exercises,4,TRX workout
+United States,2017,Workouts and Exercises,5,Burpees exercise
+United States,2017,¿Cómo...?,1,¿Cómo quedaron los grupos del mundial 2018?
+United States,2017,¿Cómo...?,2,¿Cómo se forma un huracán?
+United States,2017,¿Cómo...?,3,¿Cómo va el huracán Irma?
+United States,2017,¿Cómo...?,4,¿Cómo ver el eclipse solar?
+United States,2017,¿Cómo...?,5,¿Cómo murió Chalino Sánchez?
+United States,2017,¿Dónde...?,1,¿Dónde está el huracán Irma?
+United States,2017,¿Dónde...?,2,¿Dónde está mi reembolso IRS?
+United States,2017,¿Dónde...?,3,¿Dónde está la falla de San Andrés?
+United States,2017,¿Dónde...?,4,¿Dónde nació Golovkin?
+United States,2017,¿Dónde...?,5,¿Dónde está Bárbara Bermudo?
+United States,2017,Equipos de fútbol,1,Selección de fútbol de México
+United States,2017,Equipos de fútbol,2,FC Barcelona
+United States,2017,Equipos de fútbol,3,Real Madrid C.F.
+United States,2017,Equipos de fútbol,4,C.F. Monterrey
+United States,2017,Equipos de fútbol,5,Selección de fútbol de Honduras
+United States,2017,Películas,1,Coco
+United States,2017,Películas,2,No manches Frida
+United States,2017,Películas,3,Rápidos y furiosos 8
+United States,2017,Películas,4,Nosotros los Nobles
+United States,2017,Películas,5,La cabaña
+United States,2017,¿Qué es...?,1,¿Qué es el mecanismo de Anticitera?
+United States,2017,¿Qué es...?,2,¿Qué es DACA?
+United States,2017,¿Qué es...?,3,¿Qué es un eclipse solar?
+United States,2017,¿Qué es...?,4,¿Qué es la falla de San Andrés?
+United States,2017,¿Qué es...?,5,¿Qué es la enfermedad purpura?
+United States,2017,Recetas,1,Capirotada
+United States,2017,Recetas,2,Pavochón
+United States,2017,Recetas,3,Michelada
+United States,2017,Recetas,4,Picadillo
+United States,2017,Recetas,5,Lomo saltado
+United States,2018,Searches,1,World Cup
+United States,2018,Searches,2,Hurricane Florence
+United States,2018,Searches,3,Mac Miller
+United States,2018,Searches,4,Kate Spade
+United States,2018,Searches,5,Anthony Bourdain
+United States,2018,News,1,World Cup
+United States,2018,News,2,Hurricane Florence
+United States,2018,News,3,Mega Millions
+United States,2018,News,4,Election Results
+United States,2018,News,5,Hurricane Michael
+United States,2018,People,1,Demi Lovato
+United States,2018,People,2,Meghan Markle
+United States,2018,People,3,Brett Kavanaugh
+United States,2018,People,4,Logan Paul
+United States,2018,People,5,Khloé Kardashian
+United States,2018,Actors,1,Logan Paul
+United States,2018,Actors,2,Bill Cosby
+United States,2018,Actors,3,Sylvester Stallone
+United States,2018,Actors,4,Pete Davidson
+United States,2018,Actors,5,Michael B. Jordan
+United States,2018,Athletes,1,Tristan Thompson
+United States,2018,Athletes,2,Shaun White
+United States,2018,Athletes,3,Lindsey Vonn
+United States,2018,Athletes,4,Le'Veon Bell
+United States,2018,Athletes,5,Kawhi Leonard
+United States,2018,Beauty Questions,1,How to apply magnetic lashes
+United States,2018,Beauty Questions,2,What is a lash lift
+United States,2018,Beauty Questions,3,How to remove individual eyelashes
+United States,2018,Beauty Questions,4,What hair color looks best on me
+United States,2018,Beauty Questions,5,How to do cat eye
+United States,2018,Diet,1,Keto diet
+United States,2018,Diet,2,Dubrow diet
+United States,2018,Diet,3,Noom diet
+United States,2018,Diet,4,Carnivore diet
+United States,2018,Diet,5,Mediterranean diet
+United States,2018,Fashion Brands,1,Fashion Nova
+United States,2018,Fashion Brands,2,Louis Vuitton
+United States,2018,Fashion Brands,3,Versace
+United States,2018,Fashion Brands,4,Givenchy
+United States,2018,Fashion Brands,5,Gucci
+United States,2018,Fashion Searches,1,1980s fashion
+United States,2018,Fashion Searches,2,Grunge style
+United States,2018,Fashion Searches,3,1990s fashion
+United States,2018,Fashion Searches,4,2000s fashion
+United States,2018,Fashion Searches,5,Meghan Markle
+United States,2018,Food,1,Unicorn cake
+United States,2018,Food,2,Romaine lettuce
+United States,2018,Food,3,CBD gummies
+United States,2018,Food,4,Keto pancakes
+United States,2018,Food,5,Keto cheesecake
+United States,2018,GIFs,1,Fortnite GIF
+United States,2018,GIFs,2,Default Dance GIF
+United States,2018,GIFs,3,Dilly Dilly GIF
+United States,2018,GIFs,4,Orange Justice GIF
+United States,2018,GIFs,5,Black Panther GIF
+United States,2018,How to,1,How to vote
+United States,2018,How to,2,How to register to vote
+United States,2018,How to,3,How to play Mega Millions
+United States,2018,How to,4,How to buy Ripple
+United States,2018,How to,5,How to turn off automatic updates
+United States,2018,Loss,1,Mac Miller
+United States,2018,Loss,2,Kate Spade
+United States,2018,Loss,3,Anthony Bourdain
+United States,2018,Loss,4,Stan Lee
+United States,2018,Loss,5,Aretha Franklin
+United States,2018,Movies,1,Black Panther
+United States,2018,Movies,2,Incredibles 2
+United States,2018,Movies,3,Deadpool 2
+United States,2018,Movies,4,Avengers: Infinity War
+United States,2018,Movies,5,A Quiet Place
+United States,2018,Musicians and Bands,1,Demi Lovato
+United States,2018,Musicians and Bands,2,Eminem
+United States,2018,Musicians and Bands,3,Ariana Grande
+United States,2018,Musicians and Bands,4,Rick Ross
+United States,2018,Musicians and Bands,5,Cardi B
+United States,2018,Politicians,1,Stacey Abrams
+United States,2018,Politicians,2,Beto O'Rourke
+United States,2018,Politicians,3,Ted Cruz
+United States,2018,Politicians,4,Andrew Gillum
+United States,2018,Politicians,5,Alexandria Ocasio-Cortez
+United States,2018,Professional Sports Teams,1,Cleveland Cavaliers
+United States,2018,Professional Sports Teams,2,Boston Red Sox
+United States,2018,Professional Sports Teams,3,Philadelphia Eagles
+United States,2018,Professional Sports Teams,4,New York Yankees
+United States,2018,Professional Sports Teams,5,Los Angeles Dodgers
+United States,2018,Songs,1,Bohemian Rhapsody
+United States,2018,Songs,2,This Is America
+United States,2018,Songs,3,Baby Shark
+United States,2018,Songs,4,God's Plan
+United States,2018,Songs,5,Killshot
+United States,2018,TV Shows,1,Roseanne
+United States,2018,TV Shows,2,Altered Carbon
+United States,2018,TV Shows,3,The Haunting of Hill House
+United States,2018,TV Shows,4,American Idol
+United States,2018,TV Shows,5,Lost in Space
+United States,2018,Weddings,1,Royal Wedding
+United States,2018,Weddings,2,Priyanka Chopra Wedding
+United States,2018,Weddings,3,Princess Eugenie Wedding
+United States,2018,Weddings,4,Kat Von D Wedding
+United States,2018,Weddings,5,Deepika Padukone Wedding
+United States,2018,What is...?,1,What is Bitcoin
+United States,2018,What is...?,2,What is racketeering
+United States,2018,What is...?,3,What is DACA
+United States,2018,What is...?,4,What is a government shutdown
+United States,2018,What is...?,5,What is Good Friday
+United States,2018,Where is...?,1,Where is Villanova University
+United States,2018,Where is...?,2,Where is Croatia
+United States,2018,Where is...?,3,Where is Parkland Florida
+United States,2018,Where is...?,4,Where is Hurricane Florence
+United States,2018,Where is...?,5,Where is Hurricane Michael
+United States,2018,Who...?,1,Who won Mega Millions
+United States,2018,Who...?,2,Who dies in Infinity War
+United States,2018,Who...?,3,Who won McGregor vs Khabib
+United States,2018,Who...?,4,Who won Logan or KSI
+United States,2018,Who...?,5,Who killed XXXTentacion
+United States,2018,World Cup Teams,1,Mexico National Football Team
+United States,2018,World Cup Teams,2,Brazil National Football Team
+United States,2018,World Cup Teams,3,Germany National Football Team
+United States,2018,World Cup Teams,4,Argentina National Football Team
+United States,2018,World Cup Teams,5,Croatia National Football Team
+United States,2018,Cómo... ?,1,Cómo bajar la presion alta
+United States,2018,Cómo... ?,2,Cómo decorar una sala
+United States,2018,Cómo... ?,3,Cómo aprender ingles rapido
+United States,2018,Cómo... ?,4,Cómo recuperar mi cuenta de Facebook
+United States,2018,Cómo... ?,5,Cómo se si gane algo en Mega Millions
+United States,2018,Dónde...?,1,Dónde votar
+United States,2018,Dónde...?,2,Dónde sera el mundial 2022
+United States,2018,Dónde...?,3,Dónde esta la leche
+United States,2018,Dónde...?,4,Dónde esta mi reembolso irs
+United States,2018,Dónde...?,5,Dónde esta mi telefono
+United States,2018,Qué es...?,1,Qué es el movimiento naranja
+United States,2018,Qué es...?,2,Qué els clenbuterol
+United States,2018,Qué es...?,3,Qué es la cuaresma
+United States,2018,Qué es...?,4,Qué es badabun
+United States,2018,Qué es...?,5,Qué es heterosexual
+United States,2018,Recetas,1,Capirotada receta
+United States,2018,Recetas,2,Receta de chocoflan
+United States,2018,Recetas,3,Chimichurri receta
+United States,2018,Recetas,4,Coctel de camaron receta
+United States,2018,Recetas,5,Lentejas receta
+United States,2018,Canciones,1,Te Bote Remix
+United States,2018,Canciones,2,Aerolinea Carrillo
+United States,2018,Canciones,3,A Traves del Vaso
+United States,2018,Canciones,4,Amor Foda
+United States,2018,Canciones,5,Rolling One
+United States,2018,Video Games,1,Fortnite
+United States,2018,Video Games,2,Red Dead Redemption 2
+United States,2018,Video Games,3,Fallout 76
+United States,2018,Video Games,4,Far Cry 5
+United States,2018,Video Games,5,God of War
+United States,2019,Searches,1,Disney Plus
+United States,2019,Searches,2,Cameron Boyce
+United States,2019,Searches,3,Nipsey Hussle
+United States,2019,Searches,4,Hurricane Dorian
+United States,2019,Searches,5,Antonio Brown
+United States,2019,News,1,Hurricane Dorian
+United States,2019,News,2,Notre Dame Cathedral
+United States,2019,News,3,Women's World Cup
+United States,2019,News,4,Area 51 raid
+United States,2019,News,5,Copa America
+United States,2019,People,1,Antonio Brown
+United States,2019,People,2,Jussie Smollett
+United States,2019,People,3,James Charles
+United States,2019,People,4,Kevin Hart
+United States,2019,People,5,R. Kelly
+United States,2019,Actors,1,Jussie Smollett
+United States,2019,Actors,2,Kevin Hart
+United States,2019,Actors,3,Lori Loughlin
+United States,2019,Actors,4,Felicity Huffman
+United States,2019,Actors,5,Keanu Reeves
+United States,2019,Athletes,1,Antonio Brown
+United States,2019,Athletes,2,Bryce Harper
+United States,2019,Athletes,3,David Ortiz
+United States,2019,Athletes,4,Andrew Luck
+United States,2019,Athletes,5,Myles Garrett
+United States,2019,Babies,1,Baby Yoda
+United States,2019,Babies,2,Baby Shark
+United States,2019,Babies,3,Royal baby
+United States,2019,Babies,4,Kim Kardashian Kanye West baby
+United States,2019,Babies,5,Cardi B baby
+United States,2019,Diets,1,Intermittent fasting diet
+United States,2019,Diets,2,Dr. Sebi diet
+United States,2019,Diets,3,Noom diet
+United States,2019,Diets,4,1200 calories diet
+United States,2019,Diets,5,Golo diet
+United States,2019,Fashion Style searches,1,Camp style
+United States,2019,Fashion Style searches,2,Egirl style
+United States,2019,Fashion Style searches,3,Eboy style
+United States,2019,Fashion Style searches,4,Steampunk style
+United States,2019,Fashion Style searches,5,Harajuku style
+United States,2019,Home Style searches,1,Farmhouse style
+United States,2019,Home Style searches,2,Colonial house style
+United States,2019,Home Style searches,3,Cape Cod house style
+United States,2019,Home Style searches,4,Spanish style house
+United States,2019,Home Style searches,5,Art deco style
+United States,2019,Movies,1,Avengers: Endgame
+United States,2019,Movies,2,Captain Marvel
+United States,2019,Movies,3,Joker
+United States,2019,Movies,4,Toy Story 4
+United States,2019,Movies,5,The Lion King
+United States,2019,Musicians and Bands,1,R. Kelly
+United States,2019,Musicians and Bands,2,21 Savage
+United States,2019,Musicians and Bands,3,Billie Eilish
+United States,2019,Musicians and Bands,4,Lil Nas X
+United States,2019,Musicians and Bands,5,A$AP Rocky
+United States,2019,Outfit ideas,1,EGirl outfit
+United States,2019,Outfit ideas,2,Eboy outfit
+United States,2019,Outfit ideas,3,Soft girl outfit
+United States,2019,Outfit ideas,4,Biker shorts outfit
+United States,2019,Outfit ideas,5,VSCO girl outfit
+United States,2019,Passings,1,Cameron Boyce
+United States,2019,Passings,2,Nipsey Hussle
+United States,2019,Passings,3,Luke Perry
+United States,2019,Passings,4,Jeffrey Epstein
+United States,2019,Passings,5,Tyler Skaggs
+United States,2019,People of the Red Carpet,1,Billy Porter
+United States,2019,People of the Red Carpet,2,Cardi B
+United States,2019,People of the Red Carpet,3,Lady Gaga
+United States,2019,People of the Red Carpet,4,Amy Schumer husband
+United States,2019,People of the Red Carpet,5,Jenny McCarthy
+United States,2019,Professional Sports Scores,1,Washington Nationals
+United States,2019,Professional Sports Scores,2,Boston Bruins
+United States,2019,Professional Sports Scores,3,St. Louis Cardinals
+United States,2019,Professional Sports Scores,4,Dallas Cowboys
+United States,2019,Professional Sports Scores,5,St. Louis Blues
+United States,2019,Recipes,1,Shepherd's pie
+United States,2019,Recipes,2,Chicken parmigiana
+United States,2019,Recipes,3,Ham glaze
+United States,2019,Recipes,4,Charoset
+United States,2019,Recipes,5,Snickerdoodle cookies
+United States,2019,Songs,1,Old Town Road
+United States,2019,Songs,2,7 Rings
+United States,2019,Songs,3,Shallow
+United States,2019,Songs,4,Sunflower
+United States,2019,Songs,5,Truth Hurts
+United States,2019,Trip to...,1,Maldives
+United States,2019,Trip to...,2,Japan
+United States,2019,Trip to...,3,Bora Bora
+United States,2019,Trip to...,4,Las Vegas
+United States,2019,Trip to...,5,Mexico
+United States,2019,TV Shows,1,Game of Thrones
+United States,2019,TV Shows,2,Stranger Things
+United States,2019,TV Shows,3,When They See Us
+United States,2019,TV Shows,4,Chernobyl
+United States,2019,TV Shows,5,The Mandalorian
+United States,2019,Weddings,1,Miranda Lambert
+United States,2019,Weddings,2,Jennifer Lawrence
+United States,2019,Weddings,3,Justin Bieber
+United States,2019,Weddings,4,Miley Cyrus
+United States,2019,Weddings,5,Chiquis Rivera
+United States,2019,What is...?,1,What is Area 51
+United States,2019,What is...?,2,What is a VSCO girl
+United States,2019,What is...?,3,What is momo
+United States,2019,What is...?,4,What is a boomer
+United States,2019,What is...?,5,What is quid pro quo
+United States,2019,Where is...?,1,Where is Sri Lanka
+United States,2019,Where is...?,2,Where is the Super Bowl this year
+United States,2019,Where is...?,3,Where is Area 51
+United States,2019,Where is...?,4,Where is 21 Savage from
+United States,2019,Where is...?,5,Where is the hurricane now
+United States,2019,Como...,1,Cómo aprender ingles rapido
+United States,2019,Como...,2,Cómo bajar la presión alta
+United States,2019,Como...,3,Cómo desbloquear un teléfono
+United States,2019,Como...,4,Cómo bajar el colesterol
+United States,2019,Como...,5,Cómo está el dólar hoy en México
+United States,2019,Donde...,1,Dónde está el huracán Dorian
+United States,2019,Donde...,2,Dónde voto
+United States,2019,Donde...,3,Dónde está mi reembolso del estado
+United States,2019,Donde...,4,Dónde está Martinica
+United States,2019,Donde...,5,Dónde se juega la Copa Oro
+United States,2019,Peliculas,1,Roma
+United States,2019,Peliculas,2,The Curse of La Llorona
+United States,2019,Peliculas,3,Qué León
+United States,2019,Peliculas,4,Todas Caen
+United States,2019,Peliculas,5,Solteras
+United States,2019,Que es...,1,Qué es poligamia
+United States,2019,Que es...,2,Qué es meningitis
+United States,2019,Que es...,3,Qué es cadena perpetua
+United States,2019,Que es...,4,Qué es pansexual
+United States,2019,Que es...,5,Qué es el area 51
+United States,2019,Recetas,1,Capirotada
+United States,2019,Recetas,2,Coctél de camarón
+United States,2019,Recetas,3,Fresas con crema
+United States,2019,Recetas,4,Flan
+United States,2019,Recetas,5,Albóndigas
+United States,2020,Searches,1,Election results
+United States,2020,Searches,2,Coronavirus
+United States,2020,Searches,3,Kobe Bryant
+United States,2020,Searches,4,Coronavirus update
+United States,2020,Searches,5,Coronavirus symptoms
+United States,2020,News,1,Election results
+United States,2020,News,2,Coronavirus
+United States,2020,News,3,Stimulus checks
+United States,2020,News,4,Unemployment
+United States,2020,News,5,Iran
+United States,2020,People,1,Joe Biden
+United States,2020,People,2,Kim Jong Un
+United States,2020,People,3,Kamala Harris
+United States,2020,People,4,Jacob Blake
+United States,2020,People,5,Ryan Newman
+United States,2020,Actors,1,Tom Hanks
+United States,2020,Actors,2,Chris D'Elia
+United States,2020,Actors,3,Jada Pinkett Smith
+United States,2020,Actors,4,Timothée Chalamet
+United States,2020,Actors,5,Ricky Gervais
+United States,2020,Athletes,1,Ryan Newman
+United States,2020,Athletes,2,Tom Brady
+United States,2020,Athletes,3,Bubba Wallace
+United States,2020,Athletes,4,Mike Tyson
+United States,2020,Athletes,5,Rudy Gobert
+United States,2020,Babies,1,Elon Musk baby
+United States,2020,Babies,2,Baby platypus
+United States,2020,Babies,3,Ice Age baby
+United States,2020,Babies,4,Anderson Cooper baby
+United States,2020,Babies,5,Baby Nut
+United States,2020,Beauty how to's,1,How to cut men's hair at home
+United States,2020,Beauty how to's,2,How to plop hair
+United States,2020,Beauty how to's,3,How to color your hair at home
+United States,2020,Beauty how to's,4,How to wash your hands
+United States,2020,Beauty how to's,5,How to style curtain bangs
+United States,2020,Definitions,1,WAP
+United States,2020,Definitions,2,Entanglement
+United States,2020,Definitions,3,Antebellum
+United States,2020,Definitions,4,Pandemic
+United States,2020,Definitions,5,Asymptomatic
+United States,2020,Games,1,Among Us
+United States,2020,Games,2,Fall Guys: Ultimate Knockout
+United States,2020,Games,3,Valorant
+United States,2020,Games,4,Genshin Impact
+United States,2020,Games,5,Ghost of Tsushima
+United States,2020,How to donate...,1,How to donate to Black Lives Matter
+United States,2020,How to donate...,2,How to donate to Australian bushfires
+United States,2020,How to donate...,3,How to donate blood
+United States,2020,How to donate...,4,How to donate to Georgia Senate runoff
+United States,2020,How to donate...,5,How to donate to Goodwill
+United States,2020,How to help...,1,How to help Australia fires
+United States,2020,How to help...,2,How to help Black Lives Matter
+United States,2020,How to help...,3,How to help during coronavirus
+United States,2020,How to help...,4,How to help Yemen
+United States,2020,How to help...,5,How to help acid reflux
+United States,2020,How to make...,1,How to make hand sanitizer
+United States,2020,How to make...,2,How to make a face mask with fabric
+United States,2020,How to make...,3,How to make whipped coffee
+United States,2020,How to make...,4,How to make a mask with a bandana
+United States,2020,How to make...,5,How to make a mask without sewing
+United States,2020,How to style...,1,How to style curtain bangs
+United States,2020,How to style...,2,How to style curly hair
+United States,2020,How to style...,3,How to style biker shorts
+United States,2020,How to style...,4,How to style box braids
+United States,2020,How to style...,5,How to style long hair men
+United States,2020,Loss,1,Kobe Bryant
+United States,2020,Loss,2,Naya Rivera
+United States,2020,Loss,3,Chadwick Boseman
+United States,2020,Loss,4,George Floyd
+United States,2020,Loss,5,Ruth Bader Ginsburg
+United States,2020,Lyrics,1,WAP
+United States,2020,Lyrics,2,The Box
+United States,2020,Lyrics,3,Godzilla
+United States,2020,Lyrics,4,GOOBA
+United States,2020,Lyrics,5,Break My Stride
+United States,2020,Movies,1,Parasite
+United States,2020,Movies,2,1917
+United States,2020,Movies,3,Black Panther
+United States,2020,Movies,4,Harley Quinn: Birds of Prey
+United States,2020,Movies,5,Little Women
+United States,2020,Musicians and Bands,1,Shakira
+United States,2020,Musicians and Bands,2,August Alsina
+United States,2020,Musicians and Bands,3,Adele
+United States,2020,Musicians and Bands,4,Doja Cat
+United States,2020,Musicians and Bands,5,Grimes
+United States,2020,Near me,1,Covid testing near me
+United States,2020,Near me,2,Early voting near me
+United States,2020,Near me,3,Fires near me
+United States,2020,Near me,4,Voting near me
+United States,2020,Near me,5,Protests near me
+United States,2020,Politicians,1,Joe Biden
+United States,2020,Politicians,2,Kamala Harris
+United States,2020,Politicians,3,Boris Johnson
+United States,2020,Politicians,4,Pete Buttigieg
+United States,2020,Politicians,5,Mike Bloomberg
+United States,2020,Recipes,1,Sourdough bread
+United States,2020,Recipes,2,Whipped coffee
+United States,2020,Recipes,3,Disney churro
+United States,2020,Recipes,4,Dole Whip
+United States,2020,Recipes,5,DoubleTree cookie
+United States,2020,Sports Teams,1,Boston Celtics
+United States,2020,Sports Teams,2,Miami Heat
+United States,2020,Sports Teams,3,Kansas City Chiefs
+United States,2020,Sports Teams,4,Los Angeles Clippers
+United States,2020,Sports Teams,5,Dallas Stars
+United States,2020,TV Shows,1,Tiger King
+United States,2020,TV Shows,2,Cobra Kai
+United States,2020,TV Shows,3,Ozark
+United States,2020,TV Shows,4,The Umbrella Academy
+United States,2020,TV Shows,5,The Queen's Gambit
+United States,2020,Virtual,1,Virtual field trips
+United States,2020,Virtual,2,Virtual museum tours
+United States,2020,Virtual,3,Virtual Kentucky Derby
+United States,2020,Virtual,4,Virtual learning
+United States,2020,Virtual,5,Virtual NBA fans
+United States,2020,Where is...,1,Where is my stimulus money
+United States,2020,Where is...,2,Where is my refunds
+United States,2020,Where is...,3,Where is Kansas City
+United States,2020,Where is...,4,Where is Beirut
+United States,2020,Where is...,5,Where is Shakira from
+United States,2020,Where to buy...,1,Where to buy PS5
+United States,2020,Where to buy...,2,Where to buy toilet paper
+United States,2020,Where to buy...,3,Where to buy face masks
+United States,2020,Where to buy...,4,Where to buy Xbox Series X
+United States,2020,Where to buy...,5,Where to buy hand sanitizer
+United States,2020,Why...,1,Why were chainsaws invented
+United States,2020,Why...,2,Why is there a coin shortage
+United States,2020,Why...,3,Why was George Floyd arrested
+United States,2020,Why...,4,Why is Nevada taking so long
+United States,2020,Why...,5,Why is TikTok getting banned
+United States,2020,... during coronavirus,1,Best stocks to buy during coronavirus
+United States,2020,... during coronavirus,2,Dating during coronavirus
+United States,2020,... during coronavirus,3,Dentist open during coronavirus
+United States,2020,... during coronavirus,4,Unemployment during coronavirus
+United States,2020,... during coronavirus,5,Jobs hiring during coronavirus
+United States,2020,Cómo...,1,¿Cómo van las elecciones?
+United States,2020,Cómo...,2,¿Cómo hacer cubrebocas de tela?
+United States,2020,Cómo...,3,¿Cómo se contagia el Coronavirus?
+United States,2020,Cómo...,4,¿Cómo hacer alcohol en gel casero?
+United States,2020,Cómo...,5,¿Cómo está el dólar hoy?
+United States,2020,Dónde...,1,¿Dónde puedo ver los resultados de las elecciones?
+United States,2020,Dónde...,2,¿Dónde puedo votar?
+United States,2020,Dónde...,3,¿Dónde está mi reembolso?
+United States,2020,Dónde...,4,¿De dónde es la esposa de Kobe Bryant?
+United States,2020,Dónde...,5,¿De dónde viene el Coronavirus?
+United States,2020,Películas,1,Las píldoras de mi novio
+United States,2020,Películas,2,Sonic la película
+United States,2020,Películas,3,365 Dni
+United States,2020,Películas,4,La cabaña
+United States,2020,Películas,5,Ya no estoy aquí
+United States,2020,Qué es...,1,¿Qué es el Coronavirus?
+United States,2020,Qué es...,2,¿Qué es una pandemia?
+United States,2020,Qué es...,3,¿Qué es tusa?
+United States,2020,Qué es...,4,¿Qué es cuarentena?
+United States,2020,Qué es...,5,¿Qué es toque de queda?
+United States,2020,Quién...,1,¿Quién ganó las elecciones?
+United States,2020,Quién...,2,¿Quién es el nuevo presidente de los Estados Unidos?
+United States,2020,Quién...,3,¿Quién va ganando la presidencia?
+United States,2020,Quién...,4,¿Quién juega hoy en la Liga MX?
+United States,2020,Quién...,5,¿Quién ganó el Super Bowl 2020?
+United States,2020,Recetas,1,Flan
+United States,2020,Recetas,2,Aguachiles
+United States,2020,Recetas,3,Piña Colada
+United States,2020,Recetas,4,Arroz con Leche
+United States,2020,Recetas,5,Tinga de Pollo

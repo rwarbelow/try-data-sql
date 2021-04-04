@@ -20,27 +20,38 @@
   <%= @lesson.text %>
 </p>
 
-<h5>Examples</h5>
-<% @lesson.examples.each do |example| %>
-  <blockquote class="code">
-    <%= example %>
-  </blockquote>
+<% if @lesson.examples %>
+  <h5>Examples</h5>
+  <% @lesson.examples.each do |example| %>
+    <blockquote class="code">
+      <%= example %>
+    </blockquote>
+  <% end %>
+<% end%>
+
+<% if @lesson.images %>
+  <% @lesson.images.each do |image| %>
+    <div class="photo-container">
+      <img src="/images/<%= image %>" alt="spreadsheet screenshot">
+    </div>
+  <% end %>
 <% end %>
 
-<h5>Your Turn</h5>
-Write SQL statements for each of the following situations and test them out in the console. When you're done, click <i class="tiny material-icons">skip_next</i> by the progress bar. 
-  <ul class="collapsible" data-collapsible="accordion">
-  <% @lesson.tasks.each_with_index do |task, i| %>
-  <li>
-    <div class="collapsible-header"><b><%= i+1 %></b>. <%= task["question"] %></div>
-    <div class="collapsible-body white code" style="padding: 10px">
-       <b><%= task["answer"] %></b>
-    </div>
-  </li>
-  <% end %>
-</ul>
-<%= erb :_terminal %>
-<%= erb :_schema %>
-<%= erb :_results_message %>
-<%= erb :_results_table %>
-
+<% if @lesson.tasks %>
+  <h5>Your Turn</h5>
+  <%= @lesson.task_instructions %>
+    <ul class="collapsible" data-collapsible="accordion">
+    <% @lesson.tasks.each_with_index do |task, i| %>
+    <li>
+      <div class="collapsible-header"><b><%= i+1 %></b>. <%= task["question"] %></div>
+      <div class="collapsible-body white code" style="padding: 10px">
+        <b><%= task["answer"] %></b>
+      </div>
+    </li>
+    <% end %>
+  </ul>
+  <%= erb :_schema %>
+  <%= erb :_terminal %>
+  <%= erb :_results_message %>
+  <%= erb :_results_table %>
+<% end%>

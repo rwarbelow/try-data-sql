@@ -25,6 +25,10 @@ class Application < Sinatra::Base
     erb :playground, :escape_html => true
   end
 
+  get '/jupyter' do
+    erb :jupyter, :escape_html => true
+  end
+
   helpers do
     def h(text)
       Rack::Utils.escape_html(text)

@@ -5,7 +5,9 @@ class Lesson
               :title, 
               :text, 
               :examples, 
-              :tasks
+              :tasks,
+              :images,
+              :task_instructions
 
   def self.number(num)
     raw_lesson_data = raw_lessons.find { |key, val| key == num.to_i }
@@ -38,6 +40,8 @@ class Lesson
     @text     = data["text"]
     @examples = data["examples"]
     @tasks    = data["tasks"]
+    @images   = data["images"]
+    @task_instructions = data["task_instructions"]
   end
 
   def next_id

@@ -6,9 +6,17 @@
     color: inherit;
 }
 
+body {
+  background: #f2f2f2;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
 .console {
   font-family:Courier;
-   color: #CCCCCC;
+  color: #CCCCCC;
   background: #000000;
   border: 3px double #CCCCCC;
   padding: 10px;
@@ -23,9 +31,18 @@ table {
     width: 100%;
 }
 
+.large {
+  font-size: 2rem;
+}
+
+.vocab {
+  color: #9b0428;
+  font-weight: bold;
+  background-color: lighten(#9b0428, 65);
+}
+
 .photo-container { 
     width: 100%; 
-    height: 200px; 
     overflow: hidden; 
 }
 .photo-container img { 

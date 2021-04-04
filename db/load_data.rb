@@ -2,10 +2,12 @@ require 'sequel'
 require 'pg'
 require 'csv'
 
-db_string = "" # insert connection string here
+db_string = "" # insert pg connection string here
 
 db = URI.parse(db_string)
 DB = Sequel.postgres(db.path[1..-1], :host => db.host, :port => db.port, :max_connections => 5, :user => db.user, password: db.password)
+
+# DB.drop_table(:ramen, :tips, :goodreads, :trends)
 
 DB.create_table :ramen do
   primary_key :review_id
@@ -21,9 +23,9 @@ DB.create_table :tips do
   Float :total_bill
   Float :tip
   String :sex
-  String :smoker
+  Integer :smoker
   String :day
-  String :time
+  Integer :time
 end
 
 DB.create_table :goodreads do
@@ -38,6 +40,24 @@ DB.create_table :goodreads do
   Float :pages
   String :publisher
   Integer :rank
+end
+
+DB.create_table :trends do
+  primary_key :id
+  String :location
+  Integer :year
+  String :category
+  Integer :rank
+  String :query
+end
+
+# Load Trends data
+
+trends = DB[:trends]
+id = 1
+CSV.foreach("trends.csv", headers: true, header_converters: :symbol) do |row|
+  trends.insert(id: id, location: row[:location], year: row[:year], category: row[:category], rank: row[:rank], query: row[:query])
+  id += 1
 end
 
 # Load Ramen data
@@ -59,7 +79,7 @@ end
 
 # Load Tips data
 tips = DB[:tips]
-id = 0
+id = 1
 CSV.foreach("tips.csv", headers: true, header_converters: :symbol) do |row|
   tips.insert(id: id, total_bill: row[:total_bill], tip: row[:tip], sex: row[:sex], smoker: row[:smoker], day: row[:day], time: row[:time])
   id += 1
