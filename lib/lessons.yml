@@ -97,7 +97,6 @@
   text: >
     Right now, our results appear with whatever default column labels they came with (for example, "total_bill" or "query"). What if we wanted to label those "total" or "search_term" instead? We can do that with an alias: <span class="vocab">SELECT first_column_name AS my_first_title, second_column_name AS my_second_title FROM table_name;</span>. 
   examples:
-    examples:
     - "SELECT location, query AS search_term, year FROM trends;"
   tasks:
     - question: Print out the brand, variety, and stars for the ramen data, but change the name of "brand" to "company"
