@@ -215,7 +215,7 @@
   text: >
     GROUP BY in SQL allows you to create a summary for data groups. For example, using the Goodreads data, we could group the data by authors, then summarize how many books that author has, the average number of pages for that author's books, etc. An example of the syntax using GROUP BY is <span class="vocab">SELECT grouped_column, count(*) FROM table_name GROUP BY grouped_column;</span><br><br>You can also use the column number instead of the name, like this: <span class="vocab">SELECT grouped_column, count(*) FROM table_name GROUP BY 1;</span>
   examples:
-    - "SELECT authors, AVG(avg_rating), count(*) FROM goodreads GROUP BY authors;"
+    - "SELECT authors, AVG(avg_rating), COUNT(*) FROM goodreads GROUP BY authors;"
     - "select query, COUNT(*) FROM trends GROUP BY 1"
   tasks:
     - question: Show the number of bills for each day from the tips table.
@@ -223,7 +223,7 @@
     - question: Show the average total bill and average tip group by sex.
       answer: SELECT sex, AVG(total_bill) AS total_bill_avg, AVG(tip) AS tip_avg FROM tips GROUP BY sex;
     - question: Show the average ramen rating by brand.
-      answer: SELECT brand, AVG(stars) from ramen GROUP BY brand;
+      answer: SELECT brand, AVG(stars) FROM ramen GROUP BY brand;
     - question: Show the number of times a particular query appears in the trends table.
       answer: > 
         SELECT query, count(*) FROM trends GROUP BY query;<br><br><span class="vocab">Spicy challenge</span>: Order your results from the query that appears the most to the query that appears the least.
