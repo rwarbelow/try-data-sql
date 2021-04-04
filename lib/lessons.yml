@@ -11,7 +11,7 @@
 3:
   title: Select All Columns From a Dataset
   text: >
-    Let's start by writing an SQL statement that will return every row and every column of a specific dataset (we'll interchangeably refer to dataset also as "table").<br>Assuming that a table of data exists, we can use this statement: <span class="vocab">SELECT * FROM table_name;</span><br><br>
+    Let's start by writing an SQL statement that will return every row and every column of a specific dataset (we'll interchangeably refer to dataset also as "table").<br><br>Assuming that a table of data exists, we can use this statement: <span class="vocab">SELECT * FROM table_name;</span><br><br>
     The <span class="vocab">*</span> represents all columns, which means you'll see all of the pieces of data for the entire dataset. It is traditional to capitalize words like SELECT and FROM, but you'll get the same result if they are lowercase (and the industry is moving away from that convention). <br><br> Let's try the example below in the console. After you finish typing, hit the ENTER key
     and your results will appear in tabular format below the console.
   examples:
