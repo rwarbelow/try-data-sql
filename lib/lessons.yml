@@ -64,6 +64,23 @@
     - question: "Return the total amount, tip, and time of day from the tips table."
       answer: "SELECT total_bill, tip, time FROM tips;"
 6:
+  title: Filtering Results
+  text: >
+    Everything we've learned so far will show every row of data (just in different ways). What happens if we only want specific pieces of data, like all of the tips just for one day of the week?<br><br>We can do that using WHERE: <span class="vocab">SELECT * FROM table_name WHERE column = value;</span><br><br>If you want to filter by two or more columns, you'll add the word AND: <span class="vocab">SELECT * FROM table_name WHERE column = value AND column = value;</span><br><br>To filter to either of two conditions, use the word OR: <span class="vocab">SELECT * FROM table_name WHERE column = value OR column = value;</span><br><br>Notice that for numerical data, we can simply write the number. For alphabet data (which we call strings), we need to use quotation marks. It is conventional to use single quote marks (also known as the apostrophe).
+  examples:
+    - "SELECT * FROM goodreads WHERE year >= 2018;"
+    - "SELECT authors, title FROM goodreads WHERE category = 'Fiction' AND year = 2019;"
+    - "SELECT * from goodreads WHERE category = 'Fiction' OR category = 'Horror';"
+  tasks:
+    - question: Display the queries and ranks for the trends in 2009.
+      answer: SELECT query, rank, and category FROM trends WHERE year = 2009;
+    - question: Show all of the tip data from Saturday and Sunday.
+      answer: SELECT * FROM tips WHERE day = "Sat" OR day = "Sun";
+    - question: Show all of the ramen brands, varieties, and star ratings for entries rated 4.5 or higher.
+      answer: >
+        SELECT brand, variety, stars FROM ramen WHERE stars >= 4.5;<br><br>
+        <span class="vocab">Spicy challenge</span>: Sort these results so that the entries with the most number of stars are at the top.
+7:
   title: Ordering Results
   text: >
     The data isn't easy to look at right now given that it's not ordered in any specific way. We can add to our SQL statement to display the data in a specific order. We can do that by appending "order by" to our query: <span class="vocab">SELECT first_column_name, second_column_name FROM table_name ORDER BY second_column_name;</span>. <br><br>Alternatively, you can order by a column number: <span class="vocab">SELECT first_column_name, second_column_name FROM table_name ORDER BY 2;</span><br><br>By default, ordering is done ascending. This means that alphabetical results will be sorted A - Z (and non-alphabet characters after that), and numerical results will be sorted starting at 0 and counting up. If you want to reverse the order, append the word <span class="vocab">DESC</span> to the end of your order by.
@@ -79,7 +96,7 @@
       answer: SELECT year, rank, query FROM trends ORDER BY rank;
     - question: Show the tip and total bill amount ordered by highest total bill;
       answer: SELECT tip, total_bill FROM tips ORDER BY total_bill DESC;
-7:
+8:
   title: Ordering Results By Multiple Columns
   text: >
     You may have noticed that the rest of the data that is specified by the ordered column seems kind of... random. You can chnage that by adding more things to order by in your query: <span class="vocab">SELECT first_column_name, second_column_name FROM table_name ORDER BY second_column_name, first_column_name;</span>. <br><br>The order matters here. First, it will order everything by whatever appears right after "ORDER BY". Then, it will sort the results within that grouping by the second column you specify.
@@ -91,7 +108,7 @@
       answer: SELECT variety, country, stars FROM ramen ORDER BY 3 DESC, 1;
     - question: Show the year, rank, and query FROM the trends table ordered by the rank, then year;
       answer: SELECT year, rank, query FROM trends ORDER BY rank, year;
-8:
+9:
   title: Aliasing Column Names
   text: >
     Right now, our results appear with whatever default column labels they came with (for example, "total_bill" or "query"). What if we wanted to label those "total" or "search_term" instead? We can do that with an alias: <span class="vocab">SELECT first_column_name AS my_first_title, second_column_name AS my_second_title FROM table_name;</span>. 
@@ -102,7 +119,7 @@
       answer: SELECT brand AS company, variety, stars FROM ramen;
     - question: Print out the category, title, authors, and vote count for the goodreads data, but change the name of "votes" to "total_vote_count"
       answer: SELECT category, title, authors, votes AS total_vote_count FROM goodreads;
-9:
+10:
   title: Showing Distinct Records
   text: >
     If we try to print out just author names using the Goodreads table, we get duplicates (try it!). SQL has a `distinct` keyword you can use to say "only show me unique records, not duplicates". The syntax looks like this: <span class="vocab">SELECT DISTINCT column_name FROM table_name;</span>.<br><br>It might be a little tricky to see that it is actually removing duplicates right now, but don't worry! We'll learn how to count the number of results in the next lesson. 
@@ -116,7 +133,7 @@
       answer: SELECT DISTINCT day FROM tips;
     - question: What are the categories Google uses for their search queries? 
       answer: SELECT DISTINCT category FROM trends;
-10:
+11:
   title: Counting Records
   text: >
     In the last lesson, it may have been difficult to tell if DISTINCT was actually removing duplicated records because there were so many to count! We can ask SQL to do the counting for us using the count function.<br><br>For today, there are two ways you'll see the count function used. In the first way, we count everything. This is what we'd use to count every row in a table: <span class="vocab">SELECT COUNT(*) FROM table_name;</span>. The <span class="vocab">*</span> means "every row".<br><br>Another way you'll see COUNT used is to put exactly what you want to count inside of the parentheses: <span class="vocab">SELECT COUNT(column_name) FROM table_name;</span> or <span class="vocab">SELECT COUNT(DISTINCT column_name) FROM table_name;</span>.
@@ -133,7 +150,7 @@
       answer: SELECT COUNT(DISTINCT category) FROM trends;
     - question: How many publishers had books on the Goodreads awards list?
       answer: SELECT COUNT(DISTINCT publisher) FROM goodreads;
-11:
+12:
   title: Finding the Average
   text: >
     In large datasets, it's often useful to find the average of numeric data. Instead of using a calculator to add up every data point, then divide by the total number, there's a SQL function that can do that for us: <span class="vocab">SELECT AVG(column_name) FROM table_name;</span>. 
@@ -150,7 +167,7 @@
       answer: SELECT AVG(total_bill) FROM tips;
     - question: What is the average star rating for the ramen?
       answer: SELECT AVG(stars) FROM ramen;
-12:
+13:
   title: Categorizing Data
   text: >
     Sometimes you'll want to put data into buckets. For example, our tips table contains a timestamp (represented as an hour from 0 - 24), but how do we classify each of those timestamps as either "breakfast", "lunch", or "dinner"? We can do that using a CASE statement.<br><br><pre class="vocab"> CASE<br>
@@ -210,7 +227,7 @@
         END AS party_type<br>
         FROM tips;<br><br>
         <span class="vocab">Spicy challenge</span>: Display your results so that the party_type and the size columns are next to each other.
-13:
+14:
   title: Grouping Data
   text: >
     GROUP BY in SQL allows you to create a summary for data groups. For example, using the Goodreads data, we could group the data by authors, then summarize how many books that author has, the average number of pages for that author's books, etc. An example of the syntax using GROUP BY is <span class="vocab">SELECT grouped_column, count(*) FROM table_name GROUP BY grouped_column;</span><br><br>You can also use the column number instead of the name, like this: <span class="vocab">SELECT grouped_column, count(*) FROM table_name GROUP BY 1;</span>
@@ -227,7 +244,7 @@
     - question: Show the number of times a particular query appears in the trends table.
       answer: > 
         SELECT query, count(*) FROM trends GROUP BY query;<br><br><span class="vocab">Spicy challenge</span>: Order your results from the query that appears the most to the query that appears the least.
-14:
+15:
   title: Dissecting SQL Statements
   text: >
     Now that we've learned how to write basic SQL statements, let's look at some pre-written statements that combine multiple SQL functions and see if we can figure out what they're doing.<br><br>Read through the examples below and guess what each one will return. Then copy/paste the query into the box and run it. Were you correct? 
@@ -255,7 +272,7 @@
   tasks:
     - question: Paste each example query in the box and run it. 
       answer: 
-15:
+16:
   title: Writing SQL to Answer Questions
   text: >
     In this final SQL section, you'll work together to write SQL statements that answer specific questions. 
