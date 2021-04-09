@@ -20,7 +20,7 @@ class Attempt
   end
 
   def message
-    if submission.downcase.include?("drop ")
+    if submission.downcase.include?("drop ") || submission.downcase.include?("truncate ")
       "Sorry, you do not have permission to do that."
     else
       @message
