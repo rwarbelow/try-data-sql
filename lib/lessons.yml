@@ -230,7 +230,7 @@
 14:
   title: Grouping Data
   text: >
-    GROUP BY in SQL allows you to create a summary for data groups. For example, using the Goodreads data, we could group the data by authors, then summarize how many books that author has, the average number of pages for that author's books, etc. An example of the syntax using GROUP BY is <span class="vocab">SELECT grouped_column, count(*) FROM table_name GROUP BY grouped_column;</span><br><br>You can also use the column number instead of the name, like this: <span class="vocab">SELECT grouped_column, count(*) FROM table_name GROUP BY 1;</span>
+    GROUP BY in SQL allows you to create a summary for data groups. For example, using the Goodreads data, we could group the data by authors, then summarize how many books that author has, the average number of pages for that author's books, etc. An example of the syntax using GROUP BY is <span class="vocab">SELECT grouped_column, count(*) FROM table_name GROUP BY grouped_column;</span><br><br>You can also use the column number instead of the name, like this: <span class="vocab">SELECT grouped_column, count(*) FROM table_name GROUP BY 1;</span><br><br>Before we move on, let's look at <a href="https://stackoverflow.com/questions/2421388/using-group-by-on-multiple-columns" target="blank">this Stackoverflow explanation</a> of what it means to group in SQL.
   examples:
     - "SELECT authors, AVG(avg_rating), COUNT(*) FROM goodreads GROUP BY authors;"
     - "select query, COUNT(*) FROM trends GROUP BY 1"
@@ -245,6 +245,22 @@
       answer: > 
         SELECT query, count(*) FROM trends GROUP BY query;<br><br><span class="vocab">Spicy challenge</span>: Order your results from the query that appears the most to the query that appears the least.
 15:
+  title: Grouping By Multiple Characteristics
+  text: >
+    In the last lesson, we saw that we can group by one characteristic (like the count of the books per author). What if we wanted to find the count of books by author, but broken down by genre?<br><br>To do this, we can group by multiple characteristics: <span class="vocab">SELECT grouped_column_1, grouped_column_2, count(*) FROM table_name GROUP BY grouped_column_1, grouped_column_2;</span><br><br>Let's revisit <a href="https://stackoverflow.com/questions/2421388/using-group-by-on-multiple-columns" target="blank">the Stackoverflow explanation</a> to see how you can group by multiple columns. 
+  examples:
+    - SELECT authors, category, AVG(avg_rating) AS rating_avg FROM goodreads GROUP BY authors ORDER BY authors;
+    - SELECT authors, category, COUNT(*) FROM goodreads GROUP BY authors, category;
+  tasks:
+    - question: Display the average rating for ramen by brand and style;
+      answer: SELECT brand, style, AVG(stars) FROM ramen GROUP BY brand, style ORDER BY brand;
+    - question: Display the average tips broken down by sex and whether or not the person is a smoker.
+      answer: SELECT sex, smoker, AVG(tip) FROM tips GROUP BY sex, smoker;
+    - question: Display the average tips broken down by day of week and size of party.
+      answer: > 
+        SELECT size, day, AVG(tip) FROM tips GROUP BY day, size;<br><br>
+        <span class="vocab">Spicy challenge</span>: Sort these results so that the highest average tips are displayed first.
+16:
   title: Dissecting SQL Statements
   text: >
     Now that we've learned how to write basic SQL statements, let's look at some pre-written statements that combine multiple SQL functions and see if we can figure out what they're doing.<br><br>Read through the examples below and guess what each one will return. Then copy/paste the query into the box and run it. Were you correct? 
@@ -272,7 +288,7 @@
   tasks:
     - question: Paste each example query in the box and run it. 
       answer: 
-16:
+17:
   title: Writing SQL to Answer Questions
   text: >
     In this final SQL section, you'll work together to write SQL statements that answer specific questions. 
