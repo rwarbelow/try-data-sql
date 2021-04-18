@@ -37,10 +37,6 @@
   tasks:
     - question: Return only the authors of the goodreads table.
       answer: SELECT authors FROM goodreads;
-    - question: Return only the titles of the goodreads table.
-      answer: SELECT title FROM goodreads;
-    - question: Return only the star ratings of the ramen table.
-      answer: SELECT stars FROM ramen;
     - question: Return only the total bill amount from the tips table.
       answer: SELECT total_bill FROM tips;
     - question: Return only the queries from the trends table.
@@ -73,7 +69,7 @@
     - "SELECT * from goodreads WHERE category = 'Fiction' OR category = 'Horror';"
   tasks:
     - question: Display the queries and ranks for the trends in 2009.
-      answer: SELECT query, rank, and category FROM trends WHERE year = 2009;
+      answer: SELECT query, rank FROM trends WHERE year = 2009;
     - question: Show all of the tip data from Saturday and Sunday.
       answer: SELECT * FROM tips WHERE day = "Sat" OR day = "Sun";
     - question: Show all of the ramen brands, varieties, and star ratings for entries rated 4.5 or higher.
@@ -106,7 +102,7 @@
   tasks:
     - question: Show the variety, country, and stars for the ramen table and order it by highest star rating, then variety. 
       answer: SELECT variety, country, stars FROM ramen ORDER BY 3 DESC, 1;
-    - question: Show the year, rank, and query FROM the trends table ordered by the rank, then year;
+    - question: Show the year, rank, and query from the trends table ordered by the rank, then year;
       answer: SELECT year, rank, query FROM trends ORDER BY rank, year;
 9:
   title: Aliasing Column Names
@@ -146,8 +142,6 @@
       answer: SELECT COUNT(*) FROM ramen;
     - question: How many unique ramen brands are there?
       answer: SELECT COUNT(DISTINCT brand) FROM ramen;
-    - question: How many unique categories of trends exist?
-      answer: SELECT COUNT(DISTINCT category) FROM trends;
     - question: How many publishers had books on the Goodreads awards list?
       answer: SELECT COUNT(DISTINCT publisher) FROM goodreads;
 12:
@@ -161,10 +155,8 @@
   tasks:
     - question: What is the average number of pages for the books in the goodreads table?
       answer: SELECT AVG(pages) FROM goodreads;
-    - question: What was the average tip that the waiter received in the tips data?
-      answer: SELECT AVG(tip) FROM tips;
-    - question: What was the average bill amount from the tips data?
-      answer: SELECT AVG(total_bill) FROM tips;
+    - question: What was the average tip and average total bill from the tips data?
+      answer: SELECT AVG(tip), AVG(total_bill) FROM tips;
     - question: What is the average star rating for the ramen?
       answer: SELECT AVG(stars) FROM ramen;
 13:
@@ -288,10 +280,3 @@
   tasks:
     - question: Paste each example query in the box and run it. 
       answer: 
-17:
-  title: Writing SQL to Answer Questions
-  text: >
-    In this final SQL section, you'll work together to write SQL statements that answer specific questions. 
-  tasks:
-    - question: Coming soon
-      answer: Coming soon
