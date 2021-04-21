@@ -9,7 +9,7 @@ DB = Sequel.postgres(db.path[1..-1], :host => db.host, :port => db.port, :max_co
 
 # DB.drop_table(:ramen, :tips, :goodreads, :trends)
 
-DB.create_table :ramen do
+DB.create_table! :ramen do
   primary_key :review_id
   String :brand
   String :variety
@@ -18,7 +18,7 @@ DB.create_table :ramen do
   Float :stars
 end
 
-DB.create_table :tips do
+DB.create_table! :tips do
   primary_key :id
   Float :total_bill
   Float :tip
@@ -29,7 +29,7 @@ DB.create_table :tips do
   Integer :time
 end
 
-DB.create_table :goodreads do
+DB.create_table! :goodreads do
   primary_key :id
   Integer :votes
   String :title
@@ -42,7 +42,7 @@ DB.create_table :goodreads do
   Integer :rank
 end
 
-DB.create_table :trends do
+DB.create_table! :trends do
   primary_key :id
   String :location
   Integer :year
@@ -55,7 +55,7 @@ end
 
 trends = DB[:trends]
 id = 1
-CSV.foreach("trends.csv", headers: true, header_converters: :symbol) do |row|
+CSV.foreach("./db/trends.csv", headers: true, header_converters: :symbol) do |row|
   trends.insert(id: id, location: row[:location], year: row[:year], category: row[:category], rank: row[:rank], query: row[:query])
   id += 1
 end
@@ -64,7 +64,7 @@ end
 
 ramen = DB[:ramen]
 
-CSV.foreach("ramen-ratings.csv", headers: true, header_converters: :symbol) do |row|
+CSV.foreach("./db/ramen-ratings.csv", headers: true, header_converters: :symbol) do |row|
   ramen.insert(review_id: row[:id], brand: row[:brand], variety: row[:variety], style: row[:style], country: row[:country], stars: row[:stars])
 end
 
@@ -72,7 +72,7 @@ end
 
 goodreads = DB[:goodreads]
 id = 1
-CSV.foreach("GoodReadsAwards.csv", headers: true, header_converters: :symbol) do |row|
+CSV.foreach("./db/GoodReadsAwards.csv", headers: true, header_converters: :symbol) do |row|
   goodreads.insert(id: id, rank: row[:rank], votes: row[:votes], title: row[:title], category: row[:category], year: row[:year], avg_rating: row[:avg_rating], authors: row[:authors], pages: row[:pages], publisher: row[:publisher])
   id += 1
 end
@@ -80,7 +80,7 @@ end
 # Load Tips data
 tips = DB[:tips]
 id = 1
-CSV.foreach("tips.csv", headers: true, header_converters: :symbol) do |row|
+CSV.foreach("./db/tips.csv", headers: true, header_converters: :symbol) do |row|
   tips.insert(id: id, total_bill: row[:total_bill], tip: row[:tip], sex: row[:sex], smoker: row[:smoker], day: row[:day], time: row[:time], size: row[:size])
   id += 1
 end
