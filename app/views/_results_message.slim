@@ -1,0 +1,8 @@
+- if @attempt && !@attempt.message.empty?
+  .row
+    .col.s12.m12
+      .card-panel.red
+        h5
+          b Uh oh!
+          p.span.white-text == h @attempt.message
+        br

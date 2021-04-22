@@ -1,11 +1,11 @@
 class Application < Sinatra::Base
   get '/' do
-    erb :dashboard
+    slim :dashboard
   end
 
   get '/lessons' do
     @lessons = Lesson.all
-    erb :lessons_index
+    slim :lessons_index
   end
 
   get '/lessons/:id' do |id|
@@ -14,7 +14,7 @@ class Application < Sinatra::Base
       @attempt = Attempt.new(params[:attempt])
       @attempt.check!
     end
-    erb :lesson_show, :escape_html => true
+    slim :lesson_show, :escape_html => true
   end
 
   get '/playground' do
@@ -22,11 +22,11 @@ class Application < Sinatra::Base
       @attempt = Attempt.new(params[:attempt])
       @attempt.check!
     end
-    erb :playground, :escape_html => true
+    slim :playground, :escape_html => true
   end
 
   get '/jupyter' do
-    erb :jupyter, :escape_html => true
+    slim :jupyter, :escape_html => true
   end
 
   helpers do

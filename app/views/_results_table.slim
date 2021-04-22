@@ -1,0 +1,12 @@
+- unless @attempt.nil? ||  @attempt.results.empty?
+  div[style="height:440px;overflow-y:auto;"]
+
+  table.table.bordered.highlight
+    thead
+      tr
+        - @attempt.results.first.each do |key, value|
+          th.collection-item.active #{key}
+  - @attempt.results.each do |row|
+    tr
+      - row.each do |key, value|
+        td #{value}

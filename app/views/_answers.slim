@@ -1,0 +1,9 @@
+ul.collapsible[data-collapsible="accordion"]
+  li
+    .collapsible-header
+      i.material-icons lock_open
+      | Click to toggle answers
+    .collapsible-body.white
+      ol
+        - @lesson.tasks.each_with_index do |task, i|
+          li.code #{i+1}. #{task["answer"]}

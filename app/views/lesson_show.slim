@@ -1,0 +1,41 @@
+div[style="padding:10px"]
+  .row
+    .col.s6.left-align
+      a href="/lessons/#{@lesson.previous_id}"
+        i.small.material-icons skip_previous
+    .col.s6.right-align
+      a href="/lessons/#{@lesson.next_id}"
+        i.small.material-icons skip_next
+  .col.s10
+    .progress
+      .determinate style="width: #{Lesson.progress(@lesson.id)}%"
+p LESSON #{@lesson.id}
+h3.lesson-title == @lesson.title
+p == @lesson.text
+- if @lesson.examples
+  h5 Examples
+  - @lesson.examples.each do |example|
+    blockquote.code
+      == example
+- if @lesson.images
+  - @lesson.images.each do |image|
+    .photo-container
+      img src="/images/#{image}" alt="spreadsheet screenshot"
+- if @lesson.tasks
+  h5 Your Turn
+  == @lesson.task_instructions
+  ul.collapsible[data-collapsible="accordion"]
+    - @lesson.tasks.each_with_index do |task, i|
+      li
+        .collapsible-header[style="line-height: 1.5;padding: 15px;"]
+          b
+            == i+1
+            | . 
+            == task["question"]
+        .collapsible-body.white.code[style="padding: 10px"]
+          b
+            == task["answer"]
+  == slim :_schema
+  == slim :_terminal
+  == slim :_results_message
+  == slim :_results_table
