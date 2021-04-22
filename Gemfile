@@ -7,6 +7,7 @@ gem 'pg'
 gem 'sequel'
 gem 'tux'
 gem 'slim'
+gem 'sass'
 
 group :development do
   gem 'pry'
