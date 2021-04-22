@@ -2,7 +2,7 @@ require 'sequel'
 require 'pg'
 require 'csv'
 
-db_string = "" # insert pg connection string here
+db_string = ENV['DATABASE_URL'] || 'postgres://localhost/try-data-sql.db'
 
 db = URI.parse(db_string)
 DB = Sequel.postgres(db.path[1..-1], :host => db.host, :port => db.port, :max_connections => 5, :user => db.user, password: db.password)
