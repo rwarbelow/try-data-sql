@@ -252,31 +252,3 @@
       answer: > 
         SELECT size, day, AVG(tip) FROM tips GROUP BY day, size;<br><br>
         <span class="vocab">Spicy challenge</span>: Sort these results so that the highest average tips are displayed first.
-16:
-  title: Dissecting SQL Statements
-  text: >
-    Now that we've learned how to write basic SQL statements, let's look at some pre-written statements that combine multiple SQL functions and see if we can figure out what they're doing.<br><br>Read through the examples below and guess what each one will return. Then copy/paste the query into the box and run it. Were you correct? 
-  examples:
-    - SELECT authors, SUM(votes) AS total_votes FROM goodreads GROUP BY authors ORDER BY total_votes DESC;
-    - SELECT authors, AVG(avg_rating) AS rating_avg FROM goodreads GROUP BY authors ORDER BY rating_avg DESC;
-    - >
-      <pre> SELECT CASE<br>
-      WHEN time < 11 THEN "breakfast"<br>
-      WHEN time < 15 THEN "lunch"<br>
-      ELSE "dinner"<br>
-      END AS meal,<br>
-      AVG(tip) AS avg_tip<br>
-      FROM tips<br>
-      GROUP BY meal;</pre>
-    - >
-      <pre> SELECT COUNT(*), AVG(tip) AS avg_tip, AVG(total_bill) AS avg_bill, <br>
-      CASE<br>
-      WHEN time < 17 THEN "day"<br>
-      ELSE "night"<br>
-      END AS time_category<br>
-      FROM tips<br>
-      GROUP BY time_category
-      ORDER BY avg_tip DESC;</pre>
-  tasks:
-    - question: Paste each example query in the box and run it. 
-      answer: 
