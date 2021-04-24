@@ -241,7 +241,6 @@
   text: >
     In the last lesson, we saw that we can group by one characteristic (like the count of the books per author). What if we wanted to find the count of books by author, but broken down by genre?<br><br>To do this, we can group by multiple characteristics: <span class="vocab">SELECT grouped_column_1, grouped_column_2, count(*) FROM table_name GROUP BY grouped_column_1, grouped_column_2;</span><br><br>Let's revisit <a href="https://stackoverflow.com/questions/2421388/using-group-by-on-multiple-columns" target="blank">the Stackoverflow explanation</a> to see how you can group by multiple columns. 
   examples:
-    - SELECT authors, category, AVG(avg_rating) AS rating_avg FROM goodreads GROUP BY authors ORDER BY authors;
     - SELECT authors, category, COUNT(*) FROM goodreads GROUP BY authors, category;
   tasks:
     - question: Display the average rating for ramen by brand and style;
