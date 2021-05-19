@@ -1,7 +1,7 @@
 1:
   title: What is SQL? 
   text: >
-    SQL stands for <span class="vocab">Structured Query Language</span>. It's the computer language we use to parse through large sets of raw data and find answers to data questions. Instead of asking in human language "How many books did Stephen King have that won a Goodreads award in 2020?" and sorting through all of the data, we can write SQL code to ask a computer to do that work for us.<br><br>You might be familar with the concept of a spreadsheet (for example, <a href="https://docs.google.com/spreadsheets/d/1R-wpkPK0cWo7Au2HdgEr4ig9kOwtPz4usXoTZqM4Z3A/edit?usp=sharing" target="blank">Google Sheets</a> or Microsoft Excel). This is one way to store data, and any ".csv" file can be opened using spreadsheet software. You can also store data in a database, which is generally the use case for SQL.<br><br>We can write SQL statements to answer questions such as:<ol><li>What books got more than 1000 votes?</li><li>What was the average rating for all books in the year 2015?</li><li>What authors have an average book rating of 4.5 or above?</li><li>Tell me the titles of all books with more than 600 pages</li></ol><br>What other questions could we answer?
+    SQL stands for <span class="vocab">Structured Query Language</span>. It's the computer language we use to parse through large sets of raw data and find answers to data questions. Instead of asking in human language "How many books did Stephen King have that won a Goodreads award in 2020?" and sorting through all of the data, we can write SQL code to ask a computer to do that work for us.<br><br>You might be familar with the concept of a spreadsheet (for example, <a href="https://docs.google.com/spreadsheets/d/1R-wpkPK0cWo7Au2HdgEr4ig9kOwtPz4usXoTZqM4Z3A/edit?usp=sharing" target="blank">Google Sheets</a> or Microsoft Excel). This is one way to store data, and any ".csv" file can be opened using spreadsheet software. You can also store data in a database, which is generally the use case for SQL.<br><br>We can write SQL statements to answer questions such as:<ol><li>What books got more than 1000 votes?</li><li>What was the average rating for all books in the year 2015?</li><li>What authors have an average book rating of 4.5 or above?</li><li>Tell me the titles of all books with more than 600 pages</li></ol>
   images: 
     - spreadsheet_screenshot.png
 2:
@@ -25,41 +25,28 @@
     - question: Return all info from the ramen table.
       answer: SELECT * FROM ramen;
 4:
-  title: Select One Column
+  title: Select Specific Columns
   text: >
     Now that you know how to select all of the data from a table, let's learn how to limit the results to
     certain columns. We can do this using the following syntax: <span class="vocab">SELECT column_name FROM
-    table_name;</span> where column_name represents the one column we want to get back.
+    table_name;</span> and <span class="vocab">SELECT column_name_one, column_name_two FROM
+    table_name;</span>where column_name represents the column(s) we want to get back.
   examples:
     - SELECT location FROM trends;
     - SELECT tip FROM tips;
+    - SELECT authors, title FROM goodreads;
+    - SELECT location, year, query FROM trends;
   task_instructions: Write SQL statements for each of the following situations and test them out in the console. Remember, if you don't know the exact name of the column you need, you can use <b class="code">SELECT * FROM table_name</b> to see all available columns. 
   tasks:
     - question: Return only the authors of the goodreads table.
       answer: SELECT authors FROM goodreads;
     - question: Return only the total bill amount from the tips table.
       answer: SELECT total_bill FROM tips;
-    - question: Return only the queries from the trends table.
-      answer: SELECT query FROM trends;
-5:
-  title: Select Multiple Columns
-  text: >
-    We can also select more than one column at a time. To do this, we'd use the following SQL statement:
-    <span class="vocab">SELECT first_column_name, second_column_name FROM table_name;</span> where the comma
-    separates each of the column names. You can create a comma-separated list of as many columns as you'd
-    like to get back.
-  examples:
-    - "SELECT authors, title FROM goodreads;"
-    - "SELECT location, year, query FROM trends;"
-  task_instructions: Write SQL statements for each of the following situations and test them out in the console. Remember, if you don't know the exact name of the column you need, you can use <b class="code">SELECT * FROM table_name</b> to see all available columns. 
-  tasks:
     - question: "Return the brand, country, and stars from the ramen table."
       answer: "SELECT brand, country, stars FROM ramen;"
     - question: "Return the title and category from goodreads."
       answer: "SELECT title, category FROM goodreads;"
-    - question: "Return the total amount, tip, and time of day from the tips table."
-      answer: "SELECT total_bill, tip, time FROM tips;"
-6:
+5:
   title: Filtering Results
   text: >
     Everything we've learned so far will show every row of data (just in different ways). What happens if we only want specific pieces of data, like all of the tips just for one day of the week?<br><br>We can do that using WHERE: <span class="vocab">SELECT * FROM table_name WHERE column = value;</span><br><br>If you want to filter by two or more columns, you'll add the word AND: <span class="vocab">SELECT * FROM table_name WHERE column = value AND column = value;</span><br><br>To filter to either of two conditions, use the word OR: <span class="vocab">SELECT * FROM table_name WHERE column = value OR column = value;</span><br><br>Notice that for numerical data, we can simply write the number. For alphabet data (which we call strings), we need to use quotation marks. It is conventional to use single quote marks (also known as the apostrophe).
@@ -76,15 +63,13 @@
       answer: >
         SELECT brand, variety, stars FROM ramen WHERE stars >= 4.5;<br><br>
         <span class="vocab">Spicy challenge</span>: Sort these results so that the entries with the most number of stars are at the top.
-7:
+6:
   title: Ordering Results
   text: >
-    The data isn't easy to look at right now given that it's not ordered in any specific way. We can add to our SQL statement to display the data in a specific order. We can do that by appending "order by" to our query: <span class="vocab">SELECT first_column_name, second_column_name FROM table_name ORDER BY second_column_name;</span>. <br><br>Alternatively, you can order by a column number: <span class="vocab">SELECT first_column_name, second_column_name FROM table_name ORDER BY 2;</span><br><br>By default, ordering is done ascending. This means that alphabetical results will be sorted A - Z (and non-alphabet characters after that), and numerical results will be sorted starting at 0 and counting up. If you want to reverse the order, append the word <span class="vocab">DESC</span> to the end of your order by.
+    The data isn't easy to look at right now given that it's not ordered in any specific way. We can add to our SQL statement to display the data in a specific order. We can do that by appending "order by" to our query: <span class="vocab">SELECT first_column_name, second_column_name FROM table_name ORDER BY second_column_name;</span>. <br><br>By default, ordering is done ascending. This means that alphabetical results will be sorted A - Z (and non-alphabet characters after that), and numerical results will be sorted starting at 0 and counting up. If you want to reverse the order, append the word <span class="vocab">DESC</span> to the end of your order by.
   examples:
     - "SELECT authors, title FROM goodreads ORDER BY authors;"
     - "SELECT authors, title FROM goodreads ORDER BY authors DESC;"
-    - "SELECT location, year, query FROM trends ORDER BY 3;"
-    - "SELECT location, year, query FROM trends ORDER BY 3 DESC;"
   tasks:
     - question: Show the variety, country, and stars for the ramen table and order it by highest star rating. 
       answer: SELECT variety, country, stars FROM ramen ORDER BY 3 DESC;
@@ -92,19 +77,19 @@
       answer: SELECT year, rank, query FROM trends ORDER BY rank;
     - question: Show the tip and total bill amount ordered by highest total bill;
       answer: SELECT tip, total_bill FROM tips ORDER BY total_bill DESC;
-8:
+7:
   title: Ordering Results By Multiple Columns
   text: >
-    You may have noticed that the rest of the data that is specified by the ordered column seems kind of... random. You can chnage that by adding more things to order by in your query: <span class="vocab">SELECT first_column_name, second_column_name FROM table_name ORDER BY second_column_name, first_column_name;</span>. <br><br>The order matters here. First, it will order everything by whatever appears right after "ORDER BY". Then, it will sort the results within that grouping by the second column you specify.
+    You may have noticed that the rest of the data that is specified by the ordered column seems kind of... random. You can change that by adding more things to order by in your query: <span class="vocab">SELECT first_column_name, second_column_name FROM table_name ORDER BY second_column_name, first_column_name;</span>. <br><br>The order matters here. First, it will order everything by whatever appears right after "ORDER BY". Then, it will sort the results within that grouping by the second column you specify.
   examples:
     - "SELECT authors, title FROM goodreads ORDER BY authors, title;"
-    - "SELECT location, year, query FROM trends ORDER BY 2 DESC, 3;"
+    - "SELECT location, year, query FROM trends ORDER BY year DESC, query;"
   tasks:
     - question: Show the variety, country, and stars for the ramen table and order it by highest star rating, then variety. 
       answer: SELECT variety, country, stars FROM ramen ORDER BY 3 DESC, 1;
     - question: Show the year, rank, and query from the trends table ordered by the rank, then year;
       answer: SELECT year, rank, query FROM trends ORDER BY rank, year;
-9:
+8:
   title: Aliasing Column Names
   text: >
     Right now, our results appear with whatever default column labels they came with (for example, "total_bill" or "query"). What if we wanted to label those "total" or "search_term" instead? We can do that with an alias: <span class="vocab">SELECT first_column_name AS my_first_title, second_column_name AS my_second_title FROM table_name;</span>. 
@@ -115,7 +100,7 @@
       answer: SELECT brand AS company, variety, stars FROM ramen;
     - question: Print out the category, title, authors, and vote count for the goodreads data, but change the name of "votes" to "total_vote_count"
       answer: SELECT category, title, authors, votes AS total_vote_count FROM goodreads;
-10:
+9:
   title: Showing Distinct Records
   text: >
     If we try to print out just author names using the Goodreads table, we get duplicates (try it!). SQL has a `distinct` keyword you can use to say "only show me unique records, not duplicates". The syntax looks like this: <span class="vocab">SELECT DISTINCT column_name FROM table_name;</span>.<br><br>It might be a little tricky to see that it is actually removing duplicates right now, but don't worry! We'll learn how to count the number of results in the next lesson. 
@@ -129,7 +114,7 @@
       answer: SELECT DISTINCT day FROM tips;
     - question: What are the categories Google uses for their search queries? 
       answer: SELECT DISTINCT category FROM trends;
-11:
+10:
   title: Counting Records
   text: >
     In the last lesson, it may have been difficult to tell if DISTINCT was actually removing duplicated records because there were so many to count! We can ask SQL to do the counting for us using the count function.<br><br>For today, there are two ways you'll see the count function used. In the first way, we count everything. This is what we'd use to count every row in a table: <span class="vocab">SELECT COUNT(*) FROM table_name;</span>. The <span class="vocab">*</span> means "every row".<br><br>Another way you'll see COUNT used is to put exactly what you want to count inside of the parentheses: <span class="vocab">SELECT COUNT(column_name) FROM table_name;</span> or <span class="vocab">SELECT COUNT(DISTINCT column_name) FROM table_name;</span>.
@@ -144,7 +129,7 @@
       answer: SELECT COUNT(DISTINCT brand) FROM ramen;
     - question: How many publishers had books on the Goodreads awards list?
       answer: SELECT COUNT(DISTINCT publisher) FROM goodreads;
-12:
+11:
   title: Finding the Average
   text: >
     In large datasets, it's often useful to find the average of numeric data. Instead of using a calculator to add up every data point, then divide by the total number, there's a SQL function that can do that for us: <span class="vocab">SELECT AVG(column_name) FROM table_name;</span>. 
@@ -159,7 +144,7 @@
       answer: SELECT AVG(tip), AVG(total_bill) FROM tips;
     - question: What is the average star rating for the ramen?
       answer: SELECT AVG(stars) FROM ramen;
-13:
+12:
   title: Categorizing Data
   text: >
     Sometimes you'll want to put data into buckets. For example, our tips table contains a timestamp (represented as an hour from 0 - 24), but how do we classify each of those timestamps as either "breakfast", "lunch", or "dinner"? We can do that using a CASE statement.<br><br><pre class="vocab"> CASE<br>
@@ -219,7 +204,7 @@
         END AS party_type<br>
         FROM tips;<br><br>
         <span class="vocab">Spicy challenge</span>: Display your results so that the party_type and the size columns are next to each other.
-14:
+13:
   title: Grouping Data
   text: >
     GROUP BY in SQL allows you to create a summary for data groups. For example, using the Goodreads data, we could group the data by authors, then summarize how many books that author has, the average number of pages for that author's books, etc. An example of the syntax using GROUP BY is <span class="vocab">SELECT grouped_column, count(*) FROM table_name GROUP BY grouped_column;</span><br><br>You can also use the column number instead of the name, like this: <span class="vocab">SELECT grouped_column, count(*) FROM table_name GROUP BY 1;</span><br><br>Before we move on, let's look at <a href="https://stackoverflow.com/questions/2421388/using-group-by-on-multiple-columns" target="blank">this Stackoverflow explanation</a> of what it means to group in SQL.
@@ -236,18 +221,3 @@
     - question: Show the number of times a particular query appears in the trends table.
       answer: > 
         SELECT query, count(*) FROM trends GROUP BY query;<br><br><span class="vocab">Spicy challenge</span>: Order your results from the query that appears the most to the query that appears the least.
-15:
-  title: Grouping By Multiple Characteristics
-  text: >
-    In the last lesson, we saw that we can group by one characteristic (like the count of the books per author). What if we wanted to find the count of books by author, but broken down by genre?<br><br>To do this, we can group by multiple characteristics: <span class="vocab">SELECT grouped_column_1, grouped_column_2, count(*) FROM table_name GROUP BY grouped_column_1, grouped_column_2;</span><br><br>Let's revisit <a href="https://stackoverflow.com/questions/2421388/using-group-by-on-multiple-columns" target="blank">the Stackoverflow explanation</a> to see how you can group by multiple columns. 
-  examples:
-    - SELECT authors, category, AVG(avg_rating) FROM goodreads GROUP BY authors, category;
-  tasks:
-    - question: Display the average rating for ramen by brand and style;
-      answer: SELECT brand, style, AVG(stars) FROM ramen GROUP BY brand, style ORDER BY brand;
-    - question: Display the average tips broken down by sex and whether or not the person is a smoker.
-      answer: SELECT sex, smoker, AVG(tip) FROM tips GROUP BY sex, smoker;
-    - question: Display the average tips broken down by day of week and size of party.
-      answer: > 
-        SELECT size, day, AVG(tip) FROM tips GROUP BY day, size;<br><br>
-        <span class="vocab">Spicy challenge</span>: Sort these results so that the highest average tips are displayed first.
