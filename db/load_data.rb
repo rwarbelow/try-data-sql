@@ -7,7 +7,7 @@ db_string = ENV['DATABASE_URL'] || 'postgres://localhost/try-data-sql.db'
 db = URI.parse(db_string)
 DB = Sequel.postgres(db.path[1..-1], :host => db.host, :port => db.port, :max_connections => 5, :user => db.user, password: db.password)
 
-# DB.drop_table(:ramen, :tips, :goodreads, :trends)
+# DB.drop_table(:ramen, :tips, :goodreads, :trends, :titanic)
 
 DB.create_table! :ramen do
   primary_key :review_id
@@ -51,6 +51,22 @@ DB.create_table! :trends do
   String :query
 end
 
+DB.create_table! :titanic do
+  primary_key :id
+  Integer :survived
+  Integer :pclass
+  String :name
+  String :sex
+  Float :age
+  Integer :sibsp
+  Integer :parch
+  String :ticket
+  Float :fare
+  String :cabin
+  String :embarked
+end
+
+
 # Load Trends data
 
 trends = DB[:trends]
@@ -83,4 +99,10 @@ id = 1
 CSV.foreach("./db/tips.csv", headers: true, header_converters: :symbol) do |row|
   tips.insert(id: id, total_bill: row[:total_bill], tip: row[:tip], sex: row[:sex], smoker: row[:smoker], day: row[:day], time: row[:time], size: row[:size])
   id += 1
+end
+
+# Load Titanic data
+titanic = DB[:titanic]
+CSV.foreach("./db/titanic.csv", headers: true, header_converters: :symbol) do |row|
+  titanic.insert(id: row[:passenger_id], survived: row[:survived], pclass: row[:pclass], sex: row[:sex], name: row[:name], age: row[:age], sibsp: row[:sibsp], parch: row[:parch], ticket: row[:ticket], fare: row[:fare], cabin: row[:cabin], embarked: row[:embarked])
 end
