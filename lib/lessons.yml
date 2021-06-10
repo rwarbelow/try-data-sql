@@ -18,12 +18,14 @@
     - SELECT * FROM goodreads;
   task_instructions: Write SQL statements for each of the following situations and test them out in the console. You can click each situation to toggle the answer.  
   tasks:
-    - question: Return all info from the trends table.
+    - question: Return all data from the trends table.
       answer: SELECT * FROM trends;
-    - question: Return all info from the tips table.
+    - question: Return all data from the tips table.
       answer: SELECT * FROM tips;
-    - question: Return all info from the ramen table.
+    - question: Return all data from the ramen table.
       answer: SELECT * FROM ramen;
+    - question: Return all data from the titanic table.
+      answer: SELECT * FROM titanic;
 4:
   title: Select Specific Columns
   text: >
@@ -33,28 +35,31 @@
     table_name;</span>where column_name represents the column(s) we want to get back.
   examples:
     - SELECT location FROM trends;
-    - SELECT tip FROM tips;
+    - SELECT name, age FROM titanic;
     - SELECT authors, title FROM goodreads;
     - SELECT location, year, query FROM trends;
   task_instructions: Write SQL statements for each of the following situations and test them out in the console. Remember, if you don't know the exact name of the column you need, you can use <b class="code">SELECT * FROM table_name</b> to see all available columns. 
   tasks:
+    - question: "Return the class and fare from the titanic table."
+      answer: "SELECT class, fare FROM titanic;"
     - question: Return only the authors of the goodreads table.
       answer: SELECT authors FROM goodreads;
     - question: Return only the total bill amount from the tips table.
       answer: SELECT total_bill FROM tips;
     - question: "Return the brand, country, and stars from the ramen table."
       answer: "SELECT brand, country, stars FROM ramen;"
-    - question: "Return the title and category from goodreads."
-      answer: "SELECT title, category FROM goodreads;"
 5:
   title: Filtering Results
   text: >
     Everything we've learned so far will show every row of data (just in different ways). What happens if we only want specific pieces of data, like all of the tips just for one day of the week?<br><br>We can do that using WHERE: <span class="vocab">SELECT * FROM table_name WHERE column = value;</span><br><br>If you want to filter by two or more columns, you'll add the word AND: <span class="vocab">SELECT * FROM table_name WHERE column = value AND column = value;</span><br><br>To filter to either of two conditions, use the word OR: <span class="vocab">SELECT * FROM table_name WHERE column = value OR column = value;</span><br><br>Notice that for numerical data, we can simply write the number. For alphabet data (which we call strings), we need to use quotation marks. It is conventional to use single quote marks (also known as the apostrophe).
   examples:
-    - "SELECT * FROM goodreads WHERE year >= 2018;"
-    - "SELECT authors, title FROM goodreads WHERE category = 'Fiction' AND year = 2019;"
-    - "SELECT * from goodreads WHERE category = 'Fiction' OR category = 'Horror';"
+    - SELECT * FROM goodreads WHERE year >= 2018;
+    - SELECT * FROM titanic WHERE sex = 'male';
+    - SELECT authors, title FROM goodreads WHERE category = 'Fiction' AND year = 2019;
+    - SELECT * from goodreads WHERE category = 'Fiction' OR category = 'Horror';
   tasks:
+    - question: Show the data for all female titanic passengers who are 18 or older.
+      answer: SELECT * FROM titanic WHERE sex = 'female' AND age >= 18;
     - question: Display the queries and ranks for the trends in 2009.
       answer: SELECT query, rank FROM trends WHERE year = 2009;
     - question: Show all of the tip data from Saturday and Sunday.
@@ -68,9 +73,11 @@
   text: >
     The data isn't easy to look at right now given that it's not ordered in any specific way. We can add to our SQL statement to display the data in a specific order. We can do that by appending "order by" to our query: <span class="vocab">SELECT first_column_name, second_column_name FROM table_name ORDER BY second_column_name;</span>. <br><br>By default, ordering is done ascending. This means that alphabetical results will be sorted A - Z (and non-alphabet characters after that), and numerical results will be sorted starting at 0 and counting up. If you want to reverse the order, append the word <span class="vocab">DESC</span> to the end of your order by.
   examples:
-    - "SELECT authors, title FROM goodreads ORDER BY authors;"
-    - "SELECT authors, title FROM goodreads ORDER BY authors DESC;"
+    - SELECT authors, title FROM goodreads ORDER BY authors;
+    - SELECT authors, title FROM goodreads ORDER BY authors DESC;
   tasks:
+    - question: Show the name, fare, and port embarked for the titanic table and order it port. 
+      answer: SELECT name, fare, embarked FROM titanic ORDER BY embarked;
     - question: Show the variety, country, and stars for the ramen table and order it by highest star rating. 
       answer: SELECT variety, country, stars FROM ramen ORDER BY 3 DESC;
     - question: Show the year, rank, and query from the trends table ordered by the rank;
@@ -82,9 +89,12 @@
   text: >
     You may have noticed that the rest of the data that is specified by the ordered column seems kind of... random. You can change that by adding more things to order by in your query: <span class="vocab">SELECT first_column_name, second_column_name FROM table_name ORDER BY second_column_name, first_column_name;</span>. <br><br>The order matters here. First, it will order everything by whatever appears right after "ORDER BY". Then, it will sort the results within that grouping by the second column you specify.
   examples:
+    - SELECT * FROM titanic WHERE sex = 'female' ORDER BY survived, age;
     - "SELECT authors, title FROM goodreads ORDER BY authors, title;"
     - "SELECT location, year, query FROM trends ORDER BY year DESC, query;"
   tasks:
+    - question: Show the name, fare, and port embarked for the titanic table and order it port, then alphabetical name. 
+      answer: SELECT name, fare, embarked FROM titanic ORDER BY embarked, name;
     - question: Show the variety, country, and stars for the ramen table and order it by highest star rating, then variety. 
       answer: SELECT variety, country, stars FROM ramen ORDER BY 3 DESC, 1;
     - question: Show the year, rank, and query from the trends table ordered by the rank, then year;
@@ -100,6 +110,8 @@
       answer: SELECT brand AS company, variety, stars FROM ramen;
     - question: Print out the category, title, authors, and vote count for the goodreads data, but change the name of "votes" to "total_vote_count"
       answer: SELECT category, title, authors, votes AS total_vote_count FROM goodreads;
+    - question: Some of the titanic data set's columns don't have very good names. Select all of the data from the titanic data set, but make the column names more human-friendly. 
+      answer: SELECT id, survived, pclass AS class, name, sex, age, sibsp AS sibling_and_spouse_count, parch AS parent_count, ticket AS ticket_number, fare, cabin AS cabin_number, embarked AS port_embarked FROM titanic;
 9:
   title: Showing Distinct Records
   text: >
@@ -108,6 +120,10 @@
     - "SELECT DISTINCT authors FROM goodreads;"
   task_instructions: Write SQL statements for each of the following situations and test them out in the console. Too easy? Try combining previously learned skills (like aliasing or ordering) with the questions below!
   tasks:
+    - question: List all of the possible fares that Titanic passengers paid.
+      answer: >
+        SELECT DISTINCT fare FROM titanic;<br><br>
+        <span class="vocab">Spicy challenge</span>: Order the fares from highest to lowest. 
     - question: List all of the ramen brands once.
       answer: SELECT DISTINCT brand FROM ramen;
     - question: On what days of the week were tips recorded? 
@@ -129,6 +145,8 @@
       answer: SELECT COUNT(DISTINCT brand) FROM ramen;
     - question: How many publishers had books on the Goodreads awards list?
       answer: SELECT COUNT(DISTINCT publisher) FROM goodreads;
+    - question: Count the distinct survived values, distinct class values, and distinct ports from the Titanic data.
+      answer: SELECT COUNT(DISTINCT survived) AS s_count, COUNT(DISTINCT pclass) AS c_count, COUNT(DISTINCT embarked) AS e_count FROM titanic;
 11:
   title: Finding the Average
   text: >
@@ -136,14 +154,15 @@
   examples:
     - "SELECT AVG(avg_rating) FROM goodreads;"
     - "SELECT AVG(votes) FROM goodreads;"
+    - SELECT AVG(fare) FROM titanic;
   task_instructions: Write SQL statements for each of the following situations and test them out in the console. Too easy? Can you alias the result name to be something other than the not-very-descriptive "avg"?
   tasks:
     - question: What is the average number of pages for the books in the goodreads table?
       answer: SELECT AVG(pages) FROM goodreads;
     - question: What was the average tip and average total bill from the tips data?
-      answer: SELECT AVG(tip), AVG(total_bill) FROM tips;
-    - question: What is the average star rating for the ramen?
-      answer: SELECT AVG(stars) FROM ramen;
+      answer: SELECT AVG(tip) AS avg_tip, AVG(total_bill) AS avg_bill FROM tips;
+    - question: What is the average age of female passengers on the Titanic? What about male passengers? 
+      answer: SELECT AVG(age) FROM titanic WHERE sex = 'female';
 12:
   title: Categorizing Data
   text: >
@@ -174,15 +193,17 @@
         END AS length<br>
         FROM goodreads;<br><br>
         <span class="vocab">Spicy challenge</span>: Display only the title, author, and length categorization.
-    - question: Categorize the trends data by the year. Anything from 2016 - 2020 should be "recent" while anything 2015 or older should be "historic".
+    - question: Categorize the Titanic data by age, and call this new column "age_group". Anything under 18 should be child, anything between 19 and 64 should be adult, and anything over 65 should be elderly. Data without an age should be "unknown".
       answer: >
         <pre> SELECT *,<br>
         CASE<br>
-        WHEN year >= 2016 THEN "recent"<br>
-        ELSE "historic"<br>
-        END AS timeframe<br>
-        FROM trends;<br><br>
-        <span class="vocab">Spicy challenge</span>: Sort your results so that the highest ranking queries appear first.
+        WHEN age < 18 THEN "child"<br>
+        WHEN age < 65 THEN "adult"<br>
+        WHEN age >= 65 THEN "elderly"<br>
+        ELSE "unknown"<br>
+        END AS age_group<br>
+        FROM titanic;<br><br>
+        <span class="vocab">Spicy challenge</span>: Sort your results so that the highest ages appear first.
     - question: Categorize the ramen by star rating. Anything under 2 should be "gross", anything between 2 and 4 should be "meh", and anything above 4 should be "great". 
       answer: >
         <pre> SELECT *,<br>
@@ -210,14 +231,38 @@
     GROUP BY in SQL allows you to create a summary for data groups. For example, using the Goodreads data, we could group the data by authors, then summarize how many books that author has, the average number of pages for that author's books, etc. An example of the syntax using GROUP BY is <span class="vocab">SELECT grouped_column, count(*) FROM table_name GROUP BY grouped_column;</span><br><br>You can also use the column number instead of the name, like this: <span class="vocab">SELECT grouped_column, count(*) FROM table_name GROUP BY 1;</span><br><br>Before we move on, let's look at <a href="https://stackoverflow.com/questions/2421388/using-group-by-on-multiple-columns" target="blank">this Stackoverflow explanation</a> of what it means to group in SQL.
   examples:
     - "SELECT authors, AVG(avg_rating), COUNT(*) FROM goodreads GROUP BY authors;"
-    - "select query, COUNT(*) FROM trends GROUP BY 1"
+    - "SELECT query, COUNT(*) FROM trends GROUP BY 1"
   tasks:
+    - question: Show the sex and number of passengers from Titanic data grouped by the sex.
+      answer: >
+        SELECT sex, COUNT(*) FROM titanic GROUP BY sex;<br><br><span class="vocab">Spicy challenge</span>: Add survived to your query and group by that as well, like this:<br><br>SELECT sex, survived, COUNT(*) FROM titanic GROUP BY sex, survived<br><br> What data does this query show you? How can you interpret that SQL query?
     - question: Show the number of bills for each day from the tips table.
       answer: SELECT day, COUNT(*) FROM tips GROUP BY day;
     - question: Show the average total bill and average tip group by sex.
       answer: SELECT sex, AVG(total_bill) AS total_bill_avg, AVG(tip) AS tip_avg FROM tips GROUP BY sex;
     - question: Show the average ramen rating by brand.
-      answer: SELECT brand, AVG(stars) AS avg_stars FROM ramen GROUP BY brand;
-    - question: Show the number of times a particular query appears in the trends table.
+      answer: >
+        SELECT brand, AVG(stars) AS avg_stars FROM ramen GROUP BY brand;<br><br><span class="vocab">Spicy challenge</span>: Order your results the most highly rated brand to least highly rated brand.
+14:
+  title: Putting It All Together
+  text: >
+    In breakout rooms, we'll use what we learned in the past lessons to answer questions about the titanic data.
+  tasks:
+    - question: Show all of the data for female Titanic passengers.
+      answer: SELECT * FROM titanic WHERE sex = 'female';
+    - question: Show the unique number of values for id, sex, survived, port, and fare from the Titanic dataset. Remember to alias your columns since they're all counts!
+      answer: SELECT COUNT(DISTINCT id) AS count_id, COUNT(DISTINCT sex) AS count_sex, COUNT(DISTINCT survived) AS count_survived, COUNT(DISTINCT embarked) AS count_embarked, COUNT(DISTINCT fare) AS count_fare FROM titanic;
+    - question: Show the counts of male and female passengers on the Titanic.
+      answer: SELECT sex, COUNT(*) FROM titanic GROUP BY sex;
+    - question: Show the counts of male and female passengers on the Titanic broken down by whether or not they survived.
+      answer: SELECT sex, survived, COUNT(*) FROM titanic GROUP BY sex, survived;
+    - question: Show all of the Titanic data with an additional column that indicates whether the person was a child, adult, elderly, or of unknown age.
       answer: > 
-        SELECT query, count(*) FROM trends GROUP BY query;<br><br><span class="vocab">Spicy challenge</span>: Order your results from the query that appears the most to the query that appears the least.
+        SELECT *,<br>
+        CASE<br>
+        WHEN age < 18 THEN "child"<br>
+        WHEN age < 65 THEN "adult"<br>
+        WHEN age >= 65 THEN "elderly"<br>
+        ELSE "unknown"<br>
+        END AS age_group<br>
+        FROM titanic;
